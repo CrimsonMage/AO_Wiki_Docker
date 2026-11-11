@@ -15,4 +15,4 @@ Data files from Nadybot's modules (GPL-3.0): https://github.com/Nadybot/Nadybot
   - TOWER_MODULE/tower_site_bounds.csv
   - TOWER_MODULE/tower_site.csv
 
-Copied as-is otherwise. Game data inside them is © Funcom; the compilations are the Nadybot/Budabot projects' work.
+Copied as-is otherwise (line endings stored as LF, see .gitattributes). Game data inside them is © Funcom; the compilations are the Nadybot/Budabot projects' work.

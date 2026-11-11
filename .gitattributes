@@ -1,0 +1,7 @@
+# Same files on every OS: keep LF line endings (Windows checkouts otherwise turn them into CRLF,
+# and the data readers would see a stray \r at the end of every line), images / databases binary.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.sqlite binary

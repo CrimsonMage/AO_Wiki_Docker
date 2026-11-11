@@ -226,7 +226,7 @@ def main():
     names = {}
     with open(os.path.join(DATA, "items.tsv"), encoding="utf-8") as f:
         for line in f:
-            i, _, n = line.rstrip("\n").partition("\t")
+            i, _, n = line.rstrip("\r\n").partition("\t")  # \r too: a CRLF checkout must not change the names
             if i.isdigit():
                 names[int(i)] = n
     db.executemany("INSERT INTO items VALUES (?, ?)", names.items())
