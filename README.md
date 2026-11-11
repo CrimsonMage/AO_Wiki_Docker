@@ -25,7 +25,11 @@ the servers and fan sites are gone, so it never connects to the game or the inte
 
 ## Quick start
 
-You need [Docker](https://docs.docker.com/get-docker/) (Docker Desktop on Windows / macOS).
+**No Docker?** Download `ao-wiki-<version>.zip` from the [latest release](https://github.com/CrimsonMage/AO_Wiki_Docker/releases/latest),
+unzip it and run `run.bat` (Windows) or `sh run.sh` (Linux / macOS), then open <http://localhost:8080>.
+It needs only [Python 3.10+](https://www.python.org/downloads/).
+
+**With Docker** (Docker Desktop on Windows / macOS, Docker Engine on Linux; Intel and ARM):
 
 ```sh
 git clone https://github.com/CrimsonMage/AO_Wiki_Docker.git
