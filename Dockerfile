@@ -10,6 +10,11 @@ COPY build/ build/
 COPY data/recipes/ data/recipes/
 COPY data/items.tsv data/item_texts.json data/
 COPY data/nadybot/ data/nadybot/
+# verify.py also checks the media and runs every lookup, so the build stage needs them too
+COPY app/ app/
+COPY data/icons/ data/icons/
+COPY data/maps/ data/maps/
+COPY data/planet/ data/planet/
 RUN python3 -I build/build_db.py /src/archive.sqlite && python3 -I build/verify.py /src/archive.sqlite
 
 FROM python:3.12.7-slim
