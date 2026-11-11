@@ -48,9 +48,10 @@ made it in (`build/verify.py`); it stops with an error if anything is missing.
 
 ### Troubleshooting
 
-- **`port is already allocated`**: something else uses 8080. Use another port on the left side,
-  e.g. `-p 127.0.0.1:8081:8080` (or `"127.0.0.1:8081:8080"` in `docker-compose.yml`) and open
-  <http://localhost:8081>.
+- **`port is already allocated`**: something else uses 8080. Pick another port:
+  `AO_WIKI_PORT=8081 docker compose up -d` (with `sudo`: `sudo AO_WIKI_PORT=8081 docker compose up -d`), or put
+  `AO_WIKI_PORT=8081` in a `.env` file next to `docker-compose.yml`, then open <http://localhost:8081>.
+  Without Compose: `-p 127.0.0.1:8081:8080`. `docker ps` shows what holds the port if it is another container.
 - **`permission denied ... docker.sock`** (Linux): run the commands with `sudo`, or add yourself to
   the `docker` group (`sudo usermod -aG docker $USER`, then log out and in).
 - **Reach it from other computers on your network**: drop `127.0.0.1:` from the port mapping.
