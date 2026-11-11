@@ -1,0 +1,6182 @@
+{
+"100": {
+"name": "Needed PF-stuff 1",
+"x0": 12.22,
+"z0": -11.3,
+"x1": 210.18,
+"z1": 159.4,
+"w": 791,
+"h": 682,
+"terrain": false
+},
+"1001": {
+"name": "Senitel rec_centre (wine) GOLD\u0000U",
+"x0": 166.79,
+"z0": 122.79,
+"x1": 209.21,
+"z1": 165.21,
+"w": 169,
+"h": 169,
+"terrain": false
+},
+"1002": {
+"name": "medical/eating (wine) GOLD\u00002",
+"x0": 154.79,
+"z0": 122.79,
+"x1": 213.21,
+"z1": 169.19,
+"w": 233,
+"h": 185,
+"terrain": false
+},
+"1003": {
+"name": "Wine hq (wine) GOLD\u000052\u0000 8652",
+"x0": 150.79,
+"z0": 120.79,
+"x1": 195.21,
+"z1": 165.21,
+"w": 177,
+"h": 177,
+"terrain": false
+},
+"1004": {
+"name": "barracks (wine) GOLD\u00002\u0000 8652",
+"x0": 123.21,
+"z0": 126.8,
+"x1": 209.74,
+"z1": 205.1,
+"w": 346,
+"h": 313,
+"terrain": false
+},
+"1005": {
+"name": "storage (wine) GOLD\u0000ff 12920\u0000\u0003??",
+"x0": 148.79,
+"z0": 150.79,
+"x1": 193.21,
+"z1": 195.21,
+"w": 177,
+"h": 177,
+"terrain": false
+},
+"1011": {
+"name": "2HO HQ (streteast) GOLD",
+"x0": 144.8,
+"z0": 160.8,
+"x1": 205.21,
+"z1": 223.21,
+"w": 241,
+"h": 249,
+"terrain": false
+},
+"1012": {
+"name": "2HO satellite (streteast) GOLD\u0000?",
+"x0": 150.79,
+"z0": 164.79,
+"x1": 193.21,
+"z1": 213.21,
+"w": 169,
+"h": 193,
+"terrain": false
+},
+"1021": {
+"name": "1021",
+"x0": 132.79,
+"z0": 131.19,
+"x1": 175.21,
+"z1": 190.97,
+"w": 169,
+"h": 239,
+"terrain": false
+},
+"1031": {
+"name": "Avalon omni barracks",
+"x0": 182.8,
+"z0": 150.1,
+"x1": 240.8,
+"z1": 228.91,
+"w": 232,
+"h": 315,
+"terrain": false
+},
+"105": {
+"name": "Needed PF-stuff 2",
+"x0": 95.2,
+"z0": 70.29,
+"x1": 613.54,
+"z1": 667.05,
+"w": 1112,
+"h": 1280,
+"terrain": false
+},
+"106": {
+"name": "Town template Playfield",
+"x0": 72.64,
+"z0": -5.2,
+"x1": 1419.85,
+"z1": 790.85,
+"w": 1280,
+"h": 756,
+"terrain": false
+},
+"107": {
+"name": "AI graphics dependency",
+"x0": 9.38,
+"z0": 19.49,
+"x1": 178.0,
+"z1": 179.74,
+"w": 674,
+"h": 641,
+"terrain": false
+},
+"1136": {
+"name": "Mir shop clan",
+"x0": 126.79,
+"z0": 170.79,
+"x1": 175.21,
+"z1": 223.21,
+"w": 193,
+"h": 209,
+"terrain": false
+},
+"1137": {
+"name": "mir shop omni",
+"x0": 126.79,
+"z0": 164.79,
+"x1": 175.21,
+"z1": 217.21,
+"w": 193,
+"h": 209,
+"terrain": false
+},
+"1180": {
+"name": "ord_smarket_clan_basic",
+"x0": 95.19,
+"z0": 136.8,
+"x1": 255.0,
+"z1": 223.0,
+"w": 639,
+"h": 344,
+"terrain": false
+},
+"1181": {
+"name": "ord_smarket_clan_advanced",
+"x0": 150.8,
+"z0": 140.8,
+"x1": 230.79,
+"z1": 264.88,
+"w": 319,
+"h": 496,
+"terrain": false
+},
+"1182": {
+"name": "ord_smarket_clan_sup",
+"x0": 150.8,
+"z0": 135.0,
+"x1": 230.79,
+"z1": 262.8,
+"w": 319,
+"h": 511,
+"terrain": false
+},
+"1183": {
+"name": "ord_smarket_omni_basic",
+"x0": 93.0,
+"z0": 88.99,
+"x1": 231.19,
+"z1": 186.8,
+"w": 552,
+"h": 391,
+"terrain": false
+},
+"1184": {
+"name": "ord_smarket_omni_advanced",
+"x0": 130.99,
+"z0": 83.0,
+"x1": 244.8,
+"z1": 154.8,
+"w": 455,
+"h": 287,
+"terrain": false
+},
+"1185": {
+"name": "ord_smarket_omni_sup",
+"x0": 122.99,
+"z0": 94.81,
+"x1": 232.79,
+"z1": 164.8,
+"w": 439,
+"h": 279,
+"terrain": false
+},
+"1186": {
+"name": "Neutral Supermarket Basic",
+"x0": 108.94,
+"z0": 94.79,
+"x1": 234.79,
+"z1": 182.79,
+"w": 503,
+"h": 352,
+"terrain": false
+},
+"1187": {
+"name": "Neutral Supermarket Advanced",
+"x0": 138.94,
+"z0": 106.79,
+"x1": 264.79,
+"z1": 194.79,
+"w": 503,
+"h": 352,
+"terrain": false
+},
+"1189": {
+"name": "spec_smarket_clan_advanced",
+"x0": 156.8,
+"z0": 102.79,
+"x1": 205.19,
+"z1": 155.19,
+"w": 193,
+"h": 209,
+"terrain": false
+},
+"1190": {
+"name": "spec_smarket_clan_sup",
+"x0": 156.79,
+"z0": 104.68,
+"x1": 201.21,
+"z1": 149.21,
+"w": 177,
+"h": 178,
+"terrain": false
+},
+"1191": {
+"name": "spec_smarket_omni_advanced",
+"x0": 146.8,
+"z0": 112.68,
+"x1": 195.19,
+"z1": 161.21,
+"w": 193,
+"h": 194,
+"terrain": false
+},
+"1192": {
+"name": "spec_smarket_omni_sup",
+"x0": 142.89,
+"z0": 118.68,
+"x1": 195.1,
+"z1": 167.19,
+"w": 208,
+"h": 194,
+"terrain": false
+},
+"1193": {
+"name": "spec_smarket_neut_basic",
+"x0": 176.8,
+"z0": 96.68,
+"x1": 225.19,
+"z1": 147.1,
+"w": 193,
+"h": 201,
+"terrain": false
+},
+"120": {
+"name": "Camelot",
+"x0": 44.99,
+"z0": 7.1,
+"x1": 325.01,
+"z1": 375.01,
+"w": 975,
+"h": 1280,
+"terrain": false
+},
+"1211": {
+"name": "basicomniapartment dng\u0000 9509\u0000\u000081",
+"x0": 118.8,
+"z0": 84.81,
+"x1": 165.21,
+"z1": 141.2,
+"w": 185,
+"h": 225,
+"terrain": false
+},
+"1231": {
+"name": "Clan Small Clan Apartment\u0000abiff ",
+"x0": 143.19,
+"z0": 217.19,
+"x1": 219.21,
+"z1": 286.8,
+"w": 304,
+"h": 278,
+"terrain": false
+},
+"1232": {
+"name": "Clan Medium Clan Apartment",
+"x0": 138.99,
+"z0": 180.99,
+"x1": 233.0,
+"z1": 270.8,
+"w": 376,
+"h": 359,
+"terrain": false
+},
+"1233": {
+"name": "Clan Big Clan Apartment\u0000e 100403",
+"x0": 88.99,
+"z0": 127.4,
+"x1": 191.0,
+"z1": 248.8,
+"w": 408,
+"h": 485,
+"terrain": false
+},
+"124": {
+"name": "Tir Assembly Hall",
+"x0": 134.99,
+"z0": 125.0,
+"x1": 245.21,
+"z1": 215.0,
+"w": 440,
+"h": 360,
+"terrain": false
+},
+"1241": {
+"name": "Neutral Small Clan Apartment\u0000403",
+"x0": 103.2,
+"z0": 180.8,
+"x1": 186.8,
+"z1": 249.19,
+"w": 334,
+"h": 273,
+"terrain": false
+},
+"1242": {
+"name": "Neutral Medium Clan Apartment\u0000f ",
+"x0": 111.19,
+"z0": 164.8,
+"x1": 194.8,
+"z1": 238.8,
+"w": 334,
+"h": 296,
+"terrain": false
+},
+"1243": {
+"name": "Neutral Big Clan Apartment",
+"x0": 120.8,
+"z0": 129.19,
+"x1": 215.19,
+"z1": 232.8,
+"w": 377,
+"h": 414,
+"terrain": false
+},
+"125": {
+"name": "Smuggler's Rearranged",
+"x0": 7.59,
+"z0": 16.98,
+"x1": 388.79,
+"z1": 376.9,
+"w": 1280,
+"h": 1209,
+"terrain": false
+},
+"1251": {
+"name": "Omni Small Guild\u0000tor Crystals",
+"x0": 125.0,
+"z0": 119.0,
+"x1": 225.89,
+"z1": 235.0,
+"w": 403,
+"h": 464,
+"terrain": false
+},
+"127": {
+"name": "Condemned Subway (dng)",
+"x0": 67.65,
+"z0": 24.49,
+"x1": 389.01,
+"z1": 379.01,
+"w": 1160,
+"h": 1280,
+"terrain": false
+},
+"128": {
+"name": "Emote Test",
+"x0": 0.8,
+"z0": -3.2,
+"x1": 67.19,
+"z1": 49.2,
+"w": 265,
+"h": 209,
+"terrain": false
+},
+"1321": {
+"name": "tir clanbuilding2 dng",
+"x0": 184.79,
+"z0": 240.8,
+"x1": 227.1,
+"z1": 311.1,
+"w": 169,
+"h": 281,
+"terrain": false
+},
+"1322": {
+"name": "tir clanbuilding1 dng",
+"x0": 188.9,
+"z0": 168.89,
+"x1": 231.1,
+"z1": 225.1,
+"w": 168,
+"h": 224,
+"terrain": false
+},
+"1323": {
+"name": "tir clanbuilding9 dng",
+"x0": 98.79,
+"z0": 262.79,
+"x1": 141.2,
+"z1": 303.79,
+"w": 169,
+"h": 164,
+"terrain": false
+},
+"1324": {
+"name": "tir clanbuilding11 dng\u0000ff 25658",
+"x0": 136.89,
+"z0": 264.89,
+"x1": 177.1,
+"z1": 305.79,
+"w": 160,
+"h": 163,
+"terrain": false
+},
+"1325": {
+"name": "tir clanbuilding12 dng\u0000172\u0000 1845",
+"x0": 134.9,
+"z0": 258.89,
+"x1": 175.1,
+"z1": 299.29,
+"w": 160,
+"h": 161,
+"terrain": false
+},
+"1326": {
+"name": "tir clanbuilding3\u00001419\u0000 1419\u0000ff ",
+"x0": 188.79,
+"z0": 252.89,
+"x1": 231.29,
+"z1": 305.2,
+"w": 170,
+"h": 209,
+"terrain": false
+},
+"1327": {
+"name": "tir clanbuilding_pod4 dng\u0000ff 117",
+"x0": 170.8,
+"z0": 152.9,
+"x1": 219.1,
+"z1": 241.21,
+"w": 193,
+"h": 353,
+"terrain": false
+},
+"1328": {
+"name": "tir clanbuilding5 dng\u00009886\u0000 9886",
+"x0": 242.8,
+"z0": 214.8,
+"x1": 303.2,
+"z1": 299.2,
+"w": 241,
+"h": 337,
+"terrain": false
+},
+"1329": {
+"name": "tir clanbuilding6 dng\u0000biff 31935",
+"x0": 104.89,
+"z0": 184.89,
+"x1": 145.1,
+"z1": 225.79,
+"w": 160,
+"h": 163,
+"terrain": false
+},
+"1330": {
+"name": "tir clanbuilding7 dng\u00002320\u000032320",
+"x0": 162.89,
+"z0": 152.89,
+"x1": 205.1,
+"z1": 195.29,
+"w": 168,
+"h": 169,
+"terrain": false
+},
+"1404": {
+"name": "The Temple of Home",
+"x0": 146.89,
+"z0": 118.9,
+"x1": 229.1,
+"z1": 304.7,
+"w": 328,
+"h": 743,
+"terrain": false
+},
+"1405": {
+"name": "clanapartment\u0000h\u0000\u0000FAFMaterial_t",
+"x0": 156.8,
+"z0": 158.79,
+"x1": 205.19,
+"z1": 223.19,
+"w": 193,
+"h": 257,
+"terrain": false
+},
+"1406": {
+"name": "omniapartment\u0000/db/ServerName.cfg",
+"x0": 164.8,
+"z0": 144.79,
+"x1": 213.19,
+"z1": 209.19,
+"w": 193,
+"h": 257,
+"terrain": false
+},
+"1407": {
+"name": "neutralapartment",
+"x0": 162.8,
+"z0": 118.79,
+"x1": 211.19,
+"z1": 183.19,
+"w": 193,
+"h": 257,
+"terrain": false
+},
+"1410": {
+"name": "items\u0000s Serif",
+"x0": 69.65,
+"z0": 69.03,
+"x1": 126.03,
+"z1": 114.07,
+"w": 225,
+"h": 180,
+"terrain": false
+},
+"1421": {
+"name": "avalon_building3 dng",
+"x0": 164.79,
+"z0": 128.79,
+"x1": 209.19,
+"z1": 171.32,
+"w": 177,
+"h": 170,
+"terrain": false
+},
+"1422": {
+"name": "avalon_building4 dng",
+"x0": 178.79,
+"z0": 122.79,
+"x1": 221.21,
+"z1": 187.21,
+"w": 169,
+"h": 257,
+"terrain": false
+},
+"1423": {
+"name": "avalon_building5",
+"x0": 208.79,
+"z0": 122.79,
+"x1": 251.21,
+"z1": 165.32,
+"w": 169,
+"h": 170,
+"terrain": false
+},
+"1426": {
+"name": "Clan Registration dng",
+"x0": 144.79,
+"z0": 210.79,
+"x1": 189.21,
+"z1": 255.21,
+"w": 177,
+"h": 177,
+"terrain": false
+},
+"1427": {
+"name": "Omni registration dng",
+"x0": 174.79,
+"z0": 144.68,
+"x1": 219.21,
+"z1": 189.21,
+"w": 177,
+"h": 178,
+"terrain": false
+},
+"1428": {
+"name": "Neutral organisation dng",
+"x0": 174.79,
+"z0": 134.68,
+"x1": 219.21,
+"z1": 179.21,
+"w": 177,
+"h": 178,
+"terrain": false
+},
+"1501": {
+"name": "omnimine_hq_building_06",
+"x0": 146.79,
+"z0": 156.79,
+"x1": 207.21,
+"z1": 211.21,
+"w": 241,
+"h": 217,
+"terrain": false
+},
+"1502": {
+"name": "omnimine_hq_building_02",
+"x0": 170.79,
+"z0": 132.79,
+"x1": 223.21,
+"z1": 185.21,
+"w": 209,
+"h": 209,
+"terrain": false
+},
+"1503": {
+"name": "omnimine_hq_building_04",
+"x0": 186.79,
+"z0": 114.79,
+"x1": 235.19,
+"z1": 159.32,
+"w": 193,
+"h": 178,
+"terrain": false
+},
+"1504": {
+"name": "omnimine_hq_building_07",
+"x0": 166.79,
+"z0": 142.79,
+"x1": 219.21,
+"z1": 195.21,
+"w": 209,
+"h": 209,
+"terrain": false
+},
+"1505": {
+"name": "omnimine_hq_building_08",
+"x0": 162.79,
+"z0": 150.79,
+"x1": 215.21,
+"z1": 199.21,
+"w": 209,
+"h": 193,
+"terrain": false
+},
+"1506": {
+"name": "omnimine_hq_building_09",
+"x0": 160.8,
+"z0": 96.79,
+"x1": 247.19,
+"z1": 161.21,
+"w": 345,
+"h": 257,
+"terrain": false
+},
+"1507": {
+"name": "omnimine_hq_building10\u0000?????????",
+"x0": 172.79,
+"z0": 84.79,
+"x1": 225.21,
+"z1": 137.2,
+"w": 209,
+"h": 209,
+"terrain": false
+},
+"1510": {
+"name": "Neutral Insurance building",
+"x0": 120.79,
+"z0": 172.79,
+"x1": 173.21,
+"z1": 221.21,
+"w": 209,
+"h": 193,
+"terrain": false
+},
+"1511": {
+"name": "Neutral Mission building",
+"x0": 118.79,
+"z0": 170.79,
+"x1": 171.21,
+"z1": 223.21,
+"w": 209,
+"h": 209,
+"terrain": false
+},
+"152": {
+"name": "TheGrid2(dng)",
+"x0": 92.6,
+"z0": 89.1,
+"x1": 312.68,
+"z1": 305.33,
+"w": 880,
+"h": 864,
+"terrain": false
+},
+"1601": {
+"name": "athens_clanhouse1 VP dng",
+"x0": 184.79,
+"z0": 100.79,
+"x1": 225.21,
+"z1": 163.21,
+"w": 161,
+"h": 249,
+"terrain": false
+},
+"1602": {
+"name": "athens_clanhouse3 VP dng",
+"x0": 166.79,
+"z0": 136.79,
+"x1": 223.21,
+"z1": 179.21,
+"w": 225,
+"h": 169,
+"terrain": false
+},
+"1603": {
+"name": "athens_clanhouse4 VP dng",
+"x0": 185.75,
+"z0": 144.79,
+"x1": 227.82,
+"z1": 187.29,
+"w": 168,
+"h": 170,
+"terrain": false
+},
+"1604": {
+"name": "athens_clanhouse12 VP dng\u0000p1 287",
+"x0": 152.79,
+"z0": 116.79,
+"x1": 211.21,
+"z1": 159.24,
+"w": 233,
+"h": 169,
+"terrain": false
+},
+"1611": {
+"name": "Swamp_house01 VP dng\u00009\u0000 9509\u0000 98",
+"x0": 131.0,
+"z0": 143.0,
+"x1": 175.0,
+"z1": 187.32,
+"w": 176,
+"h": 177,
+"terrain": false
+},
+"1612": {
+"name": "Swamp_house02",
+"x0": 163.0,
+"z0": 103.0,
+"x1": 207.0,
+"z1": 147.32,
+"w": 176,
+"h": 177,
+"terrain": false
+},
+"1613": {
+"name": "swamp_house03 VP dng\u0000ff 83897",
+"x0": 179.0,
+"z0": 103.0,
+"x1": 223.0,
+"z1": 147.32,
+"w": 176,
+"h": 177,
+"terrain": false
+},
+"1614": {
+"name": "Swamp_house04 VP dng\u000097\u000083897\u000098",
+"x0": 145.39,
+"z0": 61.39,
+"x1": 208.3,
+"z1": 110.6,
+"w": 251,
+"h": 196,
+"terrain": false
+},
+"1621": {
+"name": "wood_shack_01 VP dng\u0000ff 83904\u000044",
+"x0": 180.79,
+"z0": 142.79,
+"x1": 221.21,
+"z1": 181.79,
+"w": 161,
+"h": 156,
+"terrain": false
+},
+"1622": {
+"name": "wood_shack_02 VP dng\u0000e_01.abiff ",
+"x0": 176.79,
+"z0": 134.79,
+"x1": 217.21,
+"z1": 175.29,
+"w": 161,
+"h": 162,
+"terrain": false
+},
+"1623": {
+"name": "wood_shack_03 VP dng\u0000ff 9556",
+"x0": 178.79,
+"z0": 118.79,
+"x1": 219.21,
+"z1": 159.79,
+"w": 161,
+"h": 164,
+"terrain": false
+},
+"1624": {
+"name": "wood_shack_04 VP dng\u00006564\u00008\u00003 VP",
+"x0": 190.79,
+"z0": 122.79,
+"x1": 229.21,
+"z1": 163.79,
+"w": 153,
+"h": 164,
+"terrain": false
+},
+"1625": {
+"name": "wood_shack_05 VP dng",
+"x0": 184.79,
+"z0": 132.79,
+"x1": 223.21,
+"z1": 173.79,
+"w": 153,
+"h": 164,
+"terrain": false
+},
+"1626": {
+"name": "wood_shack_06 VP dng",
+"x0": 202.79,
+"z0": 148.79,
+"x1": 243.21,
+"z1": 189.79,
+"w": 161,
+"h": 164,
+"terrain": false
+},
+"1627": {
+"name": "wood_shack_07 VP dng",
+"x0": 174.79,
+"z0": 132.79,
+"x1": 221.21,
+"z1": 171.29,
+"w": 185,
+"h": 154,
+"terrain": false
+},
+"1641": {
+"name": "lowtech_building1 VP dng",
+"x0": 166.89,
+"z0": 150.89,
+"x1": 211.1,
+"z1": 189.83,
+"w": 176,
+"h": 155,
+"terrain": false
+},
+"1642": {
+"name": "lowtech_building2 VP dng",
+"x0": 146.89,
+"z0": 144.68,
+"x1": 209.1,
+"z1": 191.1,
+"w": 248,
+"h": 185,
+"terrain": false
+},
+"1643": {
+"name": "lowtech_building3 VP dng\u0000iff 839",
+"x0": 128.9,
+"z0": 136.89,
+"x1": 175.1,
+"z1": 177.1,
+"w": 184,
+"h": 160,
+"terrain": false
+},
+"1644": {
+"name": "lowtech_building4 VP dng",
+"x0": 196.89,
+"z0": 144.89,
+"x1": 239.26,
+"z1": 183.83,
+"w": 169,
+"h": 155,
+"terrain": false
+},
+"1645": {
+"name": "lowtech_building5 VP dng",
+"x0": 196.89,
+"z0": 144.89,
+"x1": 241.1,
+"z1": 183.83,
+"w": 176,
+"h": 155,
+"terrain": false
+},
+"1646": {
+"name": "lowtech_building6 VP dng",
+"x0": 174.18,
+"z0": 140.89,
+"x1": 213.1,
+"z1": 181.1,
+"w": 155,
+"h": 160,
+"terrain": false
+},
+"1647": {
+"name": "lowtech_building7 VP dng",
+"x0": 174.89,
+"z0": 126.9,
+"x1": 215.1,
+"z1": 169.32,
+"w": 160,
+"h": 169,
+"terrain": false
+},
+"1648": {
+"name": "lowtech_waterwell VP dng",
+"x0": 168.89,
+"z0": 138.89,
+"x1": 209.1,
+"z1": 179.83,
+"w": 160,
+"h": 163,
+"terrain": false
+},
+"1651": {
+"name": "rome_shopbuilding1 VP dng",
+"x0": 178.79,
+"z0": 132.79,
+"x1": 239.21,
+"z1": 191.21,
+"w": 241,
+"h": 233,
+"terrain": false
+},
+"1652": {
+"name": "rome_simplebuilding VP dng",
+"x0": 182.79,
+"z0": 138.79,
+"x1": 223.21,
+"z1": 181.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"1653": {
+"name": "rome_simplebuilding1 VP dng",
+"x0": 160.79,
+"z0": 130.79,
+"x1": 201.21,
+"z1": 173.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"1661": {
+"name": "rhino_house1 VP dng",
+"x0": 176.89,
+"z0": 130.88,
+"x1": 217.83,
+"z1": 171.1,
+"w": 163,
+"h": 160,
+"terrain": false
+},
+"1662": {
+"name": "rhino_house2 VP dng",
+"x0": 164.89,
+"z0": 166.89,
+"x1": 209.1,
+"z1": 207.32,
+"w": 176,
+"h": 161,
+"terrain": false
+},
+"1663": {
+"name": "rhino_house3 VP dng",
+"x0": 192.68,
+"z0": 148.89,
+"x1": 235.1,
+"z1": 191.1,
+"w": 169,
+"h": 168,
+"terrain": false
+},
+"1671": {
+"name": "reck_trading_outpost_bunker1 VP ",
+"x0": 168.8,
+"z0": 156.79,
+"x1": 217.19,
+"z1": 203.21,
+"w": 193,
+"h": 185,
+"terrain": false
+},
+"1672": {
+"name": "reck_trading_outpost_bunker2 VP",
+"x0": 168.79,
+"z0": 178.79,
+"x1": 209.21,
+"z1": 219.82,
+"w": 161,
+"h": 164,
+"terrain": false
+},
+"1673": {
+"name": "reck_trading_outpost_bunker3 VP",
+"x0": 122.79,
+"z0": 286.79,
+"x1": 163.21,
+"z1": 327.2,
+"w": 161,
+"h": 161,
+"terrain": false
+},
+"1674": {
+"name": "reck_trading_outpost_bunker4 VP",
+"x0": 146.8,
+"z0": 168.79,
+"x1": 199.19,
+"z1": 209.32,
+"w": 209,
+"h": 162,
+"terrain": false
+},
+"1675": {
+"name": "reck_trading_outpost_bunker5 VP",
+"x0": 138.8,
+"z0": 170.79,
+"x1": 189.19,
+"z1": 217.21,
+"w": 201,
+"h": 185,
+"terrain": false
+},
+"1701": {
+"name": "Home VP dng 1 medium",
+"x0": 180.79,
+"z0": 106.79,
+"x1": 223.21,
+"z1": 147.32,
+"w": 169,
+"h": 162,
+"terrain": false
+},
+"1702": {
+"name": "Home VP dng 2 big",
+"x0": 210.79,
+"z0": 74.79,
+"x1": 261.21,
+"z1": 121.2,
+"w": 201,
+"h": 185,
+"terrain": false
+},
+"1703": {
+"name": "Home VP dng 3 small",
+"x0": 184.79,
+"z0": 116.79,
+"x1": 223.21,
+"z1": 155.83,
+"w": 153,
+"h": 156,
+"terrain": false
+},
+"1711": {
+"name": "Factory VP dng barracks\u000049627\u000049",
+"x0": 146.79,
+"z0": 120.79,
+"x1": 191.21,
+"z1": 161.32,
+"w": 177,
+"h": 162,
+"terrain": false
+},
+"1712": {
+"name": "Factory VP dng factory",
+"x0": 150.79,
+"z0": 120.79,
+"x1": 195.21,
+"z1": 169.32,
+"w": 177,
+"h": 194,
+"terrain": false
+},
+"1721": {
+"name": "LD VP dng 1",
+"x0": 166.79,
+"z0": 102.79,
+"x1": 211.21,
+"z1": 143.32,
+"w": 177,
+"h": 162,
+"terrain": false
+},
+"1722": {
+"name": "LD VP dng 2",
+"x0": 170.79,
+"z0": 94.79,
+"x1": 213.21,
+"z1": 135.31,
+"w": 169,
+"h": 162,
+"terrain": false
+},
+"1741": {
+"name": "enigma_tree01",
+"x0": 164.89,
+"z0": 110.89,
+"x1": 209.1,
+"z1": 155.1,
+"w": 176,
+"h": 176,
+"terrain": false
+},
+"1742": {
+"name": "enigma_tree02\u0000ularlamp_volume 10",
+"x0": 180.89,
+"z0": 132.9,
+"x1": 227.1,
+"z1": 175.1,
+"w": 184,
+"h": 168,
+"terrain": false
+},
+"1743": {
+"name": "enigma_tree03\u0000age_small 81761\u000081",
+"x0": 160.89,
+"z0": 116.9,
+"x1": 205.1,
+"z1": 161.1,
+"w": 176,
+"h": 176,
+"terrain": false
+},
+"1826": {
+"name": "Dancing Atrox Bar",
+"x0": 198.79,
+"z0": 156.79,
+"x1": 243.21,
+"z1": 201.1,
+"w": 177,
+"h": 177,
+"terrain": false
+},
+"1827": {
+"name": "Omni Military Barracks\u0000706\u000028706",
+"x0": 180.89,
+"z0": 150.89,
+"x1": 229.1,
+"z1": 193.1,
+"w": 192,
+"h": 168,
+"terrain": false
+},
+"1833": {
+"name": "Dng: Cyborg Barracks",
+"x0": 65.19,
+"z0": 131.19,
+"x1": 136.99,
+"z1": 217.21,
+"w": 287,
+"h": 344,
+"terrain": false
+},
+"1836": {
+"name": "Baboons Nightclub",
+"x0": 244.9,
+"z0": 14.89,
+"x1": 331.2,
+"z1": 148.8,
+"w": 345,
+"h": 535,
+"terrain": false
+},
+"1840": {
+"name": "Rompa Bar",
+"x0": 206.99,
+"z0": 108.81,
+"x1": 277.01,
+"z1": 192.93,
+"w": 280,
+"h": 336,
+"terrain": false
+},
+"1846": {
+"name": "McRiid's Office\u0000 9966\u0000 9966",
+"x0": 124.79,
+"z0": 54.1,
+"x1": 181.19,
+"z1": 118.38,
+"w": 225,
+"h": 257,
+"terrain": false
+},
+"1862": {
+"name": "The Smugglers Den",
+"x0": 37.1,
+"z0": 53.1,
+"x1": 333.01,
+"z1": 255.0,
+"w": 1183,
+"h": 807,
+"terrain": false
+},
+"1866": {
+"name": "The HQ of Omni-Mine\u0000n2 78483\u0000784",
+"x0": 96.45,
+"z0": 128.99,
+"x1": 188.69,
+"z1": 277.01,
+"w": 368,
+"h": 592,
+"terrain": false
+},
+"1886": {
+"name": "Versailles Tower",
+"x0": 151.19,
+"z0": 142.8,
+"x1": 271.01,
+"z1": 238.99,
+"w": 479,
+"h": 384,
+"terrain": false
+},
+"1887": {
+"name": "Treepine Hut",
+"x0": 174.79,
+"z0": 250.8,
+"x1": 233.21,
+"z1": 303.2,
+"w": 233,
+"h": 209,
+"terrain": false
+},
+"1891": {
+"name": "The Happy Rebel Inn",
+"x0": 127.76,
+"z0": 189.6,
+"x1": 203.1,
+"z1": 257.21,
+"w": 301,
+"h": 270,
+"terrain": false
+},
+"1892": {
+"name": "Enjoy it While it Lasts",
+"x0": 179.53,
+"z0": 188.8,
+"x1": 248.65,
+"z1": 256.4,
+"w": 276,
+"h": 270,
+"terrain": false
+},
+"1893": {
+"name": "The Cup",
+"x0": 188.8,
+"z0": 180.8,
+"x1": 241.21,
+"z1": 237.21,
+"w": 209,
+"h": 225,
+"terrain": false
+},
+"1894": {
+"name": "Clan Registration Office\u0000tmp)\u000058",
+"x0": 181.6,
+"z0": 204.89,
+"x1": 244.39,
+"z1": 259.1,
+"w": 251,
+"h": 216,
+"terrain": false
+},
+"1901": {
+"name": "Neutral Organisation Office",
+"x0": 121.19,
+"z0": 218.8,
+"x1": 175.21,
+"z1": 271.2,
+"w": 216,
+"h": 209,
+"terrain": false
+},
+"1902": {
+"name": "Neuters 'R' Us",
+"x0": 125.19,
+"z0": 177.04,
+"x1": 201.21,
+"z1": 234.8,
+"w": 304,
+"h": 231,
+"terrain": false
+},
+"1913": {
+"name": "Reet Retreat (dng)",
+"x0": 97.38,
+"z0": 81.01,
+"x1": 191.21,
+"z1": 247.0,
+"w": 375,
+"h": 663,
+"terrain": false
+},
+"1931": {
+"name": "Dng: Temple of Three Winds",
+"x0": 32.9,
+"z0": 40.88,
+"x1": 324.79,
+"z1": 539.01,
+"w": 750,
+"h": 1280,
+"terrain": false
+},
+"1933": {
+"name": "Dng: Steps of Madness",
+"x0": 8.89,
+"z0": 74.9,
+"x1": 291.1,
+"z1": 337.1,
+"w": 1128,
+"h": 1048,
+"terrain": false
+},
+"1941": {
+"name": "Bio MARE",
+"x0": 51.0,
+"z0": 2.99,
+"x1": 455.01,
+"z1": 399.19,
+"w": 1280,
+"h": 1255,
+"terrain": false
+},
+"1943": {
+"name": "Dng: High Level ToTW",
+"x0": 72.79,
+"z0": 55.0,
+"x1": 264.8,
+"z1": 379.01,
+"w": 759,
+"h": 1280,
+"terrain": false
+},
+"2001": {
+"name": "clan_basic_weapons_shop\u0000.abiff 7",
+"x0": 190.79,
+"z0": 138.68,
+"x1": 233.21,
+"z1": 185.21,
+"w": 169,
+"h": 186,
+"terrain": false
+},
+"2002": {
+"name": "2002",
+"x0": 208.79,
+"z0": 146.68,
+"x1": 249.21,
+"z1": 193.19,
+"w": 161,
+"h": 186,
+"terrain": false
+},
+"2003": {
+"name": "clan_basic_pharmasist_shop\u00000088",
+"x0": 176.79,
+"z0": 142.68,
+"x1": 219.21,
+"z1": 189.19,
+"w": 169,
+"h": 186,
+"terrain": false
+},
+"2004": {
+"name": "clan_basic_clothes_shop\u0000\u000070287\u00006",
+"x0": 196.79,
+"z0": 138.79,
+"x1": 241.21,
+"z1": 185.21,
+"w": 177,
+"h": 185,
+"terrain": false
+},
+"2005": {
+"name": "clan_basic_implants_shop",
+"x0": 172.79,
+"z0": 146.68,
+"x1": 219.19,
+"z1": 191.21,
+"w": 185,
+"h": 178,
+"terrain": false
+},
+"2010": {
+"name": "clan_advanced_weapons_shop\u000000403",
+"x0": 174.79,
+"z0": 170.68,
+"x1": 217.21,
+"z1": 217.21,
+"w": 169,
+"h": 186,
+"terrain": false
+},
+"2011": {
+"name": "clan_advanced_armor_shop\u0000652",
+"x0": 184.79,
+"z0": 162.68,
+"x1": 225.21,
+"z1": 209.19,
+"w": 161,
+"h": 186,
+"terrain": false
+},
+"2012": {
+"name": "clan_advanced_pharmacist_shop",
+"x0": 180.79,
+"z0": 174.68,
+"x1": 223.21,
+"z1": 221.19,
+"w": 169,
+"h": 186,
+"terrain": false
+},
+"2013": {
+"name": "clan_advanced_implants_shop",
+"x0": 176.79,
+"z0": 176.68,
+"x1": 223.19,
+"z1": 221.21,
+"w": 185,
+"h": 178,
+"terrain": false
+},
+"2020": {
+"name": "clan_sup_weapons_shop",
+"x0": 194.79,
+"z0": 194.68,
+"x1": 237.21,
+"z1": 241.21,
+"w": 169,
+"h": 186,
+"terrain": false
+},
+"2021": {
+"name": "clan_sup_armor_shop\u0000biff 6207\u00001",
+"x0": 190.79,
+"z0": 188.68,
+"x1": 231.21,
+"z1": 235.19,
+"w": 161,
+"h": 186,
+"terrain": false
+},
+"2022": {
+"name": "clan_sup_pharmacist_shop\u0000\u0000t. 121",
+"x0": 198.79,
+"z0": 190.68,
+"x1": 241.21,
+"z1": 237.19,
+"w": 169,
+"h": 186,
+"terrain": false
+},
+"2023": {
+"name": "clan_sup_implants_shop\u00007\u0000iff 463",
+"x0": 192.79,
+"z0": 188.68,
+"x1": 239.19,
+"z1": 233.21,
+"w": 185,
+"h": 178,
+"terrain": false
+},
+"2030": {
+"name": "omni_basic_weapons_shop\u00008652\u0000\u00002",
+"x0": 94.79,
+"z0": 188.79,
+"x1": 135.2,
+"z1": 237.32,
+"w": 161,
+"h": 194,
+"terrain": false
+},
+"2031": {
+"name": "omni_basic_armor_shop\u0000789\u000085789",
+"x0": 92.79,
+"z0": 192.79,
+"x1": 133.2,
+"z1": 237.32,
+"w": 161,
+"h": 178,
+"terrain": false
+},
+"2032": {
+"name": "omni_basic_pharmacist\u000050\u0000\u0000??",
+"x0": 96.79,
+"z0": 188.79,
+"x1": 137.2,
+"z1": 231.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"2033": {
+"name": "omni_basic_clothes_shop",
+"x0": 96.79,
+"z0": 194.79,
+"x1": 137.2,
+"z1": 241.32,
+"w": 161,
+"h": 186,
+"terrain": false
+},
+"2034": {
+"name": "omni_basic_implants_shop\u0000iff 463",
+"x0": 98.79,
+"z0": 198.79,
+"x1": 139.2,
+"z1": 241.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"2040": {
+"name": "omni_advanced_weapons_shop",
+"x0": 182.79,
+"z0": 166.79,
+"x1": 223.21,
+"z1": 215.32,
+"w": 161,
+"h": 194,
+"terrain": false
+},
+"2041": {
+"name": "omni_advanced_armor_shop\u0000829\u0000llr",
+"x0": 178.79,
+"z0": 176.79,
+"x1": 219.21,
+"z1": 221.32,
+"w": 161,
+"h": 178,
+"terrain": false
+},
+"2042": {
+"name": "omni_advanced_pharmacist_shop\u000010",
+"x0": 178.79,
+"z0": 178.79,
+"x1": 219.21,
+"z1": 221.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"2043": {
+"name": "omni_advanced_implants_shop\u0000\u0000463",
+"x0": 182.79,
+"z0": 182.79,
+"x1": 223.21,
+"z1": 225.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"2050": {
+"name": "omni_sup_weapons_shop\u0000174\u000010098",
+"x0": 172.79,
+"z0": 168.79,
+"x1": 213.21,
+"z1": 217.32,
+"w": 161,
+"h": 194,
+"terrain": false
+},
+"2051": {
+"name": "omni_sup_armor_shop\u0000evolume 1021",
+"x0": 176.79,
+"z0": 180.79,
+"x1": 217.21,
+"z1": 225.32,
+"w": 161,
+"h": 178,
+"terrain": false
+},
+"2052": {
+"name": "omni_sup_pharmacist_shop\u0000.abiff ",
+"x0": 174.79,
+"z0": 182.79,
+"x1": 215.21,
+"z1": 225.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"2053": {
+"name": "omni_sup_implants_shop\u0000f 6207\u00007",
+"x0": 182.79,
+"z0": 180.79,
+"x1": 223.21,
+"z1": 223.32,
+"w": 161,
+"h": 170,
+"terrain": false
+},
+"2060": {
+"name": "neut_basic_weapon _shop",
+"x0": 148.79,
+"z0": 140.79,
+"x1": 189.21,
+"z1": 189.29,
+"w": 161,
+"h": 194,
+"terrain": false
+},
+"2061": {
+"name": "neut_basic_armor_shop",
+"x0": 188.79,
+"z0": 160.79,
+"x1": 229.21,
+"z1": 205.29,
+"w": 161,
+"h": 178,
+"terrain": false
+},
+"2062": {
+"name": "neut_basic_pharmacist_shop",
+"x0": 174.79,
+"z0": 174.79,
+"x1": 215.21,
+"z1": 215.29,
+"w": 161,
+"h": 162,
+"terrain": false
+},
+"2063": {
+"name": "neut_basic_clothes_shop",
+"x0": 196.79,
+"z0": 150.79,
+"x1": 237.21,
+"z1": 195.29,
+"w": 161,
+"h": 178,
+"terrain": false
+},
+"2064": {
+"name": "neut_basic_implants_shop",
+"x0": 170.79,
+"z0": 120.8,
+"x1": 211.21,
+"z1": 179.21,
+"w": 161,
+"h": 233,
+"terrain": false
+},
+"2070": {
+"name": "neut_advanced_weapons_shop",
+"x0": 188.79,
+"z0": 166.79,
+"x1": 229.21,
+"z1": 215.29,
+"w": 161,
+"h": 194,
+"terrain": false
+},
+"2071": {
+"name": "neut_advanced_armor_shop",
+"x0": 184.79,
+"z0": 180.79,
+"x1": 225.21,
+"z1": 225.29,
+"w": 161,
+"h": 178,
+"terrain": false
+},
+"2072": {
+"name": "neut_advanced_pharmacist_shop",
+"x0": 184.79,
+"z0": 180.79,
+"x1": 225.21,
+"z1": 221.29,
+"w": 161,
+"h": 162,
+"terrain": false
+},
+"2073": {
+"name": "neut_advanced_implants_shop",
+"x0": 184.79,
+"z0": 162.8,
+"x1": 225.21,
+"z1": 221.21,
+"w": 161,
+"h": 233,
+"terrain": false
+},
+"2096": {
+"name": "4holes Fashion\u0000etetech 8380\u0000 838",
+"x0": 140.79,
+"z0": 212.79,
+"x1": 181.21,
+"z1": 255.21,
+"w": 161,
+"h": 169,
+"terrain": false
+},
+"3000": {
+"name": "Omni-1 Entertainment Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3001": {
+"name": "Omni-1 Entertainment Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3002": {
+"name": "Omni-1 Entertainment Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3003": {
+"name": "Omni-1 Entertainment Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3004": {
+"name": "Omni-1 Entertainment Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3005": {
+"name": "Omni-1 Entertainment Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3006": {
+"name": "Omni-1 Entertainment Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3007": {
+"name": "Omni-1 Entertainment Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3008": {
+"name": "Omni-1 Entertainment Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3009": {
+"name": "Omni-1 Entertainment Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3010": {
+"name": "Omni-1 Entertainment Backyard 11",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3011": {
+"name": "Omni-1 Entertainment Backyard 12",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3012": {
+"name": "Omni-1 Entertainment Backyard 13",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3013": {
+"name": "Omni-1 Entertainment Backyard 14",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3014": {
+"name": "Omni-1 Entertainment Backyard 15",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3015": {
+"name": "Omni-1 Entertainment Backyard 16",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3016": {
+"name": "Omni-1 Entertainment Backyard 17",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3017": {
+"name": "Omni-1 Entertainment Backyard 18",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3018": {
+"name": "Omni-1 Entertainment Backyard 19",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3019": {
+"name": "Omni-1 Entertainment Backyard 20",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3020": {
+"name": "Omni-1 Trade Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3021": {
+"name": "Omni-1 Trade Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3022": {
+"name": "Omni-1 Trade Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3023": {
+"name": "Omni-1 Trade Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3024": {
+"name": "Omni-1 Trade Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3025": {
+"name": "Omni-1 Trade Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3026": {
+"name": "Omni-1 Trade Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3027": {
+"name": "Omni-1 Trade Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3028": {
+"name": "Omni-1 Trade Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3029": {
+"name": "Omni-1 Trade Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3030": {
+"name": "Omni-1 Trade Backyard 11",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3031": {
+"name": "Omni-1 Trade Backyard 12",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3032": {
+"name": "Omni-1 Trade Backyard 13",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3033": {
+"name": "Omni-1 Trade Backyard 14",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3034": {
+"name": "Omni-1 Trade Backyard 15",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3035": {
+"name": "Omni-1 Trade Backyard 16",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3036": {
+"name": "Omni-1 Trade Backyard 17",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3037": {
+"name": "Omni-1 Trade Backyard 18",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3038": {
+"name": "Omni-1 Trade Backyard 19",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3039": {
+"name": "Omni-1 Trade Backyard 20",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3040": {
+"name": "Rome Blue Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3041": {
+"name": "Rome Blue Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3042": {
+"name": "Rome Blue Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3043": {
+"name": "Rome Blue Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3044": {
+"name": "Rome Blue Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3045": {
+"name": "Rome Blue Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3046": {
+"name": "Rome Blue Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3047": {
+"name": "Rome Blue Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3048": {
+"name": "Rome Blue Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3049": {
+"name": "Rome Blue Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3050": {
+"name": "Rome Green Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3051": {
+"name": "Rome Green Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3052": {
+"name": "Rome Green Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3053": {
+"name": "Rome Green Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3054": {
+"name": "Rome Green Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3055": {
+"name": "Rome Green Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3056": {
+"name": "Rome Green Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3057": {
+"name": "Rome Green Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3058": {
+"name": "Rome Green Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3059": {
+"name": "Rome Green Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 224.0,
+"w": 1024,
+"h": 896,
+"terrain": true
+},
+"3060": {
+"name": "Newland Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3061": {
+"name": "Newland Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3062": {
+"name": "Newland Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3063": {
+"name": "Newland Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3064": {
+"name": "Newland Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3065": {
+"name": "Newland Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3066": {
+"name": "Newland Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3067": {
+"name": "Newland Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3068": {
+"name": "Newland Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3069": {
+"name": "Newland Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3070": {
+"name": "Newland Backyard 11",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3071": {
+"name": "Newland Backyard 12",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3080": {
+"name": "Borealis Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3081": {
+"name": "Borealis Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3082": {
+"name": "Borealis Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3083": {
+"name": "Borealis Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3084": {
+"name": "Borealis Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3085": {
+"name": "Borealis Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3086": {
+"name": "Borealis Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3087": {
+"name": "Borealis Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3088": {
+"name": "Borealis Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3089": {
+"name": "Borealis Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"3100": {
+"name": "Tir Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3101": {
+"name": "Tir Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3102": {
+"name": "Tir Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3103": {
+"name": "Tir Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3104": {
+"name": "Tir Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3105": {
+"name": "Tir Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3106": {
+"name": "Tir Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3107": {
+"name": "Tir Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3108": {
+"name": "Tir Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3109": {
+"name": "Tir Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3110": {
+"name": "Tir Backyard 11",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3111": {
+"name": "Tir Backyard 12",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3112": {
+"name": "Tir Backyard 13",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3113": {
+"name": "Tir Backyard 14",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3114": {
+"name": "Tir Backyard 15",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3115": {
+"name": "Tir Backyard 16",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3116": {
+"name": "Tir Backyard 17",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3117": {
+"name": "Tir Backyard 18",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3120": {
+"name": "Old Athen Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3121": {
+"name": "Old Athen Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3122": {
+"name": "Old Athen Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3123": {
+"name": "Old Athen Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3124": {
+"name": "Old Athen Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3125": {
+"name": "Old Athen Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3126": {
+"name": "Old Athen Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3127": {
+"name": "Old Athen Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3128": {
+"name": "Old Athen Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3129": {
+"name": "Old Athen Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3130": {
+"name": "Old Athen Backyard 11",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3131": {
+"name": "Old Athen Backyard 12",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3132": {
+"name": "Old Athen Backyard 13",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3133": {
+"name": "Old Athen Backyard 14",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3134": {
+"name": "Old Athen Backyard 15",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3135": {
+"name": "Old Athen Backyard 16",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3136": {
+"name": "Old Athen Backyard 17",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3137": {
+"name": "Old Athen Backyard 18",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3138": {
+"name": "Old Athen Backyard 19",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3139": {
+"name": "Old Athen Backyard 20",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3140": {
+"name": "West Athen Backyard 1",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3141": {
+"name": "West Athen Backyard 2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3142": {
+"name": "West Athen Backyard 3",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3143": {
+"name": "West Athen Backyard 4",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3144": {
+"name": "West Athen Backyard 5",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3145": {
+"name": "West Athen Backyard 6",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3146": {
+"name": "West Athen Backyard 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3147": {
+"name": "West Athen Backyard 8",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3148": {
+"name": "West Athen Backyard 9",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"3149": {
+"name": "West Athen Backyard 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 192.0,
+"w": 768,
+"h": 768,
+"terrain": true
+},
+"320": {
+"name": "AutocontentMidtech(dung)",
+"x0": 3.2,
+"z0": 28.99,
+"x1": 396.79,
+"z1": 401.19,
+"w": 1280,
+"h": 1210,
+"terrain": false
+},
+"321": {
+"name": "AutocontentHITech(dung)",
+"x0": 13.2,
+"z0": 16.99,
+"x1": 381.01,
+"z1": 401.01,
+"w": 1226,
+"h": 1280,
+"terrain": false
+},
+"322": {
+"name": "Autocontentdungcave(dung)\u0000?z:???",
+"x0": 8.9,
+"z0": 73.1,
+"x1": 351.01,
+"z1": 394.01,
+"w": 1280,
+"h": 1200,
+"terrain": false
+},
+"324": {
+"name": "AutocontentClan(dung)",
+"x0": -1.01,
+"z0": 13.1,
+"x1": 321.01,
+"z1": 405.01,
+"w": 1052,
+"h": 1280,
+"terrain": false
+},
+"331": {
+"name": "ACD tarm (dng)\u0000ght.abiff 6163\u000019",
+"x0": 5.57,
+"z0": 134.9,
+"x1": 281.1,
+"z1": 389.01,
+"w": 1102,
+"h": 1016,
+"terrain": false
+},
+"341": {
+"name": "ACD Grey Caves-Mines dng",
+"x0": -3.91,
+"z0": -3.8,
+"x1": 562.47,
+"z1": 402.89,
+"w": 1280,
+"h": 918,
+"terrain": false
+},
+"346": {
+"name": "ACD Omnilab (dng)",
+"x0": -8.07,
+"z0": 48.99,
+"x1": 391.01,
+"z1": 405.01,
+"w": 1280,
+"h": 1142,
+"terrain": false
+},
+"351": {
+"name": "ACD Subway - Ventil (dng)",
+"x0": -8.81,
+"z0": 4.99,
+"x1": 401.01,
+"z1": 403.01,
+"w": 1280,
+"h": 1242,
+"terrain": false
+},
+"362": {
+"name": "SL ACG(dng)",
+"x0": 21.01,
+"z0": 7.75,
+"x1": 1951.01,
+"z1": 393.01,
+"w": 1280,
+"h": 255,
+"terrain": false
+},
+"382": {
+"name": "Alien ACG (dng)",
+"x0": 34.99,
+"z0": 6.4,
+"x1": 398.79,
+"z1": 207.0,
+"w": 1280,
+"h": 706,
+"terrain": false
+},
+"386": {
+"name": "Alien Mothership (dng)",
+"x0": 34.99,
+"z0": 4.99,
+"x1": 955.01,
+"z1": 297.01,
+"w": 1280,
+"h": 406,
+"terrain": false
+},
+"4001": {
+"name": "Jobe Research",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4005": {
+"name": "Burning Marshes",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4006": {
+"name": "Penumbra",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"4010": {
+"name": "Garden of Redeemed Main",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4011": {
+"name": "Garden_of_unredeemed",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4021": {
+"name": "Dust Brigade Research Facility",
+"x0": -3.98,
+"z0": -4.99,
+"x1": 183.0,
+"z1": 136.89,
+"w": 747,
+"h": 567,
+"terrain": false
+},
+"4102": {
+"name": "Beer And Booze (dng)",
+"x0": 144.79,
+"z0": 150.79,
+"x1": 195.19,
+"z1": 203.21,
+"w": 201,
+"h": 209,
+"terrain": false
+},
+"4107": {
+"name": "Fixer Grid (dng)",
+"x0": 253.2,
+"z0": 13.19,
+"x1": 358.8,
+"z1": 118.81,
+"w": 422,
+"h": 422,
+"terrain": false
+},
+"4121": {
+"name": "Will To Fight",
+"x0": 159.0,
+"z0": 108.99,
+"x1": 1865.1,
+"z1": 1020.9,
+"w": 1280,
+"h": 684,
+"terrain": false
+},
+"4211": {
+"name": "Maze_Acheron_Ely_unre",
+"x0": 41.0,
+"z0": 15.01,
+"x1": 291.79,
+"z1": 333.82,
+"w": 1003,
+"h": 1275,
+"terrain": false
+},
+"4212": {
+"name": "Maze_Letha_scheol_red",
+"x0": 55.0,
+"z0": 7.0,
+"x1": 304.79,
+"z1": 495.7,
+"w": 654,
+"h": 1280,
+"terrain": false
+},
+"4213": {
+"name": "Maze_Styx_ado_red",
+"x0": 49.0,
+"z0": 20.99,
+"x1": 306.8,
+"z1": 438.01,
+"w": 791,
+"h": 1280,
+"terrain": false
+},
+"4214": {
+"name": "Maze_Eridan_pen_red",
+"x0": 61.0,
+"z0": 6.99,
+"x1": 322.01,
+"z1": 491.89,
+"w": 688,
+"h": 1280,
+"terrain": false
+},
+"4215": {
+"name": "Maze_Phlegethas1_inf_red",
+"x0": 62.99,
+"z0": -4.52,
+"x1": 389.01,
+"z1": 443.01,
+"w": 932,
+"h": 1280,
+"terrain": false
+},
+"4220": {
+"name": "Maze_Acheron_Ely_unre",
+"x0": 41.0,
+"z0": 15.01,
+"x1": 291.79,
+"z1": 333.82,
+"w": 1003,
+"h": 1275,
+"terrain": false
+},
+"4221": {
+"name": "Maze_Letha_scheol_unre",
+"x0": 55.0,
+"z0": 7.0,
+"x1": 304.79,
+"z1": 495.7,
+"w": 654,
+"h": 1280,
+"terrain": false
+},
+"4222": {
+"name": "Maze_Styx_ado_unre",
+"x0": 49.0,
+"z0": 20.99,
+"x1": 306.8,
+"z1": 438.01,
+"w": 791,
+"h": 1280,
+"terrain": false
+},
+"4223": {
+"name": "Maze_Eridan_pen_unre",
+"x0": 61.0,
+"z0": 6.99,
+"x1": 322.01,
+"z1": 491.89,
+"w": 688,
+"h": 1280,
+"terrain": false
+},
+"4224": {
+"name": "Maze_Phlegethas_inf_unre",
+"x0": 62.99,
+"z0": -4.52,
+"x1": 389.01,
+"z1": 443.01,
+"w": 932,
+"h": 1280,
+"terrain": false
+},
+"4310": {
+"name": "Nascense Frontier",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4311": {
+"name": "Nascense Wilds",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4312": {
+"name": "Nascense Swamp",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4313": {
+"name": "Nascense Training Ground",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4314": {
+"name": "Jobe Harbour Gateway (dng)",
+"x0": 133.19,
+"z0": 108.99,
+"x1": 246.8,
+"z1": 347.01,
+"w": 454,
+"h": 952,
+"terrain": false
+},
+"4315": {
+"name": "Jobe Market Gateway (dng)",
+"x0": 135.19,
+"z0": 30.99,
+"x1": 248.8,
+"z1": 269.0,
+"w": 454,
+"h": 952,
+"terrain": false
+},
+"4316": {
+"name": "Jobe Plaza Gateway (dng)",
+"x0": 147.19,
+"z0": 50.99,
+"x1": 260.8,
+"z1": 289.01,
+"w": 454,
+"h": 952,
+"terrain": false
+},
+"4318": {
+"name": "Nascense Portal",
+"x0": 127.0,
+"z0": 181.0,
+"x1": 208.99,
+"z1": 264.99,
+"w": 327,
+"h": 335,
+"terrain": false
+},
+"4320": {
+"name": "Penumbra Forest",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"4321": {
+"name": "Penumbra Valley",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"4322": {
+"name": "Penumbra Hollows",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"4324": {
+"name": "Penumbra Transit (dng)",
+"x0": 135.0,
+"z0": 95.0,
+"x1": 236.99,
+"z1": 248.8,
+"w": 407,
+"h": 615,
+"terrain": false
+},
+"4327": {
+"name": "Jobe Apartment Normal (dng)",
+"x0": 154.8,
+"z0": 140.8,
+"x1": 233.19,
+"z1": 247.19,
+"w": 313,
+"h": 425,
+"terrain": false
+},
+"4328": {
+"name": "Pandemonium Caina",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"4329": {
+"name": "Pandemonium Antenora",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"4330": {
+"name": "Pandemonium Ptolemea",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"4331": {
+"name": "Pandemonium Judecca",
+"x0": 101.39,
+"z0": 15.3,
+"x1": 292.76,
+"z1": 202.21,
+"w": 765,
+"h": 747,
+"terrain": false
+},
+"4334": {
+"name": "The Ring (dng)",
+"x0": 177.1,
+"z0": 162.91,
+"x1": 241.0,
+"z1": 237.0,
+"w": 255,
+"h": 296,
+"terrain": false
+},
+"4335": {
+"name": "Dark Ruins Solo",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4336": {
+"name": "Alappaa",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4337": {
+"name": "Albtraum",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4341": {
+"name": "Basic Omni org hq",
+"x0": 35.99,
+"z0": 114.32,
+"x1": 219.32,
+"z1": 273.74,
+"w": 733,
+"h": 637,
+"terrain": false
+},
+"4342": {
+"name": "Basic Clan org hq",
+"x0": 35.99,
+"z0": 114.32,
+"x1": 219.32,
+"z1": 273.74,
+"w": 733,
+"h": 637,
+"terrain": false
+},
+"4343": {
+"name": "Basic Neutral org hq",
+"x0": 35.99,
+"z0": 114.32,
+"x1": 219.32,
+"z1": 273.74,
+"w": 733,
+"h": 637,
+"terrain": false
+},
+"4344": {
+"name": "Advanced Omni org hq",
+"x0": 118.04,
+"z0": 55.94,
+"x1": 306.1,
+"z1": 227.07,
+"w": 752,
+"h": 684,
+"terrain": false
+},
+"4345": {
+"name": "Advanced Clan org hq",
+"x0": 118.04,
+"z0": 55.94,
+"x1": 306.1,
+"z1": 227.07,
+"w": 752,
+"h": 684,
+"terrain": false
+},
+"4346": {
+"name": "Advanced Neutral org hq",
+"x0": 118.04,
+"z0": 55.94,
+"x1": 306.1,
+"z1": 227.07,
+"w": 752,
+"h": 684,
+"terrain": false
+},
+"4347": {
+"name": "Superior Omni org hq",
+"x0": 106.06,
+"z0": 108.63,
+"x1": 296.8,
+"z1": 310.8,
+"w": 762,
+"h": 808,
+"terrain": false
+},
+"4348": {
+"name": "Superior Clan org hq",
+"x0": 106.06,
+"z0": 108.63,
+"x1": 296.8,
+"z1": 310.8,
+"w": 762,
+"h": 808,
+"terrain": false
+},
+"4349": {
+"name": "Superior Neutral org hq",
+"x0": 106.06,
+"z0": 108.63,
+"x1": 296.8,
+"z1": 310.8,
+"w": 762,
+"h": 808,
+"terrain": false
+},
+"4350": {
+"name": "Notum Silo Inside",
+"x0": 87.2,
+"z0": 42.99,
+"x1": 154.99,
+"z1": 123.2,
+"w": 271,
+"h": 320,
+"terrain": false
+},
+"4351": {
+"name": "Swimming Pool",
+"x0": 109.0,
+"z0": 54.42,
+"x1": 189.0,
+"z1": 149.54,
+"w": 319,
+"h": 380,
+"terrain": false
+},
+"4352": {
+"name": "Market",
+"x0": 14.56,
+"z0": 71.44,
+"x1": 49.26,
+"z1": 104.11,
+"w": 138,
+"h": 130,
+"terrain": false
+},
+"4354": {
+"name": "Uncle Bazzits Workshop (Dng)",
+"x0": 159.0,
+"z0": 124.99,
+"x1": 206.99,
+"z1": 171.13,
+"w": 191,
+"h": 184,
+"terrain": false
+},
+"4355": {
+"name": "Basic Player Market (Dng)",
+"x0": 49.0,
+"z0": 7.0,
+"x1": 111.2,
+"z1": 67.19,
+"w": 248,
+"h": 240,
+"terrain": false
+},
+"4356": {
+"name": "Advanced Player Market [dng]",
+"x0": 24.9,
+"z0": 8.9,
+"x1": 87.19,
+"z1": 101.0,
+"w": 249,
+"h": 368,
+"terrain": false
+},
+"4357": {
+"name": "Superior Player Market [dng]",
+"x0": 113.19,
+"z0": 100.9,
+"x1": 207.04,
+"z1": 193.0,
+"w": 375,
+"h": 368,
+"terrain": false
+},
+"4360": {
+"name": "Clinique Plastique",
+"x0": 162.8,
+"z0": 68.79,
+"x1": 219.21,
+"z1": 117.2,
+"w": 225,
+"h": 193,
+"terrain": false
+},
+"4363": {
+"name": "Tir Night Club (dng)",
+"x0": 145.0,
+"z0": 131.0,
+"x1": 204.99,
+"z1": 190.99,
+"w": 239,
+"h": 239,
+"terrain": false
+},
+"4364": {
+"name": "Unicorn Outpost",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 448.0,
+"z1": 448.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4365": {
+"name": "Sector 13",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 768.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4366": {
+"name": "Sector 28",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 768.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4367": {
+"name": "Sector 35",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 768.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4368": {
+"name": "Unicorn Outpost - Lower level",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 448.0,
+"z1": 448.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4370": {
+"name": "Sector 42",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4374": {
+"name": "Sector 10",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4376": {
+"name": "ICC Assembly Hall (dng)",
+"x0": 121.0,
+"z0": 155.21,
+"x1": 228.99,
+"z1": 264.99,
+"w": 431,
+"h": 439,
+"terrain": false
+},
+"4380": {
+"name": "Battle Station 20-49",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4381": {
+"name": "Battle Station 50-74",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4382": {
+"name": "Battle Station 201-214",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4383": {
+"name": "Battle Station 10-30",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4384": {
+"name": "Battle Station 31-60",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4385": {
+"name": "Battle Station 61-100",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4386": {
+"name": "Battle Station 101-150",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4387": {
+"name": "Battle Station 151-200",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4388": {
+"name": "Battle Station 215-220",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4389": {
+"name": "Pandemonium Instance",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"4390": {
+"name": "Pandemonium Notum Vein",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"4391": {
+"name": "Pandemonium Judecca - Instance",
+"x0": 101.39,
+"z0": 15.3,
+"x1": 292.76,
+"z1": 202.21,
+"w": 765,
+"h": 747,
+"terrain": false
+},
+"4468": {
+"name": "Unicorn Outpost to sector 7",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 448.0,
+"z1": 448.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4474": {
+"name": "Sector 10 - Team Instance",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 448.0,
+"z1": 448.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4475": {
+"name": "Sector 10 - Solo Instance",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 448.0,
+"z1": 448.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4504": {
+"name": "West Buggy (DONT DELETE)",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"4505": {
+"name": "South Buggy (DONT DELETE)",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4530": {
+"name": "Jobe Platform",
+"x0": 145.89,
+"z0": 112.53,
+"x1": 468.02,
+"z1": 653.36,
+"w": 762,
+"h": 1280,
+"terrain": false
+},
+"4531": {
+"name": "Jobe Harbor",
+"x0": 134.26,
+"z0": 118.29,
+"x1": 464.19,
+"z1": 634.17,
+"w": 818,
+"h": 1280,
+"terrain": false
+},
+"4532": {
+"name": "Jobe Market",
+"x0": 136.44,
+"z0": 117.97,
+"x1": 469.42,
+"z1": 634.11,
+"w": 825,
+"h": 1280,
+"terrain": false
+},
+"4533": {
+"name": "Jobe Plaza",
+"x0": 138.05,
+"z0": 106.78,
+"x1": 465.66,
+"z1": 487.76,
+"w": 1101,
+"h": 1280,
+"terrain": false
+},
+"4534": {
+"name": "Jobe Apartment",
+"x0": 133.1,
+"z0": 121.36,
+"x1": 468.4,
+"z1": 504.51,
+"w": 1120,
+"h": 1280,
+"terrain": false
+},
+"4540": {
+"name": "South of Elysium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4541": {
+"name": "West of Elysium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"4542": {
+"name": "Central Elysium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 1792.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"4543": {
+"name": "East of Elysium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3584.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 548,
+"terrain": true
+},
+"4544": {
+"name": "North of Elysium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"4561": {
+"name": "Arrival Hall Gateway (dng)",
+"x0": -9.01,
+"z0": 227.19,
+"x1": 229.0,
+"z1": 340.8,
+"w": 952,
+"h": 454,
+"terrain": false
+},
+"4563": {
+"name": "Hardware Dimension - Basic",
+"x0": 8.8,
+"z0": 8.8,
+"x1": 57.2,
+"z1": 67.19,
+"w": 193,
+"h": 233,
+"terrain": false
+},
+"4564": {
+"name": "Hardware Dimension - Advanced",
+"x0": 8.8,
+"z0": 8.8,
+"x1": 57.2,
+"z1": 67.19,
+"w": 193,
+"h": 233,
+"terrain": false
+},
+"4565": {
+"name": "Hardware Dimenion - Superior",
+"x0": 8.8,
+"z0": 8.8,
+"x1": 57.2,
+"z1": 67.19,
+"w": 193,
+"h": 233,
+"terrain": false
+},
+"4567": {
+"name": "Dimensional Shift - Basic",
+"x0": 9.0,
+"z0": 6.99,
+"x1": 71.2,
+"z1": 67.19,
+"w": 248,
+"h": 240,
+"terrain": false
+},
+"4568": {
+"name": "Dimensional Shift - Advanced",
+"x0": 9.0,
+"z0": 6.99,
+"x1": 71.2,
+"z1": 67.19,
+"w": 248,
+"h": 240,
+"terrain": false
+},
+"4569": {
+"name": "Dimensional Shift - Superior",
+"x0": 9.0,
+"z0": 6.99,
+"x1": 71.2,
+"z1": 67.19,
+"w": 248,
+"h": 240,
+"terrain": false
+},
+"4571": {
+"name": "Heavenly Business - Basic",
+"x0": 8.9,
+"z0": 8.89,
+"x1": 71.19,
+"z1": 101.0,
+"w": 249,
+"h": 368,
+"terrain": false
+},
+"4572": {
+"name": "Heavenly Business - Advanced",
+"x0": 8.9,
+"z0": 8.89,
+"x1": 71.19,
+"z1": 101.0,
+"w": 249,
+"h": 368,
+"terrain": false
+},
+"4573": {
+"name": "Heavenly Business - Superior",
+"x0": 8.9,
+"z0": 8.89,
+"x1": 71.19,
+"z1": 101.0,
+"w": 249,
+"h": 368,
+"terrain": false
+},
+"4575": {
+"name": "IPS Interior - Basic",
+"x0": 146.79,
+"z0": 72.81,
+"x1": 217.21,
+"z1": 202.8,
+"w": 281,
+"h": 519,
+"terrain": false
+},
+"4576": {
+"name": "IPS Interior - Advanced",
+"x0": 164.79,
+"z0": 90.81,
+"x1": 235.21,
+"z1": 220.8,
+"w": 281,
+"h": 519,
+"terrain": false
+},
+"4577": {
+"name": "IPS Interior - Superior",
+"x0": 158.79,
+"z0": 64.81,
+"x1": 229.21,
+"z1": 194.8,
+"w": 281,
+"h": 519,
+"terrain": false
+},
+"4582": {
+"name": "ICC Shuttleport",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4604": {
+"name": "Arrival Hall",
+"x0": 165.63,
+"z0": 144.32,
+"x1": 244.67,
+"z1": 375.26,
+"w": 316,
+"h": 923,
+"terrain": false
+},
+"4605": {
+"name": "Inferno",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4621": {
+"name": "Redeemed Temple (Elysium)",
+"x0": 20.49,
+"z0": 1.82,
+"x1": 588.79,
+"z1": 346.18,
+"w": 1280,
+"h": 775,
+"terrain": false
+},
+"4622": {
+"name": "Unredeemed Temple (ELysium)",
+"x0": 19.04,
+"z0": 9.2,
+"x1": 612.91,
+"z1": 478.6,
+"w": 1280,
+"h": 1012,
+"terrain": false
+},
+"4623": {
+"name": "Redeemed Temple (Scheol)",
+"x0": 20.49,
+"z0": 1.82,
+"x1": 588.79,
+"z1": 346.18,
+"w": 1280,
+"h": 775,
+"terrain": false
+},
+"4624": {
+"name": "Unredeemed Temple (Scheol)",
+"x0": 19.04,
+"z0": 9.2,
+"x1": 612.91,
+"z1": 478.6,
+"w": 1280,
+"h": 1012,
+"terrain": false
+},
+"4625": {
+"name": "Redeemed Temple (Adonis)",
+"x0": 20.49,
+"z0": 1.82,
+"x1": 588.79,
+"z1": 346.18,
+"w": 1280,
+"h": 775,
+"terrain": false
+},
+"4626": {
+"name": "Unredeemed Temple (Adonis)",
+"x0": 19.04,
+"z0": 9.2,
+"x1": 612.91,
+"z1": 478.6,
+"w": 1280,
+"h": 1012,
+"terrain": false
+},
+"4627": {
+"name": "Redeemed Temple (Penumbra)",
+"x0": 20.49,
+"z0": 1.82,
+"x1": 588.79,
+"z1": 346.18,
+"w": 1280,
+"h": 775,
+"terrain": false
+},
+"4628": {
+"name": "Unredeemed Temple (Penumbra)",
+"x0": 19.04,
+"z0": 9.2,
+"x1": 612.91,
+"z1": 478.6,
+"w": 1280,
+"h": 1012,
+"terrain": false
+},
+"4629": {
+"name": "Redeemed Temple (Inferno)",
+"x0": 20.49,
+"z0": 1.82,
+"x1": 588.79,
+"z1": 346.18,
+"w": 1280,
+"h": 775,
+"terrain": false
+},
+"4630": {
+"name": "Unredeemed Temple (Inferno)",
+"x0": 19.04,
+"z0": 9.2,
+"x1": 612.91,
+"z1": 478.6,
+"w": 1280,
+"h": 1012,
+"terrain": false
+},
+"4676": {
+"name": "Garden of Redeemed Nascense",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4677": {
+"name": "Garden_of_unredeemed Nascense",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4678": {
+"name": "Garden of Redeemed Elysium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4679": {
+"name": "Garden of Redeemed Elysium2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4680": {
+"name": "Garden_of_unredeemed Elysium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4681": {
+"name": "Garden_of_unredeemed Elysium2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4682": {
+"name": "Garden of Redeemed Scheol",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4683": {
+"name": "Garden_of_unredeemed Scheol",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4684": {
+"name": "Garden of Redeemed Adonis",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4685": {
+"name": "Garden of Redeemed Adonis2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4686": {
+"name": "Garden_of_unredeemed Adonis",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4687": {
+"name": "Garden_of_unredeemed Adonis2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4688": {
+"name": "Garden of Redeemed Penumbra",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4689": {
+"name": "Garden of Redeemed Penumbra2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4690": {
+"name": "Garden_of_unredeemed Penumbra",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4691": {
+"name": "Garden_of_unredeemed Penumbra2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4692": {
+"name": "Garden of Redeemed Inferno",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4693": {
+"name": "Garden of Redeemed Inferno2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4694": {
+"name": "Garden of Unredeemed Inferno",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4695": {
+"name": "Garden_of_unredeemed Inferno2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4696": {
+"name": "Garden of Redeemed Pandemonium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4697": {
+"name": "Garden of unredeemed Pandemonium",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4698": {
+"name": "Garden of Redeemed Scheol2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4699": {
+"name": "Garden_of_unredeemed Scheol2",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4704": {
+"name": "Tower Shop (dungeon)",
+"x0": 146.8,
+"z0": 115.19,
+"x1": 209.21,
+"z1": 200.8,
+"w": 249,
+"h": 342,
+"terrain": false
+},
+"4805": {
+"name": "The Crypt of Home",
+"x0": 92.9,
+"z0": 124.79,
+"x1": 442.76,
+"z1": 323.1,
+"w": 1280,
+"h": 726,
+"terrain": false
+},
+"4833": {
+"name": "Teleport Tower",
+"x0": 156.32,
+"z0": 127.86,
+"x1": 212.64,
+"z1": 206.88,
+"w": 225,
+"h": 316,
+"terrain": false
+},
+"4872": {
+"name": "Adonis City",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4873": {
+"name": "Adonis Abyss",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"4877": {
+"name": "Adonis Hallway",
+"x0": 70.99,
+"z0": 99.0,
+"x1": 207.0,
+"z1": 208.8,
+"w": 544,
+"h": 439,
+"terrain": false
+},
+"4880": {
+"name": "Upper Scheol",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"4881": {
+"name": "Lower Scheol",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3584.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 731,
+"terrain": true
+},
+"4885": {
+"name": "Shadow Crypt",
+"x0": 133.88,
+"z0": 10.92,
+"x1": 541.66,
+"z1": 384.88,
+"w": 1280,
+"h": 1173,
+"terrain": false
+},
+"4894": {
+"name": "Coast of Harmony",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"4898": {
+"name": "Broken Shores AI movie",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"4899": {
+"name": "Broken Shores AI Demo",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"4900": {
+"name": "Pandemonium Tower Gigantomachy",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"500": {
+"name": "Parnassos",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 768.0,
+"z1": 512.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"5001": {
+"name": "Playa del Desierto",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 512.0,
+"z1": 512.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"5002": {
+"name": "Montroyal",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1024.0,
+"z1": 1024.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"501": {
+"name": "Parnassos Island of Ceremony",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"505": {
+"name": "Avalon",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"540": {
+"name": "Old Athen",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"545": {
+"name": "West Athens",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"550": {
+"name": "Athen Shire",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"551": {
+"name": "Wailing Wastes",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"556": {
+"name": "Coast of Peace",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"560": {
+"name": "Mort",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"565": {
+"name": "Newland Desert",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"566": {
+"name": "Newland City",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 768.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"567": {
+"name": "Newland",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"570": {
+"name": "The Perpetual Wastelands ",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"585": {
+"name": "Aegean",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3584.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"586": {
+"name": "Wartorn Valley",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"590": {
+"name": "Central Artery Valley",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"595": {
+"name": "Deep Artery Valley",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"596": {
+"name": "Deep Artery Forest Glade",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 384.0,
+"z1": 384.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"600": {
+"name": "Varmint Woods",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"6001": {
+"name": "Space Apartment",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6002": {
+"name": "Sunrise Station",
+"x0": 47.99,
+"z0": 330.9,
+"x1": 152.21,
+"z1": 434.89,
+"w": 416,
+"h": 415,
+"terrain": false
+},
+"6003": {
+"name": "The Dig Site",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 1024.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"6007": {
+"name": "BS Signup (dng)",
+"x0": 200.8,
+"z0": 135.21,
+"x1": 265.21,
+"z1": 249.21,
+"w": 257,
+"h": 456,
+"terrain": false
+},
+"6010": {
+"name": "Serenity Islands",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6011": {
+"name": "Arid Rift",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6012": {
+"name": "Neretva Canyons",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6013": {
+"name": "Central Gateway",
+"x0": 232.94,
+"z0": 191.57,
+"x1": 816.38,
+"z1": 984.63,
+"w": 941,
+"h": 1280,
+"terrain": false
+},
+"6014": {
+"name": "Inside the Ruin",
+"x0": 158.96,
+"z0": 66.04,
+"x1": 335.05,
+"z1": 336.11,
+"w": 704,
+"h": 1080,
+"terrain": false
+},
+"6015": {
+"name": "The Elder Hall",
+"x0": 4.93,
+"z0": -0.55,
+"x1": 194.93,
+"z1": 177.44,
+"w": 759,
+"h": 711,
+"terrain": false
+},
+"6017": {
+"name": "Teachers' Chamber",
+"x0": 69.03,
+"z0": 69.01,
+"x1": 131.03,
+"z1": 133.01,
+"w": 248,
+"h": 256,
+"terrain": false
+},
+"6020": {
+"name": "Xan Hub Tower Room 1",
+"x0": 205.6,
+"z0": 173.8,
+"x1": 863.27,
+"z1": 1044.79,
+"w": 966,
+"h": 1280,
+"terrain": false
+},
+"6021": {
+"name": "Xan Tower",
+"x0": 230.61,
+"z0": 186.85,
+"x1": 827.85,
+"z1": 1000.53,
+"w": 939,
+"h": 1280,
+"terrain": false
+},
+"6022": {
+"name": "Area X",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6024": {
+"name": "Sealed Antechamber(dng)",
+"x0": 1787.01,
+"z0": 121.0,
+"x1": 1897.01,
+"z1": 231.0,
+"w": 440,
+"h": 440,
+"terrain": false
+},
+"6026": {
+"name": "Pegrama Medical Facility (dng)",
+"x0": 123.46,
+"z0": 163.21,
+"x1": 221.0,
+"z1": 264.8,
+"w": 390,
+"h": 406,
+"terrain": false
+},
+"6028": {
+"name": "Christmas Workshop (dng)",
+"x0": 129.21,
+"z0": 4.99,
+"x1": 241.0,
+"z1": 208.69,
+"w": 447,
+"h": 814,
+"terrain": false
+},
+"6035": {
+"name": "Dark Ruins Team",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6036": {
+"name": "Dark Ruins Boss",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6041": {
+"name": "Inside the Ruin",
+"x0": 158.97,
+"z0": 66.04,
+"x1": 335.05,
+"z1": 336.11,
+"w": 704,
+"h": 1080,
+"terrain": false
+},
+"605": {
+"name": "Belial Forest",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"6050": {
+"name": "Serenity Island Infested",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6051": {
+"name": "Serenity Island Mech Invasion",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6052": {
+"name": "Serenity Island Infested by Zix",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6055": {
+"name": "Inside The Machine",
+"x0": 184.8,
+"z0": 133.47,
+"x1": 385.49,
+"z1": 335.16,
+"w": 802,
+"h": 806,
+"terrain": false
+},
+"6056": {
+"name": "Dust Brigade Research Facility",
+"x0": 177.1,
+"z0": 163.82,
+"x1": 240.99,
+"z1": 236.89,
+"w": 255,
+"h": 292,
+"terrain": false
+},
+"6057": {
+"name": "Dust Brigade Research Facility 2",
+"x0": 177.1,
+"z0": 163.82,
+"x1": 240.99,
+"z1": 236.89,
+"w": 255,
+"h": 292,
+"terrain": false
+},
+"6060": {
+"name": "Profspecroom",
+"x0": 103.0,
+"z0": 94.99,
+"x1": 309.01,
+"z1": 297.01,
+"w": 824,
+"h": 808,
+"terrain": false
+},
+"6061": {
+"name": "Engineers' Dugout",
+"x0": 105.75,
+"z0": 103.72,
+"x1": 303.08,
+"z1": 300.68,
+"w": 789,
+"h": 787,
+"terrain": false
+},
+"6071": {
+"name": "Space Nightclub",
+"x0": 41.35,
+"z0": 41.1,
+"x1": 158.93,
+"z1": 158.71,
+"w": 470,
+"h": 470,
+"terrain": false
+},
+"610": {
+"name": "Southern Artery Valley ",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"6101": {
+"name": "Three Craters West",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"6102": {
+"name": "Three Craters East",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"6104": {
+"name": "New PVP PF",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6111": {
+"name": "Alien Scoutship (dng)",
+"x0": 139.0,
+"z0": -1.01,
+"x1": 305.01,
+"z1": 186.94,
+"w": 664,
+"h": 751,
+"terrain": false
+},
+"6112": {
+"name": "Alien Scoutship 2 (dng)",
+"x0": 139.0,
+"z0": -1.01,
+"x1": 305.01,
+"z1": 186.99,
+"w": 664,
+"h": 751,
+"terrain": false
+},
+"6113": {
+"name": "Alien Scoutship 3 (dng)",
+"x0": 139.0,
+"z0": -1.01,
+"x1": 305.01,
+"z1": 186.99,
+"w": 664,
+"h": 751,
+"terrain": false
+},
+"6115": {
+"name": "Alien Wrecked (dng)",
+"x0": 80.99,
+"z0": 65.03,
+"x1": 287.04,
+"z1": 224.32,
+"w": 824,
+"h": 637,
+"terrain": false
+},
+"6121": {
+"name": "Alien Ship 2 (dng)",
+"x0": 56.99,
+"z0": 25.0,
+"x1": 329.01,
+"z1": 283.01,
+"w": 1088,
+"h": 1032,
+"terrain": false
+},
+"6123": {
+"name": "Alien ship 3 crashed (dng)",
+"x0": 79.0,
+"z0": 65.0,
+"x1": 311.01,
+"z1": 349.01,
+"w": 928,
+"h": 1136,
+"terrain": false
+},
+"6125": {
+"name": "Alien ship trap (dng)",
+"x0": 137.0,
+"z0": 108.81,
+"x1": 247.21,
+"z1": 209.21,
+"w": 440,
+"h": 401,
+"terrain": false
+},
+"6127": {
+"name": "Alien Mind Room (dng)",
+"x0": 131.19,
+"z0": 27.19,
+"x1": 270.8,
+"z1": 166.8,
+"w": 558,
+"h": 558,
+"terrain": false
+},
+"6129": {
+"name": "Alien Salvage (dng)",
+"x0": 50.81,
+"z0": 15.2,
+"x1": 271.2,
+"z1": 175.21,
+"w": 881,
+"h": 640,
+"terrain": false
+},
+"6131": {
+"name": "ICC Holodeck Alien Training",
+"x0": 137.0,
+"z0": 100.1,
+"x1": 237.0,
+"z1": 197.21,
+"w": 400,
+"h": 388,
+"terrain": false
+},
+"6133": {
+"name": "City Sauna (dng)",
+"x0": 176.79,
+"z0": 124.79,
+"x1": 223.21,
+"z1": 165.21,
+"w": 185,
+"h": 161,
+"terrain": false
+},
+"615": {
+"name": "Southern Fouls Hills",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"620": {
+"name": "Eastern Fouls Plains",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"6211": {
+"name": "Cyborg Citadel (dng)",
+"x0": 138.1,
+"z0": 9.0,
+"x1": 241.0,
+"z1": 261.0,
+"w": 411,
+"h": 1007,
+"terrain": false
+},
+"625": {
+"name": "Milky Way",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"630": {
+"name": "Pleasant Meadows",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"6300": {
+"name": "SBC-Xpm Site Alpha-Romeo 21",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6301": {
+"name": "SBC-Xpm Site Alpha-Romeo 22",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6302": {
+"name": "SBC-Xpm Site Alpha Romeo 23",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6303": {
+"name": "SBC-Xpm Site Alpha Romeo 24",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6304": {
+"name": "SBC-Xpm Site Alpha Romeo 25",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6305": {
+"name": "SBC-Xpm Site Alpha Romeo 26",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"6306": {
+"name": "SBC-Xpm Site Alpha Romeo 27",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"635": {
+"name": "Stret East Bank",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3584.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"640": {
+"name": "Tir",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"641": {
+"name": "Tir Arena",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"646": {
+"name": "Tir County",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"647": {
+"name": "Greater Tir County",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1120,
+"terrain": true
+},
+"650": {
+"name": "Upper Stret East Bank",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3584.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1097,
+"terrain": true
+},
+"655": {
+"name": "Andromeda",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"6550": {
+"name": "Uturn Canyon",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 1792.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"6551": {
+"name": "Uturn Forest",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 1792.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"6553": {
+"name": "Arete Landing",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"656": {
+"name": "Coast of Tranquility",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"665": {
+"name": "Broken Shores",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"670": {
+"name": "Clondyke",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"685": {
+"name": "Galway County",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3584.0,
+"z1": 3584.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"687": {
+"name": "Galway Shire",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"695": {
+"name": "Lush Fields",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 4096.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"696": {
+"name": "Mutant Domain",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 2048.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"700": {
+"name": "Omni1-HEADQUARTER",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 896.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"7001": {
+"name": "Palmiero's Office (dng)",
+"x0": 158.79,
+"z0": 166.8,
+"x1": 248.89,
+"z1": 227.21,
+"w": 360,
+"h": 241,
+"terrain": false
+},
+"7010": {
+"name": "Quest HQ",
+"x0": 69.26,
+"z0": 57.44,
+"x1": 130.75,
+"z1": 118.93,
+"w": 245,
+"h": 245,
+"terrain": false
+},
+"7011": {
+"name": "Freelancers Inc. HQ - Rome",
+"x0": 46.54,
+"z0": 44.69,
+"x1": 153.32,
+"z1": 118.85,
+"w": 427,
+"h": 296,
+"terrain": false
+},
+"7012": {
+"name": "Freelancers Inc. HQ - Old Athen",
+"x0": 40.65,
+"z0": 38.74,
+"x1": 159.36,
+"z1": 118.14,
+"w": 474,
+"h": 317,
+"terrain": false
+},
+"7013": {
+"name": "Antiques n' Stuff",
+"x0": 67.42,
+"z0": -0.51,
+"x1": 139.17,
+"z1": 130.83,
+"w": 286,
+"h": 525,
+"terrain": false
+},
+"7015": {
+"name": "The Collector",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"7018": {
+"name": "Tax office lobby [dng]",
+"x0": 198.79,
+"z0": 64.79,
+"x1": 243.21,
+"z1": 107.2,
+"w": 177,
+"h": 169,
+"terrain": false
+},
+"7019": {
+"name": "Tax Office Clan",
+"x0": 168.79,
+"z0": 152.79,
+"x1": 213.21,
+"z1": 195.21,
+"w": 177,
+"h": 169,
+"terrain": false
+},
+"7020": {
+"name": "Tax Office Omni",
+"x0": 180.79,
+"z0": 82.79,
+"x1": 225.21,
+"z1": 125.2,
+"w": 177,
+"h": 169,
+"terrain": false
+},
+"705": {
+"name": "Omni1 Entertainment",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"7051": {
+"name": "DQ Omni",
+"x0": 4.99,
+"z0": 5.0,
+"x1": 262.38,
+"z1": 178.22,
+"w": 1029,
+"h": 692,
+"terrain": false
+},
+"7054": {
+"name": "DQ Clan",
+"x0": 4.99,
+"z0": 4.99,
+"x1": 262.79,
+"z1": 177.14,
+"w": 1031,
+"h": 688,
+"terrain": false
+},
+"706": {
+"name": "Omni Entertainment Arena",
+"x0": 40.99,
+"z0": 70.71,
+"x1": 340.6,
+"z1": 369.76,
+"w": 1198,
+"h": 1196,
+"terrain": false
+},
+"7092": {
+"name": "Unicorn Dungeon",
+"x0": 208.8,
+"z0": 202.99,
+"x1": 317.01,
+"z1": 303.01,
+"w": 432,
+"h": 400,
+"terrain": false
+},
+"710": {
+"name": "Omni-1 Trade",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 896.0,
+"z1": 896.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"7101": {
+"name": "Shuttle to ICC (dng)",
+"x0": 3.0,
+"z0": 3.0,
+"x1": 91.21,
+"z1": 117.19,
+"w": 352,
+"h": 456,
+"terrain": false
+},
+"716": {
+"name": "Omni Forest",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 480,
+"terrain": true
+},
+"717": {
+"name": "Greater Omni Forest",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"730": {
+"name": "Rome Park",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 768.0,
+"z1": 768.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"735": {
+"name": "Rome Blue",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1024.0,
+"z1": 768.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"740": {
+"name": "Rome Green",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1024.0,
+"z1": 768.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"750": {
+"name": "The Reck",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"760": {
+"name": "4 Holes",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"790": {
+"name": "Stret West Bank",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 4096.0,
+"z1": 3072.0,
+"w": 1280,
+"h": 960,
+"terrain": true
+},
+"791": {
+"name": "Holes in the Wall",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 3072.0,
+"z1": 1536.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"795": {
+"name": "The Longest Road",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 6144.0,
+"z1": 2048.0,
+"w": 1280,
+"h": 427,
+"terrain": true
+},
+"800": {
+"name": "Borealis",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1024.0,
+"z1": 1024.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"8002": {
+"name": "Race PF",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 1536.0,
+"z1": 768.0,
+"w": 1280,
+"h": 640,
+"terrain": true
+},
+"8004": {
+"name": "Clan Office",
+"x0": 106.79,
+"z0": -3.2,
+"x1": 253.21,
+"z1": 111.2,
+"w": 585,
+"h": 457,
+"terrain": false
+},
+"8006": {
+"name": "Generetic Offices",
+"x0": 138.99,
+"z0": 28.9,
+"x1": 322.99,
+"z1": 140.81,
+"w": 736,
+"h": 447,
+"terrain": false
+},
+"8009": {
+"name": "Crashed Alien Ship",
+"x0": 9.92,
+"z0": 0.26,
+"x1": 69.92,
+"z1": 80.15,
+"w": 240,
+"h": 319,
+"terrain": false
+},
+"8020": {
+"name": "The Pyramid of Home",
+"x0": 25.09,
+"z0": 11.67,
+"x1": 375.82,
+"z1": 395.1,
+"w": 1171,
+"h": 1280,
+"terrain": false
+},
+"8030": {
+"name": "The Gate",
+"x0": 165.1,
+"z0": 157.1,
+"x1": 238.99,
+"z1": 279.01,
+"w": 295,
+"h": 487,
+"terrain": false
+},
+"8040": {
+"name": "Foundry of Nightmares",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+},
+"8045": {
+"name": "Foundry of Nightmares",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 384.0,
+"z1": 224.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"8046": {
+"name": "Foundry of Nightmares",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 384.0,
+"z1": 224.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"8050": {
+"name": "Foundry of Nightmares",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 384.0,
+"z1": 224.0,
+"w": 1280,
+"h": 747,
+"terrain": true
+},
+"8060": {
+"name": "Abandoned Research Facility",
+"x0": 165.0,
+"z0": 173.26,
+"x1": 319.01,
+"z1": 407.1,
+"w": 616,
+"h": 935,
+"terrain": false
+},
+"8070": {
+"name": "Underhalls of Home",
+"x0": 92.46,
+"z0": 43.1,
+"x1": 307.1,
+"z1": 321.01,
+"w": 858,
+"h": 1111,
+"terrain": false
+},
+"8080": {
+"name": "Crashed Kyr'Ozch Destroyer",
+"x0": -3.2,
+"z0": -11.56,
+"x1": 387.01,
+"z1": 136.81,
+"w": 1280,
+"h": 487,
+"terrain": false
+},
+"896": {
+"name": "Character Creation Lab Dng",
+"x0": 185.21,
+"z0": 121.21,
+"x1": 259.1,
+"z1": 253.89,
+"w": 295,
+"h": 530,
+"terrain": false
+},
+"9041": {
+"name": "Phasefront Display",
+"x0": 153.02,
+"z0": 32.9,
+"x1": 343.01,
+"z1": 198.8,
+"w": 759,
+"h": 663,
+"terrain": false
+},
+"9042": {
+"name": "Xan Reliquary",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 448.0,
+"z1": 448.0,
+"w": 1280,
+"h": 1280,
+"terrain": true
+},
+"9050": {
+"name": "Desert Fortress",
+"x0": 72.1,
+"z0": 60.89,
+"x1": 223.0,
+"z1": 289.01,
+"w": 603,
+"h": 912,
+"terrain": false
+},
+"9061": {
+"name": "Temple of Three Winds",
+"x0": -2.99,
+"z0": 0.85,
+"x1": 385.91,
+"z1": 343.01,
+"w": 1280,
+"h": 1126,
+"terrain": false
+},
+"9070": {
+"name": "Condemned Subway",
+"x0": 7.99,
+"z0": 12.8,
+"x1": 355.01,
+"z1": 400.9,
+"w": 1144,
+"h": 1280,
+"terrain": false
+},
+"9080": {
+"name": "The Bull's Arena",
+"x0": 136.8,
+"z0": 142.8,
+"x1": 255.21,
+"z1": 261.21,
+"w": 473,
+"h": 473,
+"terrain": false
+},
+"950": {
+"name": "Omni Training",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 256.0,
+"w": 1024,
+"h": 1024,
+"terrain": true
+},
+"952": {
+"name": "Clan Training",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 256.0,
+"z1": 256.0,
+"w": 1024,
+"h": 1024,
+"terrain": true
+},
+"953": {
+"name": "Clan Backyard",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 192.0,
+"z1": 128.0,
+"w": 768,
+"h": 512,
+"terrain": true
+},
+"954": {
+"name": "Neutral Training",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 384.0,
+"z1": 256.0,
+"w": 1280,
+"h": 853,
+"terrain": true
+},
+"955": {
+"name": "Neutral Backyard",
+"x0": 0.0,
+"z0": 0.0,
+"x1": 224.0,
+"z1": 224.0,
+"w": 896,
+"h": 896,
+"terrain": true
+}
+}

@@ -24,8 +24,12 @@ COPY data/recipes/LICENSE /app/LICENSE-GPL-3.0
 COPY data/recipes/SOURCE.md /app/SOURCE-recipes.md
 COPY data/nadybot/SOURCE.md /app/SOURCE-datasets.md
 COPY --from=build /src/archive.sqlite /app/archive.sqlite
+# media: item icons, zone maps (+ index.json), planet maps
+COPY data/icons/ /app/media/icons/
+COPY data/maps/ /app/media/maps/
+COPY data/planet/ /app/media/planet/
 USER archive
-ENV ARCHIVE_DB=/app/archive.sqlite PORT=8080 PYTHONDONTWRITEBYTECODE=1
+ENV ARCHIVE_DB=/app/archive.sqlite ARCHIVE_MEDIA=/app/media PORT=8080 PYTHONDONTWRITEBYTECODE=1
 EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=3s CMD python3 -c "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8080/healthz').status == 200 else 1)"
 CMD ["python3", "-I", "/app/server.py"]

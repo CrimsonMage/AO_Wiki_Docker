@@ -98,5 +98,23 @@ aodb_named = db.execute("SELECT count(*) FROM (SELECT lowid AS i FROM ds_items_q
                         "WHERE CAST(i AS INTEGER) IN (SELECT id FROM items)").fetchone()[0]
 check(aodb_named == aodb_ids, "bot item table: %d ids, %d named" % (aodb_ids, aodb_named))
 
+print("Media")
+icons = [f for f in os.listdir(os.path.join(DATA, "icons")) if f.endswith(".png")] if os.path.isdir(os.path.join(DATA, "icons")) else []
+check(len(icons) >= 9000, "item icons: %d" % len(icons))
+used = db.execute("SELECT count(DISTINCT icon) FROM item_icons").fetchone()[0]
+have = sum(1 for (i,) in db.execute("SELECT DISTINCT icon FROM item_icons") if os.path.exists(os.path.join(DATA, "icons", "%d.png" % i)))
+print("  %d icons used by items, %d of them present" % (used, have))
+try:
+    idx = json.load(open(os.path.join(DATA, "maps", "index.json")))
+    miss = [z for z in idx if not os.path.exists(os.path.join(DATA, "maps", "%s.jpg" % z))]
+    check(len(idx) >= 600 and not miss, "zone maps: %d in index, %d images missing" % (len(idx), len(miss)))
+except (OSError, ValueError) as e:
+    check(False, "zone maps: %s" % e)
+try:
+    pidx = json.load(open(os.path.join(DATA, "planet", "index.json")))
+    check(all(os.path.exists(os.path.join(DATA, "planet", k + ".jpg")) for k in pidx) and len(pidx) >= 2, "planet maps: %s" % ", ".join(pidx))
+except (OSError, ValueError) as e:
+    check(False, "planet maps: %s" % e)
+
 print("\n%s" % ("ALL PRESENT" if not bad else "%d PROBLEM(S)" % len(bad)))
 sys.exit(1 if bad else 0)

@@ -10,6 +10,9 @@ Pages:  /?q=           search (entries, items, data rows)
         /e/<key>       a recipe / guide / item text / bot guide
         /item/<id>     an item and everything that mentions it
         /data          the datasets;  /d/<name>?q=&p=  one (filter, pages);  /d/<name>/<row>  one row
+        /level?l=&with=&mission=   level lookup: team / PvP ranges, XP / SK, mission QLs (the bots' !level)
+        /maps          planet maps and zone maps;  /map/<zone>  a zone map with markers;  /planet/<slug>
+Media (from --media, default data/ next to app/ or /app/media): /icons/<id>.png /maps/<zone>.jpg /planet/<slug>.jpg
 JSON:   /api/search?q=&limit=  /api/entry/<key>  /api/item/<id>  /api/datasets  /api/d/<name>?q=&p=
         /api/d/<name>/<row>  /api/stats  /healthz
 """
@@ -28,6 +31,41 @@ KIND = {"recipe": "Bot recipe", "guide": "AO-Universe guide", "text": "Game item
 PAGE = 50
 local = threading.local()
 DB_PATH = None
+MEDIA = None  # folder with icons/, maps/ (+ index.json), planet/ and planet_extra/ (+ index.json)
+_maps = {}
+
+
+def zone_maps():
+    """zone id -> {name, x0, z0, x1, z1, w, h} for the zone maps that exist"""
+    if not _maps and MEDIA:
+        try:
+            for k, v in json.load(open(os.path.join(MEDIA, "maps", "index.json"))).items():
+                _maps[int(k)] = v
+        except (OSError, ValueError):
+            pass
+    return _maps
+
+
+def planet_maps():
+    out = {}
+    for folder in ("planet", "planet_extra"):
+        try:
+            for k, v in json.load(open(os.path.join(MEDIA, folder, "index.json"))).items():
+                out[k] = dict(v, folder=folder)
+        except (OSError, ValueError, TypeError):
+            pass
+    return out
+
+
+def icon_of(iid):
+    r = db().execute("SELECT icon FROM item_icons WHERE item_id = ?", (iid,)).fetchone()
+    if r and MEDIA and os.path.exists(os.path.join(MEDIA, "icons", "%d.png" % r[0])):
+        return r[0]
+
+
+def icon_img(iid, cls="icon"):
+    ic = icon_of(iid)
+    return "<img class='%s' src='/icons/%d.png' alt='' width='32' height='32'>" % (cls, ic) if ic else ""
 E = html.escape
 ENTRY_KEY = r"(?:recipe|guide|text|botguide)-\d+"
 
@@ -182,7 +220,7 @@ def page(title, body, q=""):
     return """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%s</title><link rel="stylesheet" href="/static/style.css"></head><body>
-<header><a class="brand" href="/">AO Wiki</a><nav><a href="/">Search</a><a href="/data">Data</a></nav>
+<header><a class="brand" href="/">AO Wiki</a><nav><a href="/">Search</a><a href="/data">Data</a><a href="/level">Levels</a><a href="/maps">Maps</a></nav>
 <form action="/" method="get"><input type="search" name="q" value="%s" placeholder="Item, recipe, boss, nano, place..." autofocus>
 <button>Search</button></form></header>
 <main>%s</main>
@@ -206,8 +244,11 @@ def cell(d, col, v):
     if col in d["item"] and v.isdigit() and v != "0":
         n = item_name(int(v))
         return "<a class='item' href='/item/%s'>%s</a>" % (v, E(n) if n else v)
-    if col in d["pf"] and v in lookup("pf"):
-        return "%s <span class='dim'>(%s)</span>" % (E(lookup("pf")[v]), E(v))
+    if col in d["pf"] and (v in lookup("pf") or (v.isdigit() and int(v) in zone_maps())):
+        nm = lookup("pf").get(v) or zone_maps().get(int(v), {}).get("name", v)
+        if v.isdigit() and int(v) in zone_maps():
+            return "<a href='/map/%s'>%s</a> <span class='dim'>(%s)</span>" % (v, E(nm), E(v))
+        return "%s <span class='dim'>(%s)</span>" % (E(nm), E(v))
     if col in d["skill"] and v in lookup("skill"):
         return "%s <span class='dim'>(%s)</span>" % (E(lookup("skill")[v]), E(v))
     return E(v).replace("\\n", "<br>").replace("\n", "<br>")
@@ -236,6 +277,9 @@ def results_html(q, res):
                 "&middot; <a href='/?q=reet'>reet</a> &middot; <a href='/?q=composite'>composite</a></p></section>"
                 % (s["recipes"], s["guides"], s["item_texts"], s["bot_guides"], s["datasets"], "{:,}".format(s["dataset_rows"])))
     parts = []
+    lm = re.fullmatch(r"\s*(?:level|lvl|lev|l)?\s*(\d{1,3})\s*", q, re.I)
+    if lm and level(int(lm.group(1))):
+        parts.append(level_card(level(int(lm.group(1)))) + "<p><a href='/level?l=%s'>Level lookup &rarr;</a></p>" % lm.group(1))
     if res["entries"]:
         parts.append("<h2>Recipes and guides</h2><ul class='results'>%s</ul>" % "".join(
             "<li><a href='/e/%s'>%s</a> %s%s</li>" % (E(r["key"]), E(r["name"]), tag(r["kind"]),
@@ -243,7 +287,7 @@ def results_html(q, res):
             for r in res["entries"]))
     if res["items"]:
         parts.append("<h2>Items</h2><ul class='results cols'>%s</ul>" % "".join(
-            "<li><a class='item' href='/item/%d'>%s</a></li>" % (r["id"], E(r["name"])) for r in res["items"]))
+            "<li>%s<a class='item' href='/item/%d'>%s</a></li>" % (icon_img(r["id"], "icon sm"), r["id"], E(r["name"])) for r in res["items"]))
     if res["data"]:
         parts.append("<h2>In the datasets</h2><ul class='results'>%s</ul>" % "".join(
             "<li><a href='/d/%s/%d'>%s</a> <span class='tag data'>%s</span></li>" % (
@@ -284,10 +328,180 @@ def item_html(it, ql):
         return [c for c in ds[n]["item"] if all(str(r.get(c)) == str(it["id"]) for r in rows)]
     data = "".join("<h2>%s <span class='dim'>(%s)</span></h2>%s" % (
         E(ds[n]["title"]), "<a href='/d/%s'>dataset</a>" % n, table(ds[n], it["data"][n], hide=own_cols(n, it["data"][n]))) for n in order)
-    return ("<article class='ao'><h1>%s</h1><p class='meta'>%s &middot; <a href='/?q=%s'>search for this name</a></p>"
+    return ("<article class='ao'><h1>%s%s</h1><p class='meta'>%s &middot; <a href='/?q=%s'>search for this name</a></p>"
             "<h2>Recipes and guides</h2>%s%s</article>" % (
-                E(it["name"]), " &middot; ".join(meta), urllib.parse.quote_plus(it["name"]),
+                icon_img(it["id"]), E(it["name"]), " &middot; ".join(meta), urllib.parse.quote_plus(it["name"]),
                 "<ul class='results'>%s</ul>" % li if li else "<p class='dim'>None mention it.</p>", data))
+
+
+# ---------------------------------------------------------------- levels ----
+# the bots' level table (LEVEL_MODULE/levels.csv): team and PvP ranges per level, XP (SK from 200),
+# tokens, daily mission XP, the 11 mission-slider QLs, max AI level, max LE research, XP-giving mob levels
+def level(n):
+    try:
+        r = db().execute('SELECT * FROM "ds_levels" WHERE CAST(level AS INTEGER) = ?', (int(n),)).fetchone()
+    except (sqlite3.Error, ValueError):
+        return None
+    if not r:
+        return None
+    d = {k: r[k] for k in r.keys()}
+    out = {k: int(d[k]) if str(d[k]).lstrip("-").isdigit() else d[k] for k in d}
+    out["missions"] = [int(x) for x in str(d["missions"]).split(",") if x.strip().isdigit()]
+    return out
+
+
+def can_team(a, b):
+    la, lb = level(a), level(b)
+    return bool(la and lb and la["teamMin"] <= b <= la["teamMax"] and lb["teamMin"] <= a <= lb["teamMax"])
+
+
+def can_pvp(a, b):
+    la, lb = level(a), level(b)
+    return bool(la and lb and la["pvpMin"] <= b <= la["pvpMax"] and lb["pvpMin"] <= a <= lb["pvpMax"])
+
+
+def mission_levels(ql):
+    """levels whose mission slider reaches QL `ql` (lowest to highest slider QL)"""
+    out = []
+    for r in db().execute('SELECT level, missions FROM "ds_levels" ORDER BY CAST(level AS INTEGER)'):
+        m = [int(x) for x in str(r[1]).split(",") if x.strip().isdigit()]
+        if m and min(m) <= ql <= max(m):
+            out.append(int(r[0]))
+    return out
+
+
+def ranges(levels):
+    """[1,2,3,7,8] -> '1-3, 7-8'"""
+    out, start, prev = [], None, None
+    for x in levels + [None]:
+        if start is None:
+            start = prev = x
+        elif x is not None and x == prev + 1:
+            prev = x
+        else:
+            out.append(str(start) if start == prev else "%d\u2013%d" % (start, prev))
+            start = prev = x
+    return ", ".join(o for o in out if o != "None")
+
+
+def level_card(L):
+    xs = "SK" if L["level"] >= 200 else "XP"
+    nxt = ("{:,} %s to level %d" % (xs, L["level"] + 1)).format(L["xpsk"]) if L["xpsk"] else "max level"
+    rows = [("Team with", "levels %d\u2013%d" % (L["teamMin"], L["teamMax"])),
+            ("PvP with", "levels %d\u2013%d" % (L["pvpMin"], L["pvpMax"])),
+            ("Next level", nxt),
+            ("Mission QLs (slider)", ", ".join(map(str, L["missions"]))),
+            ("Mobs that give XP", "levels %d\u2013%d" % (L["mob_min"], L["mob_max"])),
+            ("Tokens per token board level", str(L["tokens"])),
+            ("Daily mission XP", "%s%%" % L["daily_mission_xp"]),
+            ("Max AI level", str(L["max_ai_level"])), ("Max LE research", str(L["max_le_level"]))]
+    return ("<div class='levelcard'><h2>Level %d</h2><table class='kv'>%s</table></div>" % (
+        L["level"], "".join("<tr><th>%s</th><td>%s</td></tr>" % (E(k), E(v)) for k, v in rows)))
+
+
+def level_html(qs):
+    g = lambda k: (qs.get(k) or [""])[0].strip()
+    lv, w, mq = g("l"), g("with"), g("mission")
+    out = ["<article class='ao'><h1>Level lookup</h1><p class='dim'>Team and PvP ranges, XP / SK, mission QLs: the "
+           "bots' <code>!level</code>, <code>!team</code> and <code>!missions</code>.</p>"
+           "<form class='filter' action='/level' method='get'>"
+           "<input type='number' name='l' min='1' max='220' value='%s' placeholder='Level'>"
+           "<input type='number' name='with' min='1' max='220' value='%s' placeholder='Team / PvP with level (optional)'>"
+           "<button>Look up</button></form>"
+           "<form class='filter' action='/level' method='get'><input type='number' name='mission' min='1' max='300' value='%s' "
+           "placeholder='Who can roll missions of QL ...'><button>Missions</button></form>" % (E(lv), E(w), E(mq))]
+    if lv.isdigit():
+        L = level(int(lv))
+        if not L:
+            out.append("<p class='dim'>No level %s (1\u2013220).</p>" % E(lv))
+        else:
+            out.append(level_card(L))
+            if w.isdigit() and level(int(w)):
+                a, b = int(lv), int(w)
+                out.append("<p class='verdict'>Level %d and level %d: <b>%s</b> team, <b>%s</b> fight in PvP.</p>" % (
+                    a, b, "can" if can_team(a, b) else "cannot", "can" if can_pvp(a, b) else "cannot"))
+    if mq.isdigit():
+        lv_ = mission_levels(int(mq))
+        out.append("<p class='verdict'>QL %s missions: levels <b>%s</b> can roll them on the mission slider.</p>" % (
+            E(mq), E(ranges(lv_)) if lv_ else "none"))
+    out.append("<p class='dim'>Data: the bots' level table, <a href='/d/levels'>all 220 levels</a>.</p></article>")
+    return "".join(out)
+
+
+# ---------------------------------------------------------------- maps ----
+# points of interest per zone: datasets with a zone id and x / y coordinates (AO's map coordinates:
+# x east, y north, the same frame as the zone map images)
+POI = [("whereis", "playfield_id", "xcoord", "ycoord", ("name",), "where"),
+       ("dynacamps", "playfield_id", "x_coord", "y_coord", ("mob", "min_ql", "max_ql"), "dyna"),
+       ("tower_sites", "playfield_id", "x_coord", "y_coord", ("site_name", "min_ql", "max_ql"), "tower")]
+POI_KIND = {"where": "Where is", "dyna": "Dyna camp", "tower": "Tower site"}
+
+
+def zone_pois(zone):
+    out = []
+    for ds, zc, xc, yc, label, kind in POI:
+        if ds not in datasets():
+            continue
+        cols = ", ".join('"%s"' % c for c in (xc, yc) + label)
+        for r in db().execute('SELECT rowid, %s FROM "ds_%s" WHERE "%s" = ?' % (cols, ds, zc), (str(zone),)):
+            try:
+                x, y = float(r[1]), float(r[2])
+            except (TypeError, ValueError):
+                continue
+            vals = [str(v) for v in r[3:] if v not in (None, "")]
+            name = vals[0] if vals else "#%d" % r[0]
+            if len(vals) == 3:
+                name += " (QL %s\u2013%s)" % (vals[1], vals[2])
+            out.append({"kind": kind, "ds": ds, "row": r[0], "name": name, "x": x, "y": y})
+    return out
+
+
+def maps_html(q):
+    pm = planet_maps()
+    cards = "".join("<li><a href='/planet/%s'>%s</a> <span class='dim'>&middot; %d&times;%d%s</span></li>" % (
+        k, E(v["name"]), v["w"], v["h"], " &middot; player-made, local copy only" if v["third_party"] else "") for k, v in pm.items())
+    zm = zone_maps()
+    rows = sorted(zm.items(), key=lambda kv: kv[1]["name"].lower())
+    if q:
+        rows = [kv for kv in rows if q.lower() in kv[1]["name"].lower() or q == str(kv[0])]
+    zl = "".join("<li><a href='/map/%d'>%s</a> <span class='dim'>%d</span></li>" % (k, E(v["name"]), k) for k, v in rows)
+    return ("<article class='ao'><h1>Maps</h1><h2>Planet maps</h2><ul class='results'>%s</ul>"
+            "<h2>Zone maps <span class='dim'>(%d)</span></h2>"
+            "<p class='dim'>Drawn top-down from the game's terrain and collision data, north up. Zones with places, dyna camps "
+            "or tower sites in the datasets show them as markers.</p>"
+            "<form class='filter' action='/maps' method='get'><input type='search' name='q' value='%s' placeholder='Filter zones'>"
+            "<button>Filter</button></form><ul class='results cols'>%s</ul></article>" % (
+                cards or "<li class='dim'>none</li>", len(zm), E(q), zl or "<li class='dim'>no zone matches</li>"))
+
+
+def zone_html(zone, m):
+    pois = zone_pois(zone)
+    dots, legend = [], []
+    for i, p in enumerate(pois, 1):
+        left = (p["x"] - m["x0"]) / (m["x1"] - m["x0"]) * 100
+        top = (m["z1"] - p["y"]) / (m["z1"] - m["z0"]) * 100
+        if not (-1 <= left <= 101 and -1 <= top <= 101):
+            continue
+        tip = "%d. %s: %s (%.0f, %.0f)" % (i, POI_KIND[p["kind"]], p["name"], p["x"], p["y"])
+        dots.append("<a class='poi %s' href='/d/%s/%d' style='left:%.2f%%;top:%.2f%%' title='%s'><span>%d</span></a>" % (
+            p["kind"], p["ds"], p["row"], left, top, E(tip), i))
+        legend.append("<li><span class='key %s'>%d</span> <a href='/d/%s/%d'>%s</a> <span class='dim'>%s &middot; %.0f, %.0f</span></li>" % (
+            p["kind"], i, p["ds"], p["row"], E(p["name"]), POI_KIND[p["kind"]], p["x"], p["y"]))
+    size = "%.0f &times; %.0f m" % (m["x1"] - m["x0"], m["z1"] - m["z0"])
+    return ("<article class='ao'><h1>%s <span class='dim'>%d</span></h1><p class='meta'>%s &middot; north up &middot; "
+            "x %.0f&ndash;%.0f, y %.0f&ndash;%.0f &middot; <a href='/maps/%d.jpg'>full image</a></p>"
+            "<div class='mapwrap'><img src='/maps/%d.jpg' alt='Map of %s' width='%d' height='%d'>%s</div>"
+            "%s</article>" % (
+                E(m["name"]), zone, size, m["x0"], m["x1"], m["z0"], m["z1"], zone, zone, E(m["name"]), m["w"], m["h"], "".join(dots),
+                "<h2>On this map</h2><ul class='results legend'>%s</ul>" % "".join(legend) if legend else
+                "<p class='dim'>No places from the datasets in this zone.</p>"))
+
+
+def planet_html(slug, v):
+    return ("<article class='ao'><h1>%s</h1><p class='meta'>%d &times; %d%s &middot; <a href='/planet/%s.jpg'>full image</a></p>"
+            "<div class='scroll'><img class='planet' src='/planet/%s.jpg' alt='%s' width='%d' height='%d'></div></article>" % (
+                E(v["name"]), v["w"], v["h"], " &middot; player-made map shipped with the game; this copy is local only" if v["third_party"] else
+                " &middot; Funcom's map from the game", slug, slug, E(v["name"]), v["w"], v["h"]))
 
 
 def data_index_html():
@@ -326,11 +540,13 @@ def row_html(d, r):
 class H(BaseHTTPRequestHandler):
     server_version = "AOWiki"
 
-    def send(self, code, body, ctype="text/html; charset=utf-8"):
+    def send(self, code, body, ctype="text/html; charset=utf-8", cache=False):
         b = body.encode("utf-8") if isinstance(body, str) else body
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(b)))
+        if cache:
+            self.send_header("Cache-Control", "public, max-age=86400")
         self.send_header("Content-Security-Policy", "default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self'; form-action 'self'")
         self.send_header("X-Content-Type-Options", "nosniff")
         self.send_header("Referrer-Policy", "no-referrer")
@@ -365,6 +581,43 @@ class H(BaseHTTPRequestHandler):
             if m:
                 it = item(int(m.group(1)))
                 return self.send(200, page(it["name"], item_html(it, (qs.get("ql") or [""])[0][:6]))) if it else self.nf("No such item.")
+            m = re.fullmatch(r"/(icons|maps|planet)/([a-z0-9\-]+)\.(png|jpg)", p)
+            if m and MEDIA:
+                folder = m.group(1)
+                path = os.path.join(MEDIA, folder, m.group(2) + "." + m.group(3))
+                if folder == "planet" and not os.path.exists(path):
+                    path = os.path.join(MEDIA, "planet_extra", m.group(2) + "." + m.group(3))
+                if os.path.isfile(path):
+                    return self.send(200, open(path, "rb").read(), "image/png" if m.group(3) == "png" else "image/jpeg", cache=True)
+                return self.nf()
+            if p == "/level":
+                return self.send(200, page("Level lookup", level_html(qs)))
+            m = re.fullmatch(r"/api/level/(\d+)", p)
+            if m:
+                L = level(int(m.group(1)))
+                if not L:
+                    return self.js({"error": "no such level"}, 404)
+                w = (qs.get("with") or [""])[0]
+                if w.isdigit():
+                    L = dict(L, with_level=int(w), can_team=can_team(L["level"], int(w)), can_pvp=can_pvp(L["level"], int(w)))
+                return self.js(L)
+            m = re.fullmatch(r"/api/missions/(\d+)", p)
+            if m:
+                return self.js({"ql": int(m.group(1)), "levels": mission_levels(int(m.group(1)))})
+            if p == "/maps":
+                return self.send(200, page("Maps", maps_html(q)))
+            m = re.fullmatch(r"/map/(\d+)", p)
+            if m and int(m.group(1)) in zone_maps():
+                z = int(m.group(1))
+                return self.send(200, page(zone_maps()[z]["name"], zone_html(z, zone_maps()[z])))
+            m = re.fullmatch(r"/planet/([a-z0-9\-]+)", p)
+            if m and m.group(1) in planet_maps():
+                return self.send(200, page(planet_maps()[m.group(1)]["name"], planet_html(m.group(1), planet_maps()[m.group(1)])))
+            if p == "/api/maps":
+                return self.js({"zones": zone_maps(), "planet": planet_maps()})
+            m = re.fullmatch(r"/api/map/(\d+)", p)
+            if m and int(m.group(1)) in zone_maps():
+                return self.js(dict(zone_maps()[int(m.group(1))], id=int(m.group(1)), points=zone_pois(int(m.group(1)))))
             if p == "/data":
                 return self.send(200, page("Datasets", data_index_html()))
             m = re.fullmatch(r"/d/([a-z0-9_]+)", p)
@@ -414,8 +667,12 @@ def main():
     ap.add_argument("--db", default=os.environ.get("ARCHIVE_DB", "/app/archive.sqlite"))
     ap.add_argument("--host", default=os.environ.get("HOST", "0.0.0.0"))
     ap.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8080")))
+    ap.add_argument("--media", default=os.environ.get("ARCHIVE_MEDIA") or next(
+        (d for d in ("/app/media", os.path.join(os.path.dirname(HERE), "data")) if os.path.isdir(d)), None))
     a = ap.parse_args()
     DB_PATH = a.db
+    global MEDIA
+    MEDIA = a.media
     print("AO Wiki on http://%s:%d  (%s)" % (a.host, a.port, json.dumps(stats())), flush=True)
     ThreadingHTTPServer((a.host, a.port), H).serve_forever()
 

@@ -1,0 +1,16 @@
+{
+ "newshadowlands": {
+  "name": "NewShadowlands",
+  "w": 1472,
+  "h": 5920,
+  "third_party": false,
+  "folder": "Shadowlands"
+ },
+ "default-planet-map": {
+  "name": "Default planet map",
+  "w": 1024,
+  "h": 1536,
+  "third_party": false,
+  "folder": "normal"
+ }
+}

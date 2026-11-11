@@ -1,4 +1,5 @@
 # AO Wiki with AO-Universe's tradeskill guides included (data/aou/guides.json).
+# It also adds the player-made planet maps (data/planet_extra/, from build/import_planetmaps.py).
 # Only publish an image built from this file with AO-Universe's permission: the guides are their
 # authors' work. For your own copy it is fine.
 #
@@ -22,8 +23,13 @@ COPY data/recipes/LICENSE /app/LICENSE-GPL-3.0
 COPY data/recipes/SOURCE.md /app/SOURCE-recipes.md
 COPY data/nadybot/SOURCE.md /app/SOURCE-datasets.md
 COPY --from=build /src/archive.sqlite /app/archive.sqlite
+# media: item icons, zone maps (+ index.json), planet maps
+COPY data/icons/ /app/media/icons/
+COPY data/maps/ /app/media/maps/
+COPY data/planet/ /app/media/planet/
+COPY data/planet_extra/ /app/media/planet_extra/
 USER archive
-ENV ARCHIVE_DB=/app/archive.sqlite PORT=8080 PYTHONDONTWRITEBYTECODE=1
+ENV ARCHIVE_DB=/app/archive.sqlite ARCHIVE_MEDIA=/app/media PORT=8080 PYTHONDONTWRITEBYTECODE=1
 EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=3s CMD python3 -c "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8080/healthz').status == 200 else 1)"
 CMD ["python3", "-I", "/app/server.py"]

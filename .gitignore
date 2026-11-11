@@ -2,3 +2,5 @@
 data/aou/
 *.sqlite
 __pycache__/
+# player-made planet maps (Saavick, Dovve): no license given, built locally only (README)
+data/planet_extra/

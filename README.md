@@ -13,7 +13,10 @@ the servers and fan sites are gone, so it never connects to the game or the inte
 - 56 bot datasets, 506,035 rows: boss and raid loot, NPC / boss locations, spawn times, nanos and
   where to get them, symbiants and pocket bosses, implants and clusters, perks, Ofab and alien gear,
   LE procs, levels, trickle-down, whompahs, ...
-- 120,835 item names, with QL ranges where known
+- 120,835 item names, with QL ranges where known, and 9,308 item icons
+- Maps: 618 zone maps (every zone, also dungeons and Jobe) with markers for places, dyna camps and tower
+  sites, plus the Rubi-Ka and Shadowlands planet maps
+- Level lookup: team and PvP ranges, XP / SK, mission QLs (the bots' `!level`, `!team`, `!missions`)
 
 ![The datasets index: loot, locations, nanos, implants and more, by topic](docs/screenshots/datasets.webp)
 
@@ -66,7 +69,9 @@ python3 app/server.py --db archive.sqlite --port 8080
 | Page | What it shows |
 |---|---|
 | `/` | Search: recipes and guides, items, and rows from the datasets |
-| `/item/<id>` | Everything about one item, with its QL range |
+| `/item/<id>` | Everything about one item, with its icon and QL range |
+| `/level` | Level lookup: team / PvP ranges, XP / SK, mission QLs; can two levels team; who can roll QL N missions |
+| `/maps` | Planet maps and every zone map; `/map/<zone>` a zone with numbered markers and a legend |
 | `/data` | All datasets by topic; `/d/<name>` one dataset, with a filter and 50 rows per page |
 | `/e/<key>` | One recipe, guide or item text, every item in it a link |
 
@@ -83,6 +88,9 @@ their item page; zone and skill ids are shown with their names.
 | `/api/datasets` | the datasets with their columns and sizes |
 | `/api/d/nanos?q=composite&p=0` | rows of one dataset, filtered, 50 per page |
 | `/api/d/nanos/498` | one row |
+| `/api/level/100?with=130` | a level's ranges and numbers; `can_team` / `can_pvp` with another level |
+| `/api/missions/150` | the levels that can roll QL 150 missions |
+| `/api/maps`, `/api/map/605` | the zone and planet maps; one zone with its points of interest |
 | `/api/stats` | how many of each are in the archive |
 
 ## What is inside
@@ -93,6 +101,9 @@ their item page; zone and skill ids are shown with their names.
 | The bots' datasets and guides ([Nadybot](https://github.com/Nadybot/Nadybot) modules, branch `nadybot7`, Aug 2026) | 56 datasets, 13 guides | `data/nadybot/` | GPL-3.0 |
 | Item names, from the game's item database | 120,830 | `data/items.tsv` | game data © Funcom |
 | The game's own recipe texts (item descriptions that are tradeskill instructions) | 151 | `data/item_texts.json` | game text © Funcom |
+| Item icons, from the game's icon database | 9,308 | `data/icons/` | game art © Funcom |
+| Zone maps, drawn top-down by this project from the game's terrain and collision data | 618 | `data/maps/` | drawn here; the game data in them © Funcom |
+| Planet maps: Funcom's own Rubi-Ka and Shadowlands maps, stitched from the game's map tiles | 2 | `data/planet/` | game art © Funcom |
 
 `data/recipes/SOURCE.md` and `data/nadybot/SOURCE.md` name the exact commits. The datasets, by topic:
 
@@ -110,6 +121,14 @@ their item page; zone and skill ids are shown with their names.
 - **Character:** perks (every level), levels (XP / SK, team and PvP ranges, mission XP), research,
   trickle-down; skill, ability and profession ids.
 - **Travel:** whompah cities and links.
+
+### Player-made planet maps (optional, not in this repository)
+
+The game also ships two maps drawn by players: Saavick's Map of Rubi-Ka and Peace "Dovve" Forejt's map.
+They came without a license, so they are not published here. With Anarchy Online installed,
+`python3 build/import_planetmaps.py "/path/to/Anarchy Online"` (needs `pip install pillow`) stitches
+them into `data/planet_extra/`; a server run from the repository shows them, and `Dockerfile.full`
+includes them.
 
 ### AO-Universe guides (optional, not in this repository)
 
@@ -136,7 +155,8 @@ ao-wiki:full .` makes an image that includes them. Please ask AO-Universe
 - **`data/recipes/` and `data/nadybot/`** come from the Nadybot project and stay under the
   **GPL-3.0** (`LICENSE` in each folder). You can use and share them freely; changed versions of
   those files must stay GPL-3.0 and say where they came from.
-- **Item names and texts** are Anarchy Online game data, © Funcom.
+- **Item names, texts, icons and the planet maps** are Anarchy Online game data, © Funcom. The zone map
+  images are drawn by this project from game data.
 
 Unofficial fan project, not affiliated with Funcom, Nadybot or AO-Universe. Thanks to the Nadybot,
 Budabot and Bebot authors, the recipe writers, and AO-Universe.

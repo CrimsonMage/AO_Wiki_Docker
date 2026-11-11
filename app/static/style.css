@@ -60,3 +60,23 @@ form.filter { margin: 4px 0 8px; max-width: 420px; }
 ul.cols { columns: 2 260px; }
 ul.cols li { break-inside: avoid; }
 .tag.data { color: var(--text); } .tag.botguide { color: var(--guide); }
+
+/* --- icons and maps (2026-11-11) --- */
+img.icon { width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; image-rendering: auto; }
+img.icon.sm { width: 22px; height: 22px; margin-right: 6px; }
+.mapwrap { position: relative; display: inline-block; max-width: 100%; margin: 6px 0 10px; border: 1px solid var(--edge); }
+.mapwrap img { display: block; max-width: 100%; height: auto; }
+.poi { position: absolute; transform: translate(-50%, -50%); width: 18px; height: 18px; border-radius: 50%;
+  border: 2px solid #000; display: flex; align-items: center; justify-content: center; text-decoration: none;
+  font-size: 10px; font-weight: 700; color: #000; box-shadow: 0 0 0 1px rgba(255,255,255,.7); }
+.poi span { line-height: 1; }
+.poi.where, .key.where { background: #ffd34d; } .poi.dyna, .key.dyna { background: #ff6b5e; } .poi.tower, .key.tower { background: #7fd8ff; }
+.key { display: inline-block; min-width: 20px; padding: 0 4px; border-radius: 9px; text-align: center; color: #000; font-size: .75rem; font-weight: 700; }
+img.planet { display: block; max-width: none; }
+
+/* --- level lookup (2026-11-11) --- */
+form.filter input[type=number] { flex: 1; min-width: 0; padding: 7px 10px; background: var(--bg); color: var(--body); border: 1px solid var(--edge); font: inherit; }
+.levelcard { max-width: 560px; }
+.levelcard h2 { margin-top: 10px; }
+.verdict { font-size: 1.05rem; }
+code { color: var(--text); }

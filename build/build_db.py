@@ -173,6 +173,14 @@ def load_datasets(db, names):
                     db.execute("INSERT OR IGNORE INTO nano_programs VALUES (?, ?)", (int(i), nm))
         except sqlite3.Error:
             pass
+    # item icons (the bots' item table names an icon for each low / high id; data/icons/<icon>.png)
+    db.execute("CREATE TABLE item_icons (item_id INTEGER PRIMARY KEY, icon INTEGER)")
+    if "items_ql" in loaded:
+        for lo, hi, icon in db.execute("SELECT lowid, highid, icon FROM ds_items_ql").fetchall():
+            if icon and str(icon).isdigit():
+                for x in (lo, hi):
+                    if x and str(x).isdigit():
+                        db.execute("INSERT OR IGNORE INTO item_icons VALUES (?, ?)", (int(x), int(icon)))
     pf_names = {r[0]: r[1] for r in db.execute("SELECT id, long_name FROM ds_playfields")} if "playfields" in loaded else {}
     for name, (d, cols) in loaded.items():
         t = q("ds_" + name)
