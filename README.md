@@ -15,6 +15,10 @@ the servers and fan sites are gone, so it never connects to the game or the inte
   LE procs, levels, trickle-down, whompahs, ...
 - 120,835 item names, with QL ranges where known
 
+![The datasets index: loot, locations, nanos, implants and more, by topic](docs/screenshots/datasets.webp)
+
+![A recipe: the ICC Shuttleport starter weapon upgrades, every item a link](docs/screenshots/recipe.webp)
+
 ## Quick start
 
 You need [Docker](https://docs.docker.com/get-docker/) (Docker Desktop on Windows / macOS).
