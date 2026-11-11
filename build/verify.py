@@ -116,5 +116,22 @@ try:
 except (OSError, ValueError) as e:
     check(False, "planet maps: %s" % e)
 
+print("Lookups")
+sys.path.insert(0, os.path.join(ROOT, "app"))
+try:
+    from tools import TOOLS
+    db.row_factory = sqlite3.Row
+    crashed = []
+    for name, t in TOOLS.items():  # every lookup must answer an empty form without crashing
+        try:
+            t["run"](db, {f["name"]: None for f in t["fields"]})
+        except ValueError:
+            pass
+        except Exception as e:  # noqa: BLE001
+            crashed.append("%s: %r" % (name, e))
+    check(len(TOOLS) >= 50 and not crashed, "bot lookups: %d loaded%s" % (len(TOOLS), ("; crashed: " + "; ".join(crashed)) if crashed else ""))
+except Exception as e:  # noqa: BLE001
+    check(False, "bot lookups failed to load: %r" % e)
+
 print("\n%s" % ("ALL PRESENT" if not bad else "%d PROBLEM(S)" % len(bad)))
 sys.exit(1 if bad else 0)

@@ -24,8 +24,9 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <https://unlicense.org/>
 
 -----------------------------------------------------------------------
-Scope: the Unlicense above covers this project's own work (app/, build/,
-the Dockerfiles, docker-compose.yml and the documentation). Data from
-other projects keeps its own license, see the README, "License":
+Scope: the Unlicense above covers this project's own work (app/ except
+app/tools/, build/, the Dockerfiles, docker-compose.yml and the
+documentation). app/tools/ is ported from Nadybot and is GPL-3.0. Data
+from other projects keeps its own license, see the README, "License":
   data/recipes/  and  data/nadybot/   GPL-3.0 (their LICENSE files)
   data/items.tsv, data/item_texts.json  Anarchy Online game data, (c) Funcom

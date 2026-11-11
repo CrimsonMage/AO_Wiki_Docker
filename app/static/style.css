@@ -80,3 +80,9 @@ form.filter input[type=number] { flex: 1; min-width: 0; padding: 7px 10px; backg
 .levelcard h2 { margin-top: 10px; }
 .verdict { font-size: 1.05rem; }
 code { color: var(--text); }
+
+/* --- bot lookups (2026-11-11) --- */
+form.toolform { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end; margin: 6px 0 14px; max-width: none; }
+form.toolform label { display: flex; flex-direction: column; gap: 3px; font-size: .85rem; color: var(--dim); }
+form.toolform input, form.toolform select { padding: 6px 8px; background: var(--bg); color: var(--body); border: 1px solid var(--edge); font: inherit; min-width: 9ch; }
+.toolout { margin-top: 6px; }

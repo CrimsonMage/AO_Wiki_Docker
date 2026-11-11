@@ -27,6 +27,14 @@ import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+import sys  # noqa: E402
+sys.path.insert(0, HERE)
+try:
+    from tools import TOOLS  # the bot lookups (GPL-3.0, app/tools/)
+except Exception as _e:  # a broken tool must not take the site down
+    TOOLS, TOOLS_ERROR = {}, repr(_e)
+else:
+    TOOLS_ERROR = None
 KIND = {"recipe": "Bot recipe", "guide": "AO-Universe guide", "text": "Game item text", "botguide": "Bot guide"}
 PAGE = 50
 local = threading.local()
@@ -220,7 +228,7 @@ def page(title, body, q=""):
     return """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%s</title><link rel="stylesheet" href="/static/style.css"></head><body>
-<header><a class="brand" href="/">AO Wiki</a><nav><a href="/">Search</a><a href="/data">Data</a><a href="/level">Levels</a><a href="/maps">Maps</a></nav>
+<header><a class="brand" href="/">AO Wiki</a><nav><a href="/">Search</a><a href="/data">Data</a><a href="/level">Levels</a><a href="/tools">Lookups</a><a href="/maps">Maps</a></nav>
 <form action="/" method="get"><input type="search" name="q" value="%s" placeholder="Item, recipe, boss, nano, place..." autofocus>
 <button>Search</button></form></header>
 <main>%s</main>
@@ -504,6 +512,68 @@ def planet_html(slug, v):
                 " &middot; Funcom's map from the game", slug, slug, E(v["name"]), v["w"], v["h"]))
 
 
+# ---------------------------------------------------------------- bot lookups ----
+def tool_params(t, qs):
+    """form values -> typed params; None for empty; ValueError on bad numbers"""
+    p, given = {}, False
+    for f in t["fields"]:
+        raw = (qs.get(f["name"]) or [""])[0].strip()[:200]
+        if raw == "":
+            p[f["name"]] = None
+            continue
+        given = True
+        if f["type"] in ("int", "item"):
+            p[f["name"]] = int(raw)
+        elif f["type"] == "float":
+            p[f["name"]] = float(raw)
+        else:
+            p[f["name"]] = raw
+    return p, given
+
+
+def tool_form(t, qs):
+    parts = []
+    for f in t["fields"]:
+        v = (qs.get(f["name"]) or [f.get("default", "")])[0]
+        lab = "<label>%s" % E(f["label"])
+        if f["type"] == "select":
+            opts = "".join("<option value='%s'%s>%s</option>" % (E(str(o[0])), " selected" if str(o[0]) == str(v) else "", E(str(o[1])))
+                           for o in f.get("options", []))
+            parts.append("%s<select name='%s'>%s</select></label>" % (lab, E(f["name"]), opts))
+        else:
+            typ = "number" if f["type"] in ("int", "float", "item") else "text"
+            step = " step='any'" if f["type"] == "float" else ""
+            parts.append("%s<input type='%s'%s name='%s' value='%s'></label>" % (lab, typ, step, E(f["name"]), E(str(v))))
+    return "<form class='toolform' action='/tool/%s' method='get'>%s<button>Look up</button></form>" % (t["name"], "".join(parts))
+
+
+def tools_html():
+    groups = {}
+    for t in TOOLS.values():
+        groups.setdefault(t["group"], []).append(t)
+    out = ["<article class='ao'><h1>Lookups</h1><p class='dim'>The calculations the chat bots answered, ported from Nadybot "
+           "(GPL-3.0). Every one works offline.</p>"]
+    if TOOLS_ERROR:
+        out.append("<p class='verdict'>Some lookups failed to load: %s</p>" % E(TOOLS_ERROR))
+    for g in sorted(groups):
+        out.append("<h2>%s</h2><ul class='results'>%s</ul>" % (E(g), "".join(
+            "<li><a href='/tool/%s'>%s</a> <span class='tag data'>%s</span> <span class='dim'>%s</span></li>" % (
+                t["name"], E(t["title"]), E(t.get("bot", "")), E(t["desc"])) for t in sorted(groups[g], key=lambda t: t["title"]))))
+    return "".join(out) + "</article>"
+
+
+def tool_html(t, qs):
+    body = ""
+    try:
+        p, given = tool_params(t, qs)
+        if given or not t["fields"]:
+            body = t["run"](db(), p)["html"]
+    except ValueError as ex:
+        body = "<p class='verdict'>%s</p>" % E(str(ex))
+    return ("<article class='ao'><h1>%s <span class='tag data'>%s</span></h1><p class='meta'>%s</p>%s<div class='toolout'>%s</div>"
+            "<p class='dim'><a href='/tools'>All lookups</a></p></article>" % (E(t["title"]), E(t.get("bot", "")), E(t["desc"]), tool_form(t, qs), body))
+
+
 def data_index_html():
     groups = {}
     for d in datasets().values():
@@ -590,6 +660,23 @@ class H(BaseHTTPRequestHandler):
                 if os.path.isfile(path):
                     return self.send(200, open(path, "rb").read(), "image/png" if m.group(3) == "png" else "image/jpeg", cache=True)
                 return self.nf()
+            if p == "/tools":
+                return self.send(200, page("Lookups", tools_html()))
+            m = re.fullmatch(r"/tool/([a-z0-9_]+)", p)
+            if m and m.group(1) in TOOLS:
+                t = TOOLS[m.group(1)]
+                return self.send(200, page(t["title"], tool_html(t, qs)))
+            m = re.fullmatch(r"/api/tool/([a-z0-9_]+)", p)
+            if m and m.group(1) in TOOLS:
+                t = TOOLS[m.group(1)]
+                try:
+                    tp, _ = tool_params(t, qs)
+                    return self.js({"tool": t["name"], "params": tp, "result": t["run"](db(), tp)["data"]})
+                except ValueError as ex:
+                    return self.js({"error": str(ex)}, 400)
+            if p == "/api/tools":
+                return self.js([{k: t[k] for k in ("name", "title", "group", "desc", "bot")} | {"fields": [
+                    {k: v for k, v in f.items()} for f in t["fields"]]} for t in TOOLS.values()])
             if p == "/level":
                 return self.send(200, page("Level lookup", level_html(qs)))
             m = re.fullmatch(r"/api/level/(\d+)", p)

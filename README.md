@@ -16,7 +16,8 @@ the servers and fan sites are gone, so it never connects to the game or the inte
 - 120,835 item names, with QL ranges where known, and 9,308 item icons
 - Maps: 618 zone maps (every zone, also dungeons and Jobe) with markers for places, dyna camps and tower
   sites, plus the Rubi-Ka and Shadowlands planet maps
-- Level lookup: team and PvP ranges, XP / SK, mission QLs (the bots' `!level`, `!team`, `!missions`)
+- 56 bot lookups: the calculations the chat bots answered (`!implant`, `!burst`, `!aggdef`, `!whompah`,
+  `!aiarmor`, `!bio`, `!bestql`, `!whatbuffs`, `!symbiant`, `!pocketboss`, `!dyna`, `!xp`, `!arbiter`, ...)
 
 ![The datasets index: loot, locations, nanos, implants and more, by topic](docs/screenshots/datasets.webp)
 
@@ -71,6 +72,7 @@ python3 app/server.py --db archive.sqlite --port 8080
 | `/` | Search: recipes and guides, items, and rows from the datasets |
 | `/item/<id>` | Everything about one item, with its icon and QL range |
 | `/level` | Level lookup: team / PvP ranges, XP / SK, mission QLs; can two levels team; who can roll QL N missions |
+| `/tools` | The bot lookups, by topic; `/tool/<name>` one, with its form |
 | `/maps` | Planet maps and every zone map; `/map/<zone>` a zone with numbered markers and a legend |
 | `/data` | All datasets by topic; `/d/<name>` one dataset, with a filter and 50 rows per page |
 | `/e/<key>` | One recipe, guide or item text, every item in it a link |
@@ -91,7 +93,24 @@ their item page; zone and skill ids are shown with their names.
 | `/api/level/100?with=130` | a level's ranges and numbers; `can_team` / `can_pvp` with another level |
 | `/api/missions/150` | the levels that can roll QL 150 missions |
 | `/api/maps`, `/api/map/605` | the zone and planet maps; one zone with its points of interest |
+| `/api/tools`, `/api/tool/implant?ql=200` | the lookups and their fields; one lookup's result as JSON |
 | `/api/stats` | how many of each are in the archive |
+
+### Bot lookups
+
+Every offline calculation of Nadybot's modules, ported to Python (`app/tools/`):
+
+- **Levels:** `level`, `xp`, `axp`, `missions`, `research`
+- **Weapons, skills & perks:** `aggdef`, `aimshot`, `burst`, `fullauto`, `fastattack`, `fling`, `brawl`,
+  `dimach`, `mafist`, `nanoinit`, `weapon`, `oe`, `bestql`, `perks`, `trickle`
+- **Implants & symbiants:** `implant`, `ladder`, `cluster`, `premade`, `implantshoppinglist`, `symbiant`,
+  `bestsymbiants`, `symbcompare`, `symbbuffs`, `pocketboss`, `spirits`
+- **Alien & endgame:** `aiarmor`, `aigen`, `bio`, `bioinfo`, `ofabarmor`, `ofabweapons`, `leprocs`, `arulsaba`
+- **Items & nanos:** `whatbuffs`, `whatlocks`, `gridarmor`, `nano`, `nanoloc`, `nanolines`, `bestnanos`, `disc`
+- **World:** `whereis`, `spawntime`, `dyna`, `whompah`, `boss`, `bossloot`, `raidloot`, `citywave`, `arbiter`
+
+Left out: the commands that need a live game or a bot account (online lists, orgs, timers, world boss
+spawns, raids, chat), the per-user `implantdesigner`, and the fun commands.
 
 ## What is inside
 
@@ -150,8 +169,10 @@ ao-wiki:full .` makes an image that includes them. Please ask AO-Universe
 
 ## License
 
-- **This project's own work** (`app/`, `build/`, the Dockerfiles, `docker-compose.yml`, the docs) is
-  released into the **public domain** under [The Unlicense](LICENSE): do whatever you want with it.
+- **This project's own work** (`app/` except `app/tools/`, `build/`, the Dockerfiles, `docker-compose.yml`,
+  the docs, the zone map drawings) is released into the **public domain** under [The Unlicense](LICENSE):
+  do whatever you want with it.
+- **`app/tools/`** (the bot lookups) is ported from Nadybot's code and is therefore **GPL-3.0**.
 - **`data/recipes/` and `data/nadybot/`** come from the Nadybot project and stay under the
   **GPL-3.0** (`LICENSE` in each folder). You can use and share them freely; changed versions of
   those files must stay GPL-3.0 and say where they came from.
