@@ -1,0 +1,29 @@
+# AO Wiki with AO-Universe's tradeskill guides included (data/aou/guides.json).
+# Only publish an image built from this file with AO-Universe's permission: the guides are their
+# authors' work. For your own copy it is fine.
+#
+#   docker build -f Dockerfile.full -t ao-wiki:full .
+FROM python:3.12.7-slim AS build
+WORKDIR /src
+COPY build/ build/
+COPY data/recipes/ data/recipes/
+COPY data/items.tsv data/item_texts.json data/
+COPY data/nadybot/ data/nadybot/
+COPY data/aou/guides.json data/aou/guides.json
+RUN python3 -I build/build_db.py /src/archive.sqlite --with-aou && python3 -I build/verify.py /src/archive.sqlite --with-aou
+
+FROM python:3.12.7-slim
+LABEL org.opencontainers.image.title="AO Wiki (with AO-Universe guides)"
+RUN useradd --system --uid 10001 archive
+WORKDIR /app
+COPY app/ /app/
+COPY LICENSE README.md /app/
+COPY data/recipes/LICENSE /app/LICENSE-GPL-3.0
+COPY data/recipes/SOURCE.md /app/SOURCE-recipes.md
+COPY data/nadybot/SOURCE.md /app/SOURCE-datasets.md
+COPY --from=build /src/archive.sqlite /app/archive.sqlite
+USER archive
+ENV ARCHIVE_DB=/app/archive.sqlite PORT=8080 PYTHONDONTWRITEBYTECODE=1
+EXPOSE 8080
+HEALTHCHECK --interval=30s --timeout=3s CMD python3 -c "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8080/healthz').status == 200 else 1)"
+CMD ["python3", "-I", "/app/server.py"]

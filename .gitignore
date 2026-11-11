@@ -1,0 +1,4 @@
+# AO-Universe guide text: keep out of a public repository unless AO-Universe agrees (README)
+data/aou/
+*.sqlite
+__pycache__/

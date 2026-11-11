@@ -1,0 +1,68 @@
+id,skill_id,groupName,amountAgi,amountInt,amountPsy,amountSta,amountStr,amountSen
+1,152,"Body & Defense",0,0,0,1,0,0
+2,132,"Body & Defense",0,0.1,0.7,0.1,0,0.1
+3,155,"Body & Defense",0.5,0.2,0,0,0,0.3
+4,154,"Body & Defense",0.5,0.2,0,0,0,0.3
+5,153,"Body & Defense",0.5,0.2,0,0,0,0.3
+6,168,"Body & Defense",0,0.2,0.8,0,0,0
+7,145,"Body & Defense",0.2,0,0,0,0.5,0.3
+8,102,"Melee Weapons",0.1,0,0,0.4,0.5,0
+9,103,"Melee Weapons",0.4,0,0,0.3,0.3,0
+10,106,"Melee Weapons",0.5,0,0,0.3,0.2,0
+11,107,"Melee Weapons",0,0,0,0.5,0.5,0
+12,105,"Melee Weapons",0,0,0,0.4,0.6,0
+13,104,"Melee Weapons",0,0.5,0,0.5,0,0
+14,100,"Melee Weapons",0.5,0,0.3,0,0.2,0
+15,101,"Melee Weapons",0.6,0,0,0.1,0.3,0
+16,118,"Melee Weapons",0.1,0.1,0.2,0,0,0.6
+17,120,"Melee Weapons",0.1,0.1,0.2,0,0,0.6
+18,146,"Melee Specials",0.5,0.3,0,0,0,0.2
+19,142,"Melee Specials",0,0,0,0.4,0.6,0
+20,147,"Melee Specials",0.6,0,0,0,0,0.4
+21,144,"Melee Specials",0,0,0.2,0,0,0.8
+22,143,"Melee Specials",0.5,0,0,0,0,0.5
+23,112,"Ranged Weapons",0.6,0,0,0,0,0.4
+24,111,"Ranged Weapons",0.4,0,0,0,0.2,0.4
+25,114,"Ranged Weapons",0.3,0,0,0.3,0.3,0.1
+26,116,"Ranged Weapons",0.3,0,0,0.4,0.1,0.2
+27,115,"Ranged Weapons",0.6,0,0,0,0.4,0
+28,113,"Ranged Weapons",0.6,0,0,0,0,0.4
+29,133,"Ranged Weapons",0,0.2,0.4,0,0,0.4
+30,109,"Ranged Weapons",0.4,0.2,0,0,0,0.4
+31,110,"Ranged Weapons",0.6,0,0,0,0.4,0
+32,134,"Ranged Weapons",0.6,0.4,0,0,0,0
+33,119,"Ranged Weapons",0.1,0.1,0.2,0,0,0.6
+34,150,"Ranged Specials",1,0,0,0,0,0
+35,151,"Ranged Specials",0,0,0,0,0,1
+36,148,"Ranged Specials",0.5,0,0,0.2,0.3,0
+37,167,"Ranged Specials",0,0,0,0.4,0.6,0
+38,121,"Ranged Specials",0.5,0,0,0,0.1,0.4
+39,108,"Ranged Specials",0.6,0,0,0,0.2,0.2
+40,127,"Nanos & Casting",0,0.8,0.2,0,0,0
+41,128,"Nanos & Casting",0,0.8,0.2,0,0,0
+42,129,"Nanos & Casting",0,0.8,0,0,0,0.2
+43,122,"Nanos & Casting",0,0.8,0,0,0.2,0
+44,131,"Nanos & Casting",0.2,0.8,0,0,0,0
+45,130,"Nanos & Casting",0,0.8,0,0.2,0,0
+46,149,"Nanos & Casting",0.4,0,0,0,0,0.6
+47,139,Exploring,0.2,0.2,0,0,0,0.6
+48,166,Exploring,0.2,0.2,0,0,0,0.6
+49,117,Exploring,0.2,0.2,0,0,0,0.6
+50,156,Exploring,0.4,0,0,0.4,0.2,0
+51,137,Exploring,0.5,0,0,0.3,0.2,0
+52,136,"Combat & Healing",0,0.3,0,0,0,0.7
+53,164,"Combat & Healing",0.3,0,0,0,0,0.7
+54,162,"Combat & Healing",0,0.5,0,0,0,0.5
+55,135,"Combat & Healing",0.2,0.2,0,0,0,0.6
+56,123,"Combat & Healing",0.3,0.3,0,0,0,0.4
+57,124,"Combat & Healing",0.3,0.5,0,0,0,0.2
+58,125,"Trade & Repair",0.5,0.5,0,0,0,0
+59,126,"Trade & Repair",0.3,0.5,0,0.2,0,0
+60,157,"Trade & Repair",0,0.5,0.5,0,0,0
+61,163,"Trade & Repair",0,0.5,0,0.5,0,0
+62,158,"Trade & Repair",0,0.5,0,0,0.5,0
+63,160,"Trade & Repair",0,1,0,0,0,0
+64,141,"Trade & Repair",0,0.7,0.1,0,0,0.2
+65,165,"Trade & Repair",0.4,0,0.3,0,0,0.3
+66,161,"Trade & Repair",0,1,0,0,0,0
+67,159,"Trade & Repair",0.2,0.8,0,0,0,0

@@ -1,0 +1,29 @@
+<header>How to use the Chatfilter for Creditspammers<end>
+
+There is also a <a href='chatcmd:///tell <myname> guides chatfilter'>Complete guide about chatfilters</a>.
+
+<header2>Filter Egpal<end>
+
+<highlight>/filter add [eE][- _.]*[gG][- _.]*[pP][- _.]*[aA][- _.]*[lL]<end><tab>[<a href='chatcmd:///filter add [eE][- _.]*[gG][- _.]*[pP][- _.]*[aA][- _.]*[lL]'>do it</a>]
+
+<header2>Filter MMOOK creditspammers<end>
+
+<highlight>/filter add [Mm][Mm][Oo][Oo][Kk]<end><tab>[<a href='chatcmd:///filter add [Mm][Mm][Oo][Oo][Kk]'>do it</a>]
+
+<header2>Enable the filter<end>
+
+<highlight>/filter enable<end><tab><a href='chatcmd:///filter enable'>do it</a>]
+
+<header2>Checking the filters<end>
+
+<highlight>/filter list<end><tab>[<a href='chatcmd:///filter list'>do it</a>]
+
+
+Now you can block all the annoying cred spammers, be aware that all are talking about "Egpal" or "MMOOK" will get blocked too!
+Same goes for this guide in all channels because it contain the filtered words. (but not for a separate private window with the bot)
+
+<header2>Credits<end>
+
+Source: AO forum and AOU
+
+by longsdale

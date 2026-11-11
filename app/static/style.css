@@ -1,0 +1,62 @@
+/* AO Wiki: the dark teal look of Anarchy Online's own windows */
+:root {
+  --bg: #0b0a09; --panel: #12110f; --edge: #307a85; --text: #00bdbd; --bright: #00ffff;
+  --body: #c9d6d6; --dim: #6f8a8a; --link: #7fd8ff; --hover: #b7ecff;
+  --recipe: #d8c25a; --guide: #6fd08c; --itemtext: #e09a5a;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #eef3f3; --panel: #ffffff; --edge: #3b8f99; --text: #0d6d73; --bright: #0a5560;
+    --body: #1d2b2b; --dim: #5b7171; --link: #0a5fa0; --hover: #063d6a;
+    --recipe: #8a6d00; --guide: #1c7a3a; --itemtext: #a4511a;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--body); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--link); } a:hover { color: var(--hover); }
+header { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; padding: 12px 16px;
+  background: var(--panel); border-bottom: 1px solid var(--edge); }
+.brand { color: var(--bright); font-weight: 700; text-decoration: none; letter-spacing: .02em; }
+form { display: flex; gap: 8px; flex: 1 1 320px; max-width: 640px; }
+input[type=search] { flex: 1; min-width: 0; padding: 7px 10px; background: var(--bg); color: var(--body);
+  border: 1px solid var(--edge); font: inherit; }
+button { padding: 7px 14px; background: var(--edge); color: #fff; border: 0; font: inherit; cursor: pointer; }
+main { max-width: 1240px; margin: 0 auto; padding: 18px 16px 40px; display: grid; gap: 20px; }
+@media (min-width: 900px) { main:has(aside) { grid-template-columns: 1fr 260px; } }
+h1 { color: var(--bright); font-size: 1.35rem; margin: 0 0 6px; }
+h2 { color: var(--text); font-size: 1rem; margin: 18px 0 8px; }
+.dim, .meta { color: var(--dim); }
+.meta { margin: 0 0 14px; font-size: .9rem; }
+.url { overflow-wrap: anywhere; }
+.ao { background: var(--panel); border: 1px solid var(--edge); padding: 16px 18px; min-width: 0; }
+.ao .body { overflow-wrap: anywhere; }
+aside { background: var(--panel); border: 1px solid var(--edge); padding: 12px 14px; align-self: start; }
+aside h2 { margin-top: 0; }
+ul.results, ul.items { list-style: none; padding: 0; margin: 0; }
+ul.results li { padding: 6px 0; border-bottom: 1px solid color-mix(in srgb, var(--edge) 35%, transparent); }
+ul.items li { padding: 2px 0; font-size: .92rem; }
+.tag { font-size: .75rem; padding: 1px 6px; border: 1px solid currentColor; margin-left: 6px; white-space: nowrap; }
+.tag.recipe { color: var(--recipe); } .tag.guide { color: var(--guide); } .tag.text { color: var(--itemtext); }
+a.item { color: var(--link); }
+.intro p { max-width: 60ch; }
+footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 30px; color: var(--dim); font-size: .8rem; }
+
+/* --- datasets, tables, navigation (2026-11-11) --- */
+header nav { display: flex; gap: 14px; }
+header nav a { color: var(--text); text-decoration: none; }
+header nav a:hover { color: var(--bright); }
+.split { display: grid; gap: 20px; }
+@media (min-width: 900px) { .split:has(aside) { grid-template-columns: 1fr 260px; } }
+main { display: block; }
+.scroll { overflow-x: auto; margin: 6px 0 12px; border: 1px solid color-mix(in srgb, var(--edge) 50%, transparent); }
+table { border-collapse: collapse; font-size: .86rem; width: max-content; min-width: 100%; }
+th, td { padding: 4px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid color-mix(in srgb, var(--edge) 25%, transparent); }
+thead th { position: sticky; top: 0; background: var(--panel); color: var(--text); white-space: nowrap; }
+td { max-width: 42ch; overflow-wrap: break-word; }
+td.n, td:first-child { white-space: nowrap; }
+table.kv th { color: var(--text); width: 1%; white-space: nowrap; }
+.pager { display: flex; gap: 14px; align-items: baseline; margin: 6px 0; }
+form.filter { margin: 4px 0 8px; max-width: 420px; }
+ul.cols { columns: 2 260px; }
+ul.cols li { break-inside: avoid; }
+.tag.data { color: var(--text); } .tag.botguide { color: var(--guide); }

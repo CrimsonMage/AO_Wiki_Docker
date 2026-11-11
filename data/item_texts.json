@@ -1,0 +1,757 @@
+[
+{
+"id": 84159,
+"name": "Cloaking Device",
+"text": "This fabulous device makes the atoms in your body 'scatter' so that your Concealment skill is greatly increased. Combine with Sneak mode for great effect, making you almost invisible to others."
+},
+{
+"id": 85808,
+"name": "Book: On Implants and Nano Clusters",
+"text": "A sticker on the cover says: Don't Read Without Buying! \nThe forms of Nano enhancements are numerous. You can have the typical Nano Formulas (programs running, controlled by your NCU...), the short-term effects gotten from items pumping nanobots into your system. (Stims and pills being the normal variety.) \n\nOne of the more sophisticated implementations is the so called symbio-tech found in implants. Taking energy from your body, using the normal nutrient system, these specialized pieces of bio-nano machinery can enhance virtually ALL types of skills and abilities. They last forever, but require the use of a Surgery Clinic to install. (Stations can be found in most major cities. Portable units available for most skill physicians.)\n\nThe Implants are charged with so-called Nano Clusters (NC). They are crystallized clusters of nanobots, activated upon installment. They come in 3 forms: 1) Faded, 2) Bright, and 3) Shining. This 'title' has been given them by the NC manufacturers upon creation, and tell you something of their ability to enhance psycho-physiology.\nThe interesting point was that Cryo-Tech (one of the instigators of this form of technology) made it so that their implants which normally only hosted ONE type of Shiny Nano Clusters, now could almost free of cost, host 1 Bright and 1 Faded NC in addition. This so much became the norm, that today you cannot find implants hosting two faded Nano Clusters and so on. Budget models of Implants host 1 faded NC or 1 Bright NC, or all the thinkable combinations. \n\nThere are also 4 models of Implants. They are called 'Basic', 'Faded', 'Bright' and 'Shining' Implants. They host:the corresponding Nano Cluster! (Note, an Implant will get its name from the highest type of nano cluster. (Shining over Bright etc). This does not mean that the implant does not also contain a lower type of nanocluster..\n\n IMPORTANT: All implants can be fitted with up to 3 NCs, if you change them using Trade Skills! Good money may be made with other players for doing this service..."
+},
+{
+"id": 85809,
+"name": "Book: On Item Creations",
+"text": "A sticker on the cover says: Don't Read Without Buying! \n\nThere are many ways to obtain an item on Rubi-Ka. One of the more profitable (if you find the right buyer) is creating it yourself. By picking up an item, holding down the Shift-key and then right-click on another item, these two could be combined.\n You cannot combine everything obviously, and a complete list of items is not obtainable in the world at the moment. \nThere is some very important information to the budding creator of items: \nThe Quality Level of the raw-material and your skill. The Quality Level of the item is determined by a process where your skill is matched with the Quality Level of the raw materials! If you have a MUCH higher skill than just needed to make the items, and the Raw Materials are of good Quality (normally represented by a number from 1 to about 250 or so...) the end result can be good. Raw material (like a barrel you want to add to a Pistol Construction Kit, can seldom be of LOWER quality level than the item you target.)."
+},
+{
+"id": 123748,
+"name": "OT M-10.3 Flechette Pistol",
+"text": "Omni-Tek doesn't like the ballistic qualities of the frag-flechette round, so it tends to stick with the idea of a long, narrow, dense penetrator. Combined with an ETE action, the M-10 is the equal of the frag-flechette, and more accurate. On the 10.3 version, the problem with the vibrating penetrator has been solved by mounting stabilizing beams along its surface. A self-cleaning KO-CR device has also been added, and is probably the reason why the OT M-10.3 is called \"the office drawer pistol,\" due to its popularity with middle-class OT employees."
+},
+{
+"id": 123752,
+"name": "OT M-10.4 Nano Flechette Pistol",
+"text": "Omni-Tek doesn't like the ballistic qualities of the frag-flechette round, so it tends to stick with the idea of a long, narrow, dense penetrator. Combined with an ETE action, the M-10 is the equal of the frag-flechette, and more accurate. The M-10 Nano was an early attempt at adding nano pylons to enhance gun performance. It works fairly well on this piece, which has a single rear-mounted set."
+},
+{
+"id": 123973,
+"name": "OT Boomer M30 Sagitta",
+"text": "The Boomer M30 is the Omni-Tek standard sidearm for SP troops. Combining long range with low recoil and heavy impact, it is a well-respected weapon. The Sagitta is the officer upgrade."
+},
+{
+"id": 128758,
+"name": "Ill-treated Fabrique Des Armes Bizon 20-19",
+"text": "The Bizon is a solid but somewhat slow combination weapon. It is generally regarded illegal on the Rubi-Ka market because the intuitive trigger is Omni-Tek technology, a patent which Fabrique Des Armes does not have permission to use. Unique for the gun is the intermidiate 'Inferno' compressor, that allows full auto with this ammo type."
+},
+{
+"id": 137303,
+"name": "Notum Enriched Nano Paste - 1x Layer",
+"text": "The paste is an intelligent additional layer of notum enriched nano paste. It is just added in huge blobs using a small amount of nano programming to make the paste mould with the weapon and generally strengthening it to sustain a higher damage output. It is quite expensive. It is a tradeskill item and must be applied on an unfinished weapon."
+},
+{
+"id": 137305,
+"name": "Notum Enriched Nano Paste - 2x Layer",
+"text": "The paste is an intelligent additional 2 layers of notum enriched nano paste. It is just added in huge blobs using a small amount of nano programming to make the paste mould with the weapon and generally strengthening it to sustain a higher damage output. It is quite expensive. It is a tradeskill item and must be applied on an unfinished weapon."
+},
+{
+"id": 141518,
+"name": "Ill-Treated Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Ill-Treated Grenade-Thrower'\nThe Construction Kit must be between Quality Level  1 and  20.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  4 ->  80\n\n 2. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  2 ->  30\n\n 3. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  2 ->  50\n\n 4. Nano PylonSkill To Assemble: Mech. Engi:  2 ->  50\n\n 5. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  2 ->  40\n\n 6. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  4 ->  80\n\n 7. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  3 ->  60\n\n 8. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  2 ->  50\n\n 9. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  4 ->  80\n"
+},
+{
+"id": 141533,
+"name": "Premium Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Premium Grenade-Thrower'\nThe Construction Kit must be between Quality Level  200 and  200.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  800 ->  800\n\n 2. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  500 ->  500\n\n 3. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  600 ->  600\n\n 4. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  300 ->  300\n\n 5. Nano PylonSkill To Assemble: Mech. Engi:  500 ->  500\n\n 6. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  800 ->  800\n\n 7. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  500 ->  500\n\n 8. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  800 ->  800\n\n 9. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  400 ->  400\n"
+},
+{
+"id": 141546,
+"name": "Over-Tuned Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Over-Tuned Grenade-Thrower'\nThe Construction Kit must be between Quality Level  41 and  60.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  164 ->  240\n\n 2. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  62 ->  90\n\n 3. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  123 ->  180\n\n 4. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  82 ->  120\n\n 5. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  102 ->  150\n\n 6. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  102 ->  150\n\n 7. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  164 ->  240\n\n 8. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  164 ->  240\n\n 9. Nano PylonSkill To Assemble: Mech. Engi:  102 ->  150\n"
+},
+{
+"id": 141559,
+"name": "Second-Hand Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Second-Hand Grenade-Thrower'\nThe Construction Kit must be between Quality Level  61 and  80.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  244 ->  320\n\n 2. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  152 ->  200\n\n 3. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  122 ->  160\n\n 4. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  183 ->  240\n\n 5. Nano PylonSkill To Assemble: Mech. Engi:  152 ->  200\n\n 6. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  152 ->  200\n\n 7. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  92 ->  120\n\n 8. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  244 ->  320\n\n 9. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  244 ->  320\n"
+},
+{
+"id": 141574,
+"name": "Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Grenade-Thrower'\nThe Construction Kit must be between Quality Level  81 and  100.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  324 ->  400\n\n 2. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  243 ->  300\n\n 3. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  324 ->  400\n\n 4. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  324 ->  400\n\n 5. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  202 ->  250\n\n 6. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  202 ->  250\n\n 7. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  122 ->  150\n\n 8. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  162 ->  200\n\n 9. Nano PylonSkill To Assemble: Mech. Engi:  202 ->  250\n"
+},
+{
+"id": 141589,
+"name": "Quality Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Quality Grenade-Thrower'\nThe Construction Kit must be between Quality Level  101 and  120.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  404 ->  480\n\n 2. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  404 ->  480\n\n 3. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  202 ->  240\n\n 4. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  152 ->  180\n\n 5. Nano PylonSkill To Assemble: Mech. Engi:  252 ->  300\n\n 6. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  404 ->  480\n\n 7. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  252 ->  300\n\n 8. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  252 ->  300\n\n 9. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  303 ->  360\n"
+},
+{
+"id": 141604,
+"name": "Balanced Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Balanced Grenade-Thrower'\nThe Construction Kit must be between Quality Level  121 and  140.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  484 ->  560\n\n 2. Nano PylonSkill To Assemble: Mech. Engi:  302 ->  350\n\n 3. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  242 ->  280\n\n 4. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  182 ->  210\n\n 5. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  302 ->  350\n\n 6. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  484 ->  560\n\n 7. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  302 ->  350\n\n 8. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  484 ->  560\n\n 9. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  363 ->  420\n"
+},
+{
+"id": 141617,
+"name": "Fine-Tuned Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Fine-Tuned Grenade-Thrower'\nThe Construction Kit must be between Quality Level  141 and  160.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  564 ->  640\n\n 2. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  212 ->  240\n\n 3. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  564 ->  640\n\n 4. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  564 ->  640\n\n 5. Nano PylonSkill To Assemble: Mech. Engi:  352 ->  400\n\n 6. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  352 ->  400\n\n 7. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  352 ->  400\n\n 8. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  282 ->  320\n\n 9. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  423 ->  480\n"
+},
+{
+"id": 141630,
+"name": "Deluxe Grenade-Thrower Construction Manual",
+"text": "This Instruction Manual will teach you how to assemble a:\n 'Deluxe Grenade-Thrower'\nThe Construction Kit must be between Quality Level  161 and  199.\nAll other pieces must be of AT LEAST that level range... \nAdd them using shift+right-click.\n Add in following order:\n\n 1. Grenades Contruction KitSkill To Assemble: Weapon Smt:  644 ->  796\n\n 2. Notum Alloy Strenghtened RibsSkill To Assemble: Mech. Engi:  402 ->  498\n\n 3. Nano PylonSkill To Assemble: Mech. Engi:  402 ->  498\n\n 4. Notum Enriched Nano Paste - 2x LayerSkill To Assemble: Nano Progra:  322 ->  398\n\n 5. Poison Chemical Combination ChamberSkill To Assemble: Chemistry:  644 ->  796\n\n 6. Ultra Short Composite BarrelSkill To Assemble: Weapon Smt:  483 ->  597\n\n 7. Notum Enriched Nano Paste - 4x LayerSkill To Assemble: Nano Progra:  402 ->  498\n\n 8. Flake Tubing Base Cooling SystemSkill To Assemble: Weapon Smt:  644 ->  796\n\n 9. Notum Enriched Nano Paste - 1x LayerSkill To Assemble: Nano Progra:  242 ->  298\n"
+},
+{
+"id": 142890,
+"name": "1h Edged Weapon Base",
+"text": "The 1h Edged Weapon Base is used as the core of all one handed edged weapons. You attach all other items to this in the construction kit. This is a tradeskill item."
+},
+{
+"id": 142892,
+"name": "1h Blunt Weapon Base",
+"text": "The 1h Blunt Weapon Base is used as the core of all one handed blunt weapons. You attach all other items to this in the construction kit. This is a tradeskill item."
+},
+{
+"id": 142894,
+"name": "Piercing Weapon Base",
+"text": "The Piercing Weapon Base is used as the core of all piercing weapons. You attach all other items to this in the construction kit. This is a tradeskill item."
+},
+{
+"id": 142896,
+"name": "Energy Melee Weapon Base",
+"text": "The Energy Melee Weapon Base is used as the core of all energy melee weapons. You attach all other items to this in the construction kit. This is a tradeskill item."
+},
+{
+"id": 142898,
+"name": "2H Blunt Weapon Base",
+"text": "The 2H Blunt Weapon Base is used as the core of all two handed blunt weapons. You attach all other items to this in the construction kit. This is a tradeskill item."
+},
+{
+"id": 142900,
+"name": "2H Edged Weapon Base",
+"text": "The 2H Edged Weapon Base is used as the core of all two handed edged weapons. You attach all other items to this in the construction kit. This is a tradeskill item."
+},
+{
+"id": 144789,
+"name": "Symbol Library - Space",
+"text": "This Symbol Library contains a vast amount of nano coding that is heavily utilised by all nano programs that are in the Space school of nano programs. This library can be linked to the code that is stored in an Instruction Disc, the result of which will be a Compiled Algorithm. Without the code stored in this library, the Instruction Disc is useless. This is a tradeskill item."
+},
+{
+"id": 144791,
+"name": "Symbol Library - PSI",
+"text": "This Symbol Library contains a vast amount of nano coding that is heavily utilised by all nano programs that are in the PSI school of nano programs. This library can be linked to the code that is stored in an Instruction Disc, the result of which will be a Compiled Algorithm. Without the code stored in this library, the Instruction Disc is useless. This is a tradeskill item."
+},
+{
+"id": 144793,
+"name": "Symbol Library - Protection",
+"text": "This Symbol Library contains a vast amount of nano coding that is heavily utilised by all nano programs that are in the Protection school of nano programs. This library can be linked to the code that is stored in an Instruction Disc, the result of which will be a Compiled Algorithm. Without the code stored in this library, the Instruction Disc is useless. This is a tradeskill item."
+},
+{
+"id": 144795,
+"name": "Symbol Library - Medical",
+"text": "This Symbol Library contains a vast amount of nano coding that is heavily utilised by all nano programs that are in the Medical school of nano programs. This library can be linked to the code that is stored in an Instruction Disc, the result of which will be a Compiled Algorithm. Without the code stored in this library, the Instruction Disc is useless. This is a tradeskill item."
+},
+{
+"id": 144797,
+"name": "Symbol Library - Combat",
+"text": "This Symbol Library contains a vast amount of nano coding that is heavily utilised by all nano programs that are in the Combat school of nano programs. This library can be linked to the code that is stored in an Instruction Disc, the result of which will be a Compiled Algorithm. Without the code stored in this library, the Instruction Disc is useless. This is a tradeskill item."
+},
+{
+"id": 150275,
+"name": "Jensen Personal Ore Extractor",
+"text": "The Personal Ore Extractor line of machines, produced by Jensen Corp, are used by independent miners all over the galaxy. Fitted with self-cleaning and self-repair systems, the P.O.E has a near zero maintenance level. Using a combination of Active Gravity Wave Sensors and multiple picometer-accurate monomolecular drilling arms, the P.O.E is able to extract the highest percentage of ore of any non-industrial mining equipment. This is a tradeskill item."
+},
+{
+"id": 150817,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is partially complete. Currently 1 section of bracelet circuitry has been added to the blueprint. Another 4 sections of bracelet circuitry can still be added to this bracelet. You are able to complete the bracelet even though it is in an unfinished state, by encasing it in silver. If you do that now, however, this bracelet will only be able to have a single Arbiter Gem attached. It will not be possible to add more sections of bracelet circuitry once it has been encased in silver. This bracelet will only fit on the right wrist. This is a tradeskill item."
+},
+{
+"id": 150818,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is partially complete. Currently 2 sections of bracelet circuitry has been added to the blueprint. Another section of bracelet circuitry can still be added to this bracelet. You are able to complete the bracelet even though it is in an unfinished state, by encasing it in silver. If you do that now, however, this bracelet will only be able to have up to 2 gems of different sizes attached. It will not be possible to add more sections of bracelet circuitry once it has been encased in silver. This bracelet will only fit on the right wrist. This is a tradeskill item."
+},
+{
+"id": 150819,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is partially complete. Currently 2 sections of bracelet circuitry has been added to the blueprint. Another 3 sections of bracelet circuitry can still be added to this bracelet. You are able to complete the bracelet even though it is in an unfinished state, by encasing it in silver. If you do that now, however, this bracelet will only be able to have up to 2 gems of different sizes attached. It will not be possible to add more sections of bracelet circuitry once it has been encased in silver. This bracelet will only fit on the right wrist. This is a tradeskill item."
+},
+{
+"id": 150833,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is partially complete. Currently 1 section of bracelet circuitry has been added to the blueprint. Another section of bracelet circuitry can still be added to this bracelet. You are able to complete the bracelet even though it is in an unfinished state, by encasing it in silver. If you do that now, however, this bracelet will only be able to have a single Arbiter Gem attached. It will not be possible to add more sections of bracelet circuitry once it has been encased in silver. This bracelet will only fit on the right wrist. This is a tradeskill item."
+},
+{
+"id": 150837,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is now complete. To complete the bracelet, it must be encased in silver. Once encased in silver, up to 4 gems of different sizes will be able to be attached. This bracelet will only fit on the right wrist. This is a tradeskill item."
+},
+{
+"id": 150838,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is now complete. To complete the bracelet, it must be encased in silver. Once encased in silver, up to 5 gems of different sizes will be able to be attached. This bracelet will only fit on the left wrist. This is a tradeskill item."
+},
+{
+"id": 150843,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is now complete. To complete the bracelet, it must be encased in silver. Once encased in silver, a single Arbiter Gem will be able to be attached. This bracelet will only fit on the right wrist. This is a tradeskill item."
+},
+{
+"id": 150846,
+"name": "Unfinished Bracelet of Arul Saba",
+"text": "The basic structure of this bracelet is now complete. To complete the bracelet, it must be encased in silver. Once encased in silver, a single Arbiter Gem will be able to be attached. This bracelet will only fit on the left wrist. This is a tradeskill item."
+},
+{
+"id": 150913,
+"name": "Liquid Silver",
+"text": "This Personal Furnace holds a small amount of liquid silver, ready for use. This is a tradeskill item."
+},
+{
+"id": 150922,
+"name": "Screwdriver",
+"text": "A general-purpose screwdriver that features a self-morphing head that allows it to be used for nearly any type of screw. Commonly used to recycle Nano Sensors found in Robot Parts. This is a tradeskill item."
+},
+{
+"id": 150925,
+"name": "Interfaced Nano Sensor",
+"text": "Nano circuitry wire has been attached to this nano sensor at various points. This will enable it to be used by devices where a direct interface with the sensor is not desirable. This is a tradeskill item."
+},
+{
+"id": 150927,
+"name": "Bracelet Circuitry",
+"text": "This is a section of circuitry containing a nano sensor that is used in the construction of Arul Saba bracelets. It needs to be attached to a Balanced Bracelet Blueprint. This is a tradeskill item."
+},
+{
+"id": 151357,
+"name": "Book: How To Make An Arul Saba Bracelet",
+"text": "How To Make An Arul Saba Bracelet\n\nBy Arul Saba\n\nThis book will give you details on how to make one of my famous bracelets.\n\nThe first thing that you need is a blueprint for the bracelet, which I will be happy to supply you with in return for certain help. You will then need to adjust this bracelet so that it can be worn on the left or right wrist. This is a one-time operation and cannot be undone. I will gladly sell you the tools to perform this adjustment.\n\nDepending upon the type of balanced blueprint you started with, you can now attach a number of pieces of bracelet circuitry. Each section of bracelet circuitry will allow the completed bracelet to hold one gem.\n\nTo make a piece of bracelet blueprint, you need to weave some Silver Nano Circuitry Filigree Wire onto an Interfaced Nano Sensor. You make Silver Nano Circuitry Filigree Wire by combining Silver Filigree Wire with Nano Circuitry Wire. You make an Interfaced Nano Sensor by combining a Nano Sensor with Nano Circuitry Wire.\n\nYou can complete the bracelet without attaching all the possible pieces of bracelet circuitry, but doing so will limit the number of gems that can be attached to the bracelet. Once you have attached the desired amount of circuitry, cover the bracelet with Liquid Silver to complete the bracelet.\n\nYou can now attach the first, and most important gem. The first gem that you can attach determines what other gems can be attached - Only gems of the same type can be attached. This gem is called the Arbiter Gem. Once the Arbiter Gem has been attached, you can then attach the other gems, but must attach them in the correct order. The bracelet will tell you what gem you need to attach next."
+},
+{
+"id": 151361,
+"name": "Liquid Platinum",
+"text": "This Personal Furnace holds a small amount of liquid platinum, ready for use. This is a tradeskill item."
+},
+{
+"id": 151371,
+"name": "Liquid Gold",
+"text": "This Personal Furnace holds a small amount of liquid gold, ready for use. This is a tradeskill item."
+},
+{
+"id": 155533,
+"name": "Robot Instruction Disc (Improve Slashing Weapons)",
+"text": "This QuarkStor(tm) data storage disc contains the raw nanobot AI programming for the nano program Improve Slashing Weapons. The program can only be used by a Mass Relocating Robot. If the disc is combined with a Space Symbol Library, it will make a Robot Compiled Algorithm (Improve Slashing Weapons). This is a tradeskill item."
+},
+{
+"id": 155735,
+"name": "Foul Smelling Notum Paste",
+"text": "The combination of the Goffle droppings and the Notum powder is a foul smelling paste. It may be good for something, though. Perhaps combining it with something else will produce something useful."
+},
+{
+"id": 155764,
+"name": "Mutated Let Blood Stew",
+"text": "The combination of chopped mutant liver and Leet blood essence has turned the blood into a strange almost living organism. Quite alarming, but also quite useless. Perhaps combining it with something more could produce something interesting."
+},
+{
+"id": 155906,
+"name": "Robot Instruction Disc (Improve Crushing Weapons)",
+"text": "This QuarkStor(tm) data storage disc contains the raw nanobot AI programming for the nano program Improve Crushing Weapons. The program can only be used by a Mass Relocating Robot. If the disc is combined with a Space Symbol Library, it will make a Robot Compiled Algorithm (Improve Crushing Weapons). This is a tradeskill item."
+},
+{
+"id": 155907,
+"name": "Robot Instruction Disc (Improve Thrusting Weapons)",
+"text": "This QuarkStor(tm) data storage disc contains the raw nanobot AI programming for the nano program Improve Thrusting Weapons. The program can only be used by a Mass Relocating Robot. If the disc is combined with a Space Symbol Library, it will make a Robot Compiled Algorithm (Improve Thrusting Weapons). This is a tradeskill item."
+},
+{
+"id": 156034,
+"name": "Single Charged Liquid Bomb",
+"text": "This liquid bomb can either be used as it is, or being combined with two other bombs to make a Complete Liquid Explosive. This is a tradeskill item."
+},
+{
+"id": 156045,
+"name": "Double Charged Liquid Bomb",
+"text": "This liquid bomb can either be used as it is, or being combined with another bomb to make a Complete Liquid Explosive. This is a tradeskill item."
+},
+{
+"id": 156064,
+"name": "Robot Instruction Disc (Kamikaze Robot I)",
+"text": "This data storage disc contains the raw nanobot AI programming for the nano program Kamikaze Robot I. If the disc is combined with a Space Symbol Library, it will make a Compiled Algorithm (Kamikaze Robot I). This is a tradeskill item."
+},
+{
+"id": 156074,
+"name": "Container of Liquid Ammo",
+"text": "This is a 'peeled off' version of Flamethrower Ammunition. It is no longer useable in weapons, but it might have other uses still. This is a tradeskill iten."
+},
+{
+"id": 156075,
+"name": "Robot Instruction Disc (Kamikaze Robot II)",
+"text": "This data storage disc contains the raw nanobot AI programming for the nano program Kamikaze Robot II. If the disc is combined with a Space Symbol Library, it will make a Compiled Algorithm (Kamikaze Robot II). This is a tradeskill item."
+},
+{
+"id": 156306,
+"name": "The Secret Revealed - Kamikaze Pets I and II",
+"text": "One should not overestimate the impact of the Kamikaze robot - the damage it does is a mere flicker compared to the massive blasts of nano energy the nano-technician can produce. Still, for the ones amongst us that does not want to over-specialize in damage; it can be a valuable addition to the arsenal. The following process ends with a nano crystal - only useable by the engineer profession. \n\nThe process of building Kamikaze robots consist of two parts: Construction and re-construction. The construction part is divided  into three: Body, Brain and Explosive\n\nFor the Body, combine:\n- A Basic Mechanical Motion Drive\n- A Flexible Shaft\n - A Sheet of Curved Carbonum\n The parts should be approximately quality level 40 for robot type I and 140 for type II.\n\nFor the Brain, combine:\n- A Nano Sensor\n- A Bio Analyzing Brain\n- A Personalization Device\n Again, remember that the result should be circa quality level 40 or 140 depending on what you're producing.\n\n The last part is the explosive. Kamikaze Robot I does fire damage, while Kamikaze Robot II does chemical damage. The procedure of making their respective explosive parts differs somewhat. We begin with type I:\n Use a screwdriver and remove the conducting wires and protective coat from an ordinary charge of flamethrower ammunition. Mount an Active tube in the safe air vent of the container. Now you have a Liquid Explosive Charge. Assemble two more Containers of Liquid Ammo and connect them to a Key Detonator.The result should be a Complete Liquid Explosive.\n For making a Complete Chemical Explosive you only need a Key Detonator, some skill and a Drum of Hydrochloric Acid.\n\n Combine the Body, Brain and Explosive and get a Template Pet. Due to charter LK-901-88 you cannot utilize your robot at this stage. You need to teach nanobots to build the servant for you. Due to the pure technical/electrical material of the robot, this is fairly easy to do:\n\n Use a hologram camera and take a 3D snapshot of the Template Robot. Use a Calculator to convert the data, from hologram- to nano building data. Transfer the Nano Data into an Empty Instruction Disc and voila: You have an Instruction Disc - all you need for starting to make a nano crystal. The process uses the Space library and pattern. \n\nFor further guidance in the art of building a nano crystal, confer the popular 'Book: How To Create A Nano Crystal'. Good luck!"
+},
+{
+"id": 160476,
+"name": "Cheap OT Kerans Automatic Grinner",
+"text": "The Heavy Grinner is a good example of how half-automatic hybrid weapons are not in fashion. The launcher system of the gun was a clever design though, and although it's heavy, it's also very easy to aim. The idea of sulphur-coated lead projectiles was also good, especially since sulphur is abundant on Rubi-Ka. Unfortunately the sulphur does almost no additional damage. The Heavy Grinner is a common patent, this re-design was both due for and possible. The initative and result leading to the making of it is actually a good example of how well OT listens to their citizens: Candice Kerans had tested many sub-machine guns, but found few that had the right combination of speed, weight, firepower, clip size and ease of maintenance. She got the chance to hold the Heavy Grinner once though, and instantly recognized its potentional. By using the proper channels she reached the right people within the OT hierarchy. Carefully she explained her vision, funds were found and research started. Prototypes were built, a new system for sulphur coating were invented, field tests were done - and slowly the KAG got the shape it has now. Feedback so far indicates that Miss Kerans idea was a good one."
+},
+{
+"id": 164489,
+"name": "Solar-Powered Tinker Pistol",
+"text": "This gun is built from the ordinary solar-powered gun that is handed out to many of the new citizens arriving at Rubi-Ka. As your skill gets higher you can tune (right-click) this pistol to upgrade it. It can not be upgraded above quality level 39."
+},
+{
+"id": 164497,
+"name": "Solar-Powered Mender Pistol",
+"text": "This gun is built from the ordinary solar-powered gun that is handed out to many of the new citizens arriving at Rubi-Ka. As your skill gets higher you can right-click this pistol to upgrade it. It can not be upgraded above quality level 99."
+},
+{
+"id": 164612,
+"name": "Engineering News: The Improved Solar-Powered Pistol - Book 1",
+"text": "By Oren Portello \nThanks to 'Storm' for contributing with valuable assistance during the period I've been researching this subject. Remember the golden rule: Using components of roughly the same quality is always a benefit.\n\nMy original project was simply trying to find a way to improve the solar-powered pistol that is handed out to many of the new arrivals on this planet. I am by no means a tight person, but I was early in my engineering career attracted to weapons that use no ammunition. It has to do with saving resources. It is an environmental concern, but for a clanner it is also about being self-supported. Last I checked, 94 percent of the import to Rubi-Ka was still controlled by Omni-Tek in one way or another. All imported ammunition is for use with Omni-Tek, and most of what the clans use is from stocks built up during the last conflict. \n\n Anyway, those were my personal reasons and my initial motivation for doing all those experiments. As time passed the project has got a life of its own, and the end result is far better than what I ever had hope of creating. Let us begin: \n\n1. -Solar-Powered Pistol- \nIn case you've destroyed your 'newbie pistol', I've traced the process used for creating it: First you need to build a simple, solar-powered computer. That can be done by attaching an 'Auto Targeting Computer -IIR 4 -Ultra-' to a 'Basic Calculator'. The result is called a 'Solar-Powered Weapon Supervisor'. The supervisor has no power unless it is given some means to control matter. To do this you combine the 'Solar-Powered Weapon Supervisor' with a 'Jandawit Cleanup Cluster'. The cluster has the added effect that it keeps the weapon clean whenever its nanobots are not used for gathering molecular sized pieces of matter. The result, the 'Solar-Powered Weapon Device' is lastly combined with an 'Irreparable River MV' to get the 'Solar-Powered Pistol'. NOTE: Only the 'irreparable' River MV will be possible to use with this device. More 'alert' pistols will simply reject it. \n\n2. -Solar-Powered Tinker Pistol- \nThis improvement will increase the damage of the pistol and also create an advanced connection to the host. The first step is to modify a 'Jensen Personal Ore Extractor' with a 'Screwdriver' to cut the connection between the wave sensors and the drilling arms. The result is a 'Modified Jensen Ore Extractor'. To control the function of the arms and focus the use of the wave sensors I used a 'Robotic Self-Preservation System'. I found plenty of them on a scrap heap in Newland. Combine the 'Robotic Self-Preservation System' with the 'Modified Jensen Ore Extractor' to get a 'Unstable Preservation System'. To stabilize the system, insert a common 'Notum Chip' or a 'Notum Fragment' to get a 'Stable Preservation System'. Finally, attach your 'Stable Preservation System' to the 'Solar-Powered Pistol' to get the 'Solar-Powered Tinker Pistol'."
+},
+{
+"id": 164614,
+"name": "Engineering News: The Improved Solar-Powered Pistol - Book 2",
+"text": "By Oren Portello \nThanks to 'Storm' for contributing with valuable assistance during the period I've been researching this subject. Remember the golden rule: Using components of roughly the same quality is always a benefit.\n\n3.-Solar-Powered Mender Pistol- \nStray and wilful robots have become a pest on Rubi-Ka as they are on many other planets. Slow in evolving they are generally considered harmless to human life, but their constant plundering is annoying. While doing my duty, dispatching them, I gathered a small collection of Technoscavenger Brains. They have an impressive mechanical library, which I learned how to utilize with my pistol: First you use a 'Screwdriver' on the 'Technoscavenger Brain' to extract the 'Technoscavenger Mechanics Library'. Combining this library with a 'Bio Analyzing Computer' I made a 'Mechanical Analyzer'. Thread the magazine of your 'Solar-Powered Pistol' onto the 'Mechanical Analyzer' and you have the 'Solar-Powered Mender Pistol. \n\n4. -Solar-Powered Mechanic Pistol- \nExperiencing the usefulness of the mechanics library I soon figured out a way to apply an Electrical Engineering library to the gun. First I got my 'Electrical Engineering Tutoring Device' hacked with a 'Hacker Tool' to give me access to the library. Then I attached the 'Hacked Electrical Engineering Tutoring Device' to a 'Disposal Unit Electrical Toolset'. (This toolset I bought from a neutral trader in Tir - and it was perfect for my purpose). The result, a 'Modified Electrical Toolset', I mounted my 'Solar-Powered Mender Pistol' onto, and got the 'Solar-Powered Mechanic Pistol'. \n\n5. -Solar-Powered Machinist Pistol- \nField Quantum Physics is perhaps a hard skill to 'understand', but there are few other crafts which uses are multiplied as much due to the unique conditions on Rubi-Ka. Originally I developed this process to create the popular 'Notum-Threaded Backpack', but I found that the end product could easily be made a part of the pistol design. This is how: First I hacked a 'Field Quantum Physics All-Purpose Tool' to turn off all material currents, render harmless the time lock and temporarily seal the T-NCU. Then I modified this 'Hacked Field Quantum Physics Tool' with an operational 'Field Quantum Physics All-Purpose Tool' to create an 'Unstable Space reduction Chamber'. \n I realized that a large amount of Notum would be needed to stabilize the chamber, and I spent many months in search for a suitable source. What I finally got was a 'Notum Threaded Zodiacal Blanket'. A friend of my organization found this for me, I think in one of the Artery forests. Combining the 'Unstable Space Reduction Chamber' with the 'Notum Threaded Zodiacal Blanket' I created the 'Notum Threaded Backpack'.  Lastly I combined the backpack with my 'Solar-Powered Mechanic Pistol' to end up with the 'Solar-Powered Machinist Pistol'."
+},
+{
+"id": 165124,
+"name": "The May Fly Throwing Grenade - by Zixxax",
+"text": "The 'May Fly' can be described as a temporary throwing grenade. It is safe to transport, durable and even safe should you happen to remove the safety lid by accident. It's the perfect field kit. It is made utilizing the 'Throwing Grenade Basic Kit'. The explosive ingredient is called 'Pseudo-Nano Multibenzonoxydant Sulphosalycilic Liquid'. This liquid has a short life span after being exposed to open air. You have 20 seconds to detonate it after removing the safety lid. Those are the steps: \n1. Combine the liquid with the Throwing Grenade Basic Kit - the result is called a 'Secured May Fly Throwing Grenade'. \n2. 'Use' the 'Secured May Fly Throwing Grenade' to remove the safety lid. \n3. Throw the 'May Fly Throwing Grenade' at your selected target within the next 20 seconds - before it vanishes."
+},
+{
+"id": 203649,
+"name": "Yalmaha 29500 - Stiletto Building Kit",
+"text": "This is the building kit for the Yalmaha 29000 executive model, called the 'Stiletto'. The model exist only as a building kit, since it's considered to be too expensive for remunerative production. \n\nThe Construction Kit is the base for the building. Many complicated processes are done automatically by the AI of the Kit - like high-energy material merging, pseudo-psyche nanobot imprinting and unwinding the NotuComm neural network. Unlike some other kits, the Stiletto Building Kit also contains the controller of the vehicle. These are the components you need to add to the kit: \n\nSteiner Flexipus Chassis \nGanimedes Flux - M.S. Engine \nKlang Orbiter MK \nBSEC \nNotuComm Mesh\n\nThe NotuComm Mesh is constructed by piecing together a Double NotuComm Circuitry and a Quadruple NotuComm Circuitry. A Double NotuComm Circuitry is formed when two Complete NotuComm Circuitries are combined, and a Quadruple NotuComm Circuitry is formed when two Double NotuComm Circuitries are combined. A Complete NotuComm Circuitry is made by attaching six sensors to a Reinforced NotuComm Wire. The best sensors can be made from the once so popular 'Cold Stones' found in abundance on Rubi-Ka. Simply re-program each stone before attaching it to the wire."
+},
+{
+"id": 203817,
+"name": "Stiletto Registar",
+"text": "Use this item on your 'Unmarked Yalmaha 29500 - The Stiletto' - to register it with Omni-Tek's special executive vehicle registry. \n\nIMPORTANT NOTE: Once you combine these two items you end up with a NoDrop vehicle."
+},
+{
+"id": 221665,
+"name": "Snow Crashed Shadow Crystal (Restock Ammo (Level OP-I))",
+"text": "This was once a Nano Crystal. Sadly, the repeated failed attempts of Grid Transitions  inside the Shadowlands, has damaged it.\n\nIt is by no means certain that this crystal longer works.\n\nIt used to contain:\nNano Crystal - Hacks into the Omni-Pol Secured Supply channel and creates a dummy supply order for a small amount of ammunition. This order is instantly Grid-warped into the inventory of the fixer, with the appropriate amount of credits being deducted. To avoid detection, it is necessary to attach the dummy order to an existing order, so you can never be entirely certain of the type of ammunition that will be delivered. NOTE: You must have an empty slot in your inventory for the transfer to be successful (you will still be charged even if the transfer is unsuccessful)."
+},
+{
+"id": 226253,
+"name": "The Mariner's Father - Chapter 2",
+"text": "This is a chapter from 'The Mariner's Father', a book written by Gator Ocra. You can combine it with chapter 1."
+},
+{
+"id": 226254,
+"name": "The Mariner's Father - Chapter 3",
+"text": "This is a chapter from 'The Mariner's Father', a book written by Gator Ocra. You can combine it with chapter 1 and 2."
+},
+{
+"id": 226255,
+"name": "The Mariner's Father - Chapter 4",
+"text": "This is a chapter from 'The Mariner's Father', a book written by Gator Ocra. You can combine it with chapter 1, 2 and 3."
+},
+{
+"id": 227165,
+"name": "Basic Firearm",
+"text": "The 'Basic Firearm is not a durable weapon, but you can combine it with one of the following gadgets to get the weapon you want:\n\n- 'Singing Soul Stone' - for pistol. \n- 'Laughing Soul Stone' - for machine gun. \n- 'Whispering Soul Stone' - for rifle. \n- 'Howling Soul Stone' - for shotgun.\n\n'Primitive Mortiig's' are known to drop soul stones."
+},
+{
+"id": 227168,
+"name": "Silvertail Horn",
+"text": "This is the horn of the creature called a 'Silvertail'. It is rather sharp.\nYou can turn this horn into a good dagger. To do that you need to collect two additional components;\n1. Snake Bile\n2. Handle-Shaped Gofle Toe Bone.\n\nOnce you have all three components you can combine them in the following way:\n- Pick up the 'Snake Bile' onto your cursor.\n- Press down the 'Shift' key on your keyboard and left-click the 'Snake Bile' on top of the 'Handle-Shaped Gofle Toe Bone'. \nYou will receive a message and some experience, and you will end up with an item called a 'Bone Handle'.\n\n- Pick up the 'Bone Handle', hold down 'Shift' and left-click the item on top of the 'Silvertail Horn'.\n- Behold your new 'Silvertail Dagger'.\n\nThe quality the dagger ends up with is dependant on your skill in Weapon Smithing."
+},
+{
+"id": 227170,
+"name": "Spider Shank",
+"text": "This is the shank of the spider species called a 'Deceitful Weaver'. It has a good, sharp edge.\nYou can turn this shank into a good sword. To do that you need to collect two additional components;\n1. Snake Bile\n2. Handle-Shaped Gofle Toe Bone.\n\nOnce you have all three components you can combine them in the following way:\n- Pick up the 'Snake Bile' onto your cursor.\n- Press down the 'Shift' key on your keyboard and left-click the 'Snake Bile' on top of the 'Handle-Shaped Gofle Toe Bone'. \nYou will receive a message and some experience, and you will end up with an item called a 'Bone Handle'.\n\n- Pick up the 'Bone Handle', hold down 'Shift' and left-click the item on top of the 'Spider Shank'.\n- Behold your new 'Spider Shank Machete'.\n\nThe quality the sword ends up with is dependant on your skill in Weapon Smithing."
+},
+{
+"id": 227172,
+"name": "Snake Bile",
+"text": "This is bile from the snake species called a 'Shining Coiler'. It is very sticky, and seems to harden quickly.\nYou can use this matter to create a 'Bone Handle' - that is used for making swords or daggers. To do that you need to collect one additional component, a 'Handle-Shaped Gofle Toe Bone.\n\nOnce you have both components you can combine them in the following way:\n- Pick up the 'Snake Bile' onto your cursor.\n- Press down the 'Shift' key on your keyboard and left-click the 'Snake Bile' on top of the 'Handle-Shaped Gofle Toe Bone'. \nYou will receive a message and some experience, and you will end up with an item called a 'Bone Handle'.\n\nTo make a sword or dagger with the 'Bone Handle' you will have to find a 'Spider Shank' for a sword, or a 'Silvertail Horn' for a dagger."
+},
+{
+"id": 227174,
+"name": "Handle-Shaped Gofle Toe Bone",
+"text": "This is a toe bone from the gofle species called a 'Beit Gras'. It looks like a handle.\nYou can use this bone to create a proper 'Bone Handle' - that is used for making swords or daggers. To do that you need to collect one additional component, a 'Snake Bile.\n\nOnce you have both components you can combine them in the following way:\n- Pick up the 'Snake Bile' onto your cursor.\n- Press down the 'Shift' key on your keyboard and left-click the 'Snake Bile' on top of the 'Handle-Shaped Gofle Toe Bone'. \nYou will receive a message and some experience, and you will end up with an item called a 'Bone Handle'.\n\nTo make a sword or dagger with the 'Bone Handle' you will have to find a 'Spider Shank' for a sword, or a 'Silvertail Horn' for a dagger."
+},
+{
+"id": 227178,
+"name": "Energy Accumulator",
+"text": "This gadget seems to have supplied the Pond Dryad with energy of some sort. You can use it to build a ranged weapon - either a pistol, a submachine gun, a rifle or a shotgun.\n\nBefore you can start building you need to combine the 'Energy Accumulator' with a 'Chimera Metal Bone Pipe' in this way:\n- Pick up the 'Energy Accumulator' onto your cursor.\n- Press down the 'Shift' key on your keyboard and left-click the 'Energy Accumulator' on top of the 'Chimera Metal Bone Pipe'. \nYou will receive a message and some experience, and you will end up with a weapon called a 'Basic Firearm'.\n\nThe 'Basic Firearm is not a durable weapon, but you can combine it with one of the following gadgets to get the weapon you want:\n\n- 'Singing Soul Stone' - for pistol. \n- 'Laughing Soul Stone' - for machine gun. \n- 'Whispering Soul Stone' - for rifle. \n- 'Howling Soul Stone' - for shotgun.\n\n'Primitive Mortiig's' are known to drop soul stones."
+},
+{
+"id": 227180,
+"name": "Chimera Metal Bone Pipe",
+"text": "This hollow tube was part of the mechanical leg of a 'Lurking Chimera'. You can use it to build a ranged weapon - either a pistol, a submachine gun, a rifle or a shotgun.\n\nBefore you can start building you need to combine the 'Chimera Metal Bone Pipe' with an 'Energy Accumulator' in this way:\n- Pick up the 'Energy Accumulator' onto your cursor.\n- Press down the 'Shift' key on your keyboard and right-click the 'Energy Accumulator' on top of the 'Chimera Metal Bone Pipe'. \nYou will receive a message and some experience, and you will end up with a weapon called a 'Basic Firearm'.\n\nThe 'Basic Firearm is not a durable weapon, but you can combine it with one of the following gadgets to get the weapon you want:\n\n- 'Singing Soul Stone' - for pistol. \n- 'Laughing Soul Stone' - for machine gun. \n- 'Whispering Soul Stone' - for rifle. \n- 'Howling Soul Stone' - for shotgun.\n\n'Primitive Mortiig's' are known to drop soul stones."
+},
+{
+"id": 227182,
+"name": "Singing Soul Stone",
+"text": "This is a 'Singing Soul Stone'. It is can be combined with a 'Basic Firearm' to build a 'Chimera Pistol'. The 'Basic Firearm' is built from the following two components:\n- Energy Accumulator \n- Chimera Metal Bone Pipe.\n\nWhen you have the Basic Firearm' you can build your pistol in this way: \n- Pick up the 'Singing Soul Stone' onto your cursor.\n- Press down the 'Shift' key on your keyboard and right-click the 'Singing Soul Stone' on top of the 'Basic Firearm'. \nYou will receive a message and some experience, and you will end up with your 'Chimera Pistol'.\n\nThe quality the pistol ends up with is dependant on your skill in Weapon Smithing."
+},
+{
+"id": 227184,
+"name": "Laughing Soul Stone",
+"text": "This is a 'Laughing Soul Stone'. It is can be combined with a 'Basic Firearm' to build a 'Chimera Machine Gun'. The 'Basic Firearm' is built from the following two components:\n- Energy Accumulator \n- Chimera Metal Bone Pipe.\n\nWhen you have the Basic Firearm' you can build your machine gun in this way: \n- Pick up the 'Laughing Soul Stone' onto your cursor.\n- Press down the 'Shift' key on your keyboard and right-click the 'Laughing Soul Stone' on top of the 'Basic Firearm'. \nYou will receive a message and some experience, and you will end up with your 'Chimera Machine Gun'.\n\nThe quality the machine gun ends up with is dependant on your skill in Weapon Smithing."
+},
+{
+"id": 227186,
+"name": "Whispering Soul Stone",
+"text": "This is a 'Whispering Soul Stone'. It is can be combined with a 'Basic Firearm' to build a 'Chimera Rifle'. The 'Basic Firearm' is built from the following two components:\n- Energy Accumulator \n- Chimera Metal Bone Pipe.\n\nWhen you have the Basic Firearm' you can build your rifle in this way: \n- Pick up the 'Whispering Soul Stone' onto your cursor.\n- Press down the 'Shift' key on your keyboard and right-click the 'Whispering Soul Stone' on top of the 'Basic Firearm'. \nYou will receive a message and some experience, and you will end up with your 'Chimera Rifle'.\n\nThe quality the rifle ends up with is dependant on your skill in Weapon Smithing."
+},
+{
+"id": 227188,
+"name": "Howling Soul Stone",
+"text": "This is a 'Howling Soul Stone'. It is can be combined with a 'Basic Firearm' to build a 'Chimera Shotgun'. The 'Basic Firearm' is built from the following two components:\n- Energy Accumulator \n- Chimera Metal Bone Pipe.\n\nWhen you have the Basic Firearm' you can build your shotgun in this way: \n- Pick up the 'Howling Soul Stone' onto your cursor.\n- Press down the 'Shift' key on your keyboard and right-click the 'Howling Soul Stone' on top of the 'Basic Firearm'. \nYou will receive a message and some experience, and you will end up with your 'Chimera Shotgun'.\n\nThe quality the shotgun ends up with is dependant on your skill in Weapon Smithing."
+},
+{
+"id": 227909,
+"name": "Excellent Jobe Suit Support System",
+"text": "The Jobe suit of armor is not only a traditional protective suit that gives a uniform level of protection against any type of damage, but it is also designed to resist attacks by any modern type of nanobot.\n\n However, the true genius of the suit is not what it is, but what it has the potentional of becoming. The suit can receive impulses from regular and nanobot programs in more than 6500 languages, and it can decrypt advanced code up to level 12. It has sockets for most any type of input (long-life plasma streaming included), and it can redesign sockets 40 to 50 to be able to receive input from any new type of source. The full-body, uni-size, uni-sex, receivers are built on SkinCom technology and a harmless variety of graft armor, paired with a separate network of self-sustaining NotuComm wire. The outer layer is fully interchangeable, with any new part being possible to click onto a customizeable layer of 'arms' (or hooks, or glue, or locks or whatever you want to call it).\n\nThe Jobe suit is illegal to use by unregistered Rubi-Ka citizens or off-planet people. Registration is required at purchase of any part of the Jobe suit armor.\n\nThe Jobe suit received the UPTODI, the Universal Price of Technological and Design Innovation, for 29477.\n\nThe following professions can upgrade the Support System by clicking on it: Bureacrat, Engineer, Fixer, Keeper, Metaphysicist, Nano-Technician, Shade and Trader."
+},
+{
+"id": 245168,
+"name": "Deinococcus Radiodurans",
+"text": "Believed to be perhaps one of the earliest life forms on Earth, the \"strange berry\" is a pink, rotten cabbage-smelling bacterium known to be used to gobble up heavy metals, radioactive wastes and other substances that pollute the soil and groundwater at nuclear production sites. Maybe with some unprogrammed DNA that these bio-bots can attach themselves to this could become useful."
+},
+{
+"id": 245988,
+"name": "Smokey Willy's Guide to Apocalypse Leather Armor",
+"text": "Leather armor is as ancient as mankind itself. On Rubi-Ka you commonly find two versions: Enhanced Leather and Sid's Leather Armor. By using an Clanalizer you can now upgrade these sturdy old leather armors into Apocalypse Leather Armor - fit for Clanners and Neutrals alike. \n\n1. Use your trusty Hacker Tool and hack a piece of Enhanced Leather or Sid's Leather. If you're the lucky owner of a Lock Pick of Eight you will find the hacking process a bit easier. \n\n2. Apply the contents of a Clanalizer to your hacked piece of leather armor - and there you have your upgrade. \n\nNOTE: The requirements to wear the improved version will rise somewhat."
+},
+{
+"id": 246087,
+"name": "Stinging Louse",
+"text": "This curious insect will attach itself to your scalp. At first you'll feel a little dizzy, but aftwerwards you'll experience sensations you've never had before. It's not dangerous."
+},
+{
+"id": 247833,
+"name": "Omni-Tek Corporation - Guide to building Houses",
+"text": "With the recent breakthroughs in bio-mechanics, building your own houses or organization headquarters has become affordable. The Omni-Tek Coropration is always eager to support use of new technologies. This simplified manual guides you through the steps of constructing your organization headquarters and ancillary buildings.\n\nThe Regular Building Structure is the base for any kind of house you want to build. It is combined with a floorplan to make the house you desire, or it can be upgraded to fit with more advanced floorplans. Here are the items you need to combine:\n\n1. Generic Volatile Nanobots\n2. HSR Compressed Regenerating Bioplate\n3. Generic Organic Immunity System\n4. Blueprint - Regular Building Structure.\n\nAll the above components can be bought in shops, unless you decide to make them yourselves.\n\nThe organizaion headquarters, markets, and guard houses require you to upgrade your Regular Building Structure into a Superior Building Structure. This is accomplished by attaching a Bio-Mechanical Computer to a Regular Building Structure. Bio-Mechanical Computers can be constructed by experts in Pharmacy and Chemistry. The components for this item include a substance made from the tissues of several animals found on Rubi-Ka and a Bio-Mechanical AI.  Rumor has it that alien type Bio-Mechanical Computers also can be used.\n\nFinally, the Superior Building Structure is combined with the advanced floorplan of your choice."
+},
+{
+"id": 257960,
+"name": "Action Probability Estimator",
+"text": "A module which predicts the actions of entities.  It can be used to upgrade certain Molybdenum helmets, Knight helmets, or Combined Headwear of quality level 250 or greater."
+},
+{
+"id": 257963,
+"name": "Notum Amplification Coil",
+"text": "A unit which uses trace quantities of notum to strengthen the power of energy flows.  It can be used to upgrade the Augmented Hellspinner Shock Cannon, Aquarius's Multitask Helper, or a Kyr'Ozch Carbine (Type 5, 12, or 13) of quality level 250 or greater."
+},
+{
+"id": 258810,
+"name": "Floating Angel",
+"text": "An angelic floating torch.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Shoulder slots."
+},
+{
+"id": 258811,
+"name": "Floating Devil",
+"text": "A devilish floating torch.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Shoulder slots."
+},
+{
+"id": 258814,
+"name": "Rollerrat Balloon",
+"text": "A balloon which is shaped like a rollerrat and filled with helium.  It has a specially designed tether system which is invisible and guaranteed to keep the balloon near to your person.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Shoulder slots."
+},
+{
+"id": 259016,
+"name": "Veteran Backpack",
+"text": "A backpack of unique design for senior residents of Rubi-Ka.  Combine this with a screwdriver to open up the storage space inside."
+},
+{
+"id": 262348,
+"name": "The Song of Sorrow",
+"text": "This is a special genetic recording of the mysterious 'music' that is sung by the Malah.\nRecordings are created by taking cerebral tissue samples from the Malah themselves and playing them back through specialized enhanced DNA sensors.\n\nSome JOBE scientists believe that the Malah songs are an advanced form of communication, possibly with psychic or extra-sensory properties. Anecdotal evidence suggests that the songs can affect plant growth, or even peoples' wills. Whilst the latter is largely dismissed as a 'siren myth', several prominent scientists have admitted that they have encountered some strange results in experiments where animals were exposed to the songs.\n\nLeets and several other lesser life forms were able to find their way through a maze whilst in a state of complete sensory black-out while a recording of the Malah songs was played at the exit. Despite closely monitoring the creatures' brain activity, throughout the experiment, the scientists found nothing and were at a loss to explain the results.\n\nThere is still debate as to whether the Malah are truly sentient, or if these songs are a natural survival mechanism. No other trace of civilization or sentient thought has been found amongst the Malah, leading most to believe that the songs are no different to a chimera's growl or a leet's scent."
+},
+{
+"id": 267751,
+"name": "Ancient Engineering Device",
+"text": "This device uses ancient spirit tech combined with the captured memories of the ancient Xan to enable the user to carry out ancient tradeskill tasks."
+},
+{
+"id": 267776,
+"name": "Combined Bio Samples - Stage Three",
+"text": "This medical stasis field contains several combined processed bio samples. This sample contains fire, frost, chemical, and radiation samples. This combination would appear to be able to be converted into some form of purging stimulants with the application of the correct tool."
+},
+{
+"id": 267777,
+"name": "Combined Bio Samples - Stage Four",
+"text": "This medical stasis field contains several combined processed bio samples. This sample contains fire, frost, chemical, radiation, and poison samples. This combination would appear to be able to be converted into some form of healing stimulants with the application of the correct tool."
+},
+{
+"id": 267924,
+"name": "Xan Storage Matrix",
+"text": "This crystal data matrix contains data on experiments carried out by the Ancient Xan. From what can be recovered from this matrix it appears to detail experiments designed to help capture the essence of Xan knowledge and lore into easily storable materials that might resemble cloth. These pieces of cloth could be combined and woven into condensed or reinforced samples that could then be combined with their skill crystals to create materials for other processes. This matrix indicates that they had been succesful at creating, combat, medical and technical versions of these samples, each created by combining the condensed samples with a crystal that was made by combining two profession crystals. It also notes though that the technical version was a rare commodity due to the rarity of the specialized knowledge held by their Technicians. Due to this the technical sample was only used to create true masterpieces of Xan technology."
+},
+{
+"id": 268595,
+"name": "Captain Enno's Pirate Parrot of Impending Doom",
+"text": "I beak stuff.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Shoulder slots."
+},
+{
+"id": 269348,
+"name": "Notum-Infused Platinum Ore",
+"text": "Varying forms of metal run deep through the Shadowlands, veins often popping out due to the destruction caused by Hecklers and other brink-based creatures. One scientist for JAME proposed that Hecklers view such metals as being \"flavorful\" - Unfortunately, this proposition was met with much derision, and the scientist in question soon found himself without a job.\n\nDespite the general expense of both items seperately, once a metallic ore has been fused with notum it is typically regarded as worthless - The combination of both elements make the metal difficult to work with, and as of thus they are rarely put to use in anything other than simple jewlery-crafting."
+},
+{
+"id": 271465,
+"name": "Blackened Blaster - 000",
+"text": "This is an updated version of the old Blackened Blaster.\n\nThis common blaster is owned by most people on the planet. It is balanced and easy to use, with a combination of average speed and power. A true weapon for the experienced and the unexperienced alike.\n\nThis weapon can be upgraded further. It is possible to enable Aimed Shot."
+},
+{
+"id": 271471,
+"name": "Blackened Blaster - C02",
+"text": "This is an updated version of the old Blackened Blaster.\n\nThis common blaster is owned by most people on the planet. It is balanced and easy to use, with a combination of average speed and power. A true weapon for the experienced and the unexperienced alike.\n\nThis weapon cannot be upgraded further."
+},
+{
+"id": 271729,
+"name": "Megajolt - 000",
+"text": "This is an updated version of the old Medium Megajolt.\n\nThe Jolt comes with a single combined ion pulse. The shotgun offers longer range and more power than its little brothers. The single barrel requires more energy per shot, making it incompatible with the rest of the Jolt family.\n\nThis weapon can be upgraded further. It is possible to enable Fling Shot."
+},
+{
+"id": 271814,
+"name": "MTI M Bipower - 000",
+"text": "This is an updated version of the old MTI M Bipower.\n\nThe M Bipower is a unique weapon, combining a 9-shot, .55 calibre revolver with a 23-shot, 22mm auto. The revolver can use any of the special-purpose loads developed for the CA-MAP, while the 22mm auto delivers fast, accurate firepower. An energized nano pylon further enhances the gun's performance.\n\nThis weapon can be upgraded further. It is possible to enable Fling Shot."
+},
+{
+"id": 272170,
+"name": "Fabrique Des Armes Bizon 20-19 - 000",
+"text": "This is an updated version of the old Fabrique Des Armes Bizon 20-19.\n\nThe Bizon is a solid but somewhat slow combination weapon. It is generally regarded illegal on the Rubi-Ka market because the intuitive trigger is Omni-Tek technology, a patent which Fabrique Des Armes does not have permission to use. Unique for the gun is the intermidiate 'Inferno' compressor, that allows full auto with this ammo type.\n\nThis weapon can be upgraded further. It is possible to enable Full Auto."
+},
+{
+"id": 274541,
+"name": "Basic Infused Dust Brigade Bracer",
+"text": "This bracer is infused with a combination of ancient Xan energy and Dust Brigade technology. It appears that the bracer can be upgraded."
+},
+{
+"id": 274542,
+"name": "Improved Infused Dust Brigade Bracer - Tier 1",
+"text": "This bracer is infused with a combination of ancient Xan energy and Dust Brigade technology. This bracer has been augmented but it appears that the bracer can be upgraded further."
+},
+{
+"id": 275019,
+"name": "Aggressive Staff of Julian Redfire",
+"text": "Julian Redfire was a meta-physicist who went through life in constant anger. Even as a child, he was so full of ire and frustration that neither his parents nor teachers could control him. As a grown man, he alienated most of his acquaintances due to his eruptive temper, but he was nonetheless a brilliant meta-physicist, scientist and researcher. Before his death, he constructed a large staff and managed to infuse it with the essence of wild rage, enabling the user to draw upon this essence and use it on their combat constructs for a brief period of time. Julian Redfire did not believe in immortalization through soul reclaim, and never insured himself. He died of cardiac arrest attributed to the constant physical stress his heart was under due to non-stop anger over the span of his life.\n\nA staff which empowers meta-physical attack constructs, it is inscribed with the words, \"We always long for the forbidden things, and desire what is denied us.\" The first time a Meta-Physicist uses the staff, it will upload the nanoformula \"Aggressive Construct Empowerment\", which can be used on attack constructs to increase their powers. The formula will only be effective while the user wields the Aggressive Staff of Julian Redfire."
+},
+{
+"id": 284642,
+"name": "Hovering Holiday Lantern - Utils",
+"text": "A blend between the old and the new, this stylish holiday lantern will provide a nice, bright glow. It may also catch your shoulder on fire if you jostle it too much, but hey - These things happen.\n\nThis item may be combined with a screwdriver to allow you to wear it in your Shoulder slot.\n\nChristmas 29483"
+},
+{
+"id": 284980,
+"name": "Snowflake Etching Machine - Flake #1",
+"text": "Based off of special nanowire technology, this machine takes certain 'patterns' and, by drawing in latent nanobots from the nearby air, reproduce them flawlessly. Apparently this machine was designed by someone who refused to believe in the old adage that no two snowflakes are alike.\n\nThis machine is set to reproduce Snowflake #1 - To set it to reproduce another snowflake, simply use a screwdriver on the device to tune it to another stored pattern."
+},
+{
+"id": 285022,
+"name": "Boudart's Pink Tuxedo - Deluxe Edition",
+"text": "\"Princess\" Boudart's favorite color was pink, and no matter how many people told him that pink was generally better suited for women's clothes he refused to listen. Boudart eventually settled on hiring a personal tailor to have his clothes made for him, requesting a beautiful custom-fit tuxedo. Princess Boudart was elated to find that the tuxedo fit like a glove, and he could finally wear his favored color in style. Today, many people support Boudart's choice of color, and custom-tailored copies of his original tuxedo have become more and more popular among fashion-concious atroxes across Rubi-Ka.\n\nLong live the Princess!\n\nThis tuxedo has a special port in one of the sleeve buttons which will allow you to change its colour. Simply use a screwdriver on the tuxedo to change it to a new variant."
+},
+{
+"id": 285171,
+"name": "Clan Access Hacking Tool",
+"text": "This small hacking tool is designed to hack access cards. Use it to hack 8 Omni-Med Employee Access Cards.\n\nOpen the tradeskill window and combine this item with an Omni-Med Employee Access Card."
+},
+{
+"id": 285180,
+"name": "Clan Access Hacking Tool with 1 Access Password",
+"text": "This small hacking tool is designed to hack access cards. Use it to hack 7 more Omni-Med Employee Access Cards.\n\nOpen the tradeskill window and combine this item with an Omni-Med Employee Access Card."
+},
+{
+"id": 285188,
+"name": "Clan Access Hacking Tool with 7 Access Passwords",
+"text": "This small hacking tool is designed to hack access cards. Use it to hack 1 more Omni-Med Employee Access Card.\n\nOpen the tradeskill window and combine this item with an Omni-Med Employee Access Card."
+},
+{
+"id": 285189,
+"name": "Clan Access Hacking Tool with 8 Access Passwords",
+"text": "This hacking tool is filled with 8 Omni-Med access passwords. In order to transfer the password data to the Agency, connect the Access Hacking Tool to the Clan Communication Unit.\n\nOpen the tradeskill window and combine this item with the Clan Communication Unit."
+},
+{
+"id": 285304,
+"name": "Omni-Tek Access Hacking Tool",
+"text": "This small hacking tool is designed to hack access cards. Use it to hack 8 Clan Access Cards.\n\nOpen the tradeskill window and combine this item with a Clan Access Card."
+},
+{
+"id": 285305,
+"name": "Omni-Tek Access Hacking Tool with 1 Access Password",
+"text": "This small hacking tool is designed to hack access cards. Use it to hack 7 more Clan Access Cards.\n\nOpen the tradeskill window and combine this item with a Clan Access Card."
+},
+{
+"id": 285311,
+"name": "Omni-Tek Access Hacking Tool with 7 Access Passwords",
+"text": "This small hacking tool is designed to hack access cards. Use it to hack 1 more Clan Access Card.\n\nOpen the tradeskill window and combine this item with a Clan Access Card."
+},
+{
+"id": 285312,
+"name": "Omni-Tek Access Hacking Tool with 8 Access Passwords",
+"text": "This hacking tool is filled with 8 Clan access passwords. In order to transfer the password data to the Agency, connect the Access Hacking Tool to the Omni-Tek Communication Unit.\n\nOpen the tradeskill window and combine this item with the Omni-Tek Communication Unit."
+},
+{
+"id": 285314,
+"name": "Omni-Tek Agency Communication Unit",
+"text": "When you have hacked 8 Clan Access Cards, transfer the password data to the Agency through this Communication Unit.\n\nOpen the tradeskill window and combine this item with the Omni-Tek Access Hacking Tool with 8 Access Passwords."
+},
+{
+"id": 285379,
+"name": "Clan Agency Communication Unit",
+"text": "When you have hacked 8 Omni-Med Employee Access Cards, transfer the password data to the Agency through this Communication Unit.\n\nOpen the tradeskill window and combine this item with the Clan Access Hacking Tool with 8 Access Passwords."
+},
+{
+"id": 285502,
+"name": "SecuriChest Access Card",
+"text": "This is the access card for an Olde English Trading Company brand SecuriChest, the most secure line of chests ever built. Virtually indestructible, the OET SecuriChest can only be opened with the correct access card and code combination. These chests were designed to hold the most valuable artifacts in the galaxy, and owning one is a sign of great wealth - The chests themselevs are almost valuable enough to warrant being put in the chest. Most existing SecuriChests now reside in tombs and crypts owned by exceedingly rich families, with the cards and codes passed down from generation to generation.\n\nYou don't own a chest, and even if you did you have nothing anywhere near valuable enough to warrant using it (no, not even if you have a Robust Backpack). Other people don't know that, though - All they'll see is the flashy access card."
+},
+{
+"id": 288137,
+"name": "Kyr'Ozch Storage Box",
+"text": "It looks like there is a <a href='itemref://288281/288281/1'>Viral Communications Larvae</a> stored inside. \n\nPerhaps a screwdriver can open the box?"
+},
+{
+"id": 288138,
+"name": "Kyr'Ozch Storage Container",
+"text": "It looks like there is a <a href='itemref://288204/288204/1'>Kyr'Ozch Nano Protection Ring</a> stored inside. \n\nPerhaps a screwdriver can open the box?"
+},
+{
+"id": 289447,
+"name": "Holly Nanospray",
+"text": "Green and red - The ultimate festive combination.\n\nNanosprays are a form of high-tech \"graffiti\", enabling the user to quickly and easily apply a pre-set design to any flat surface."
+},
+{
+"id": 289596,
+"name": "Floating Winter Bell - Utils",
+"text": "Ring-ring-ring!\n\nThis item may be combined with a screwdriver to allow it to be equipped in your Shoulder slot\n\n\n\nChristmas 29484"
+},
+{
+"id": 289802,
+"name": "Captain Enno's Pirate Parrot of Impending Doom",
+"text": "I beak stuff.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Utils slots."
+},
+{
+"id": 289803,
+"name": "Floating Angel",
+"text": "An angelic floating torch.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Utils slots."
+},
+{
+"id": 289804,
+"name": "Floating Devil",
+"text": "A devilish floating torch.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Utils slots."
+},
+{
+"id": 289805,
+"name": "Rollerrat Balloon",
+"text": "A balloon which is shaped like a rollerrat and filled with helium.  It has a specially designed tether system which is invisible and guaranteed to keep the balloon near to your person.\n\nThis may be combined with a screwdriver to allow the item to be equipped in one of your Utils slots."
+},
+{
+"id": 290032,
+"name": "Eriksson's Green Tuxedo - Deluxe Edition",
+"text": "Mr. Eriksson loved Boudart's Pink Tuxedo, but he didn't dare to use the pink color himself. He was a photographer and wouldn't want all the beautiful women he worked with to lose their interest in him. He liked women and wouldn't want them to think otherwise. One day, he decided to visit the tailor and had a green tuxedo made to fit his slim opifex body. Today, the women stand in line outside his studio to have their pictures taken just to get a glimpse of his stylish tuxedo.\n\nThis tuxedo has a special port in one of the sleeve buttons which will allow you to change its colour. Simply use a screwdriver on the tuxedo to change it to a new variant."
+},
+{
+"id": 290034,
+"name": "Gervais's Purple Tuxedo - Deluxe Edition",
+"text": "The famous artist Gervais was a man of fashion and style. He has been paying a great deal of attention to the latest tuxedo fashion and decided that he needed a special tuxedo for himself. However, he didn't want to look quite like everyone else and he wanted to make the tuxedo himself. He went to the drawing board and started drawing. The result was a purple tuxedo with leopard print. Sadly there were no leopards on Rubi-Ka, so he had to contact a fabric factory to produce fake leopard fur. While waiting for the finishing touch for his tuxedo design, Gervais started sewing his own tuxedo. By the time he was done, the fake leopard fur had arrived. Excited he attached the fur cloth to his tuxedo. The day after, he went to a party in The Grind and ended up being the center of attention while dancing all night in his purple tuxedo.\n\nThis tuxedo has a special port in one of the sleeve buttons which will allow you to change its colour. Simply use a screwdriver on the tuxedo to change it to a new variant."
+},
+{
+"id": 290558,
+"name": "Mr. Squeaky Lantern - Utils",
+"text": "Mr. Squeaky returns once agaiin, with the boys at NipponTech creating a lovely hovering version that's a perfect companion for both bath time and your shoulder!\n\nThis item may be combined with a screwdriver to allow you to wear it in your Shoulder slot.\n\nBirthday 29485"
+},
+{
+"id": 290968,
+"name": "Hovering Holiday Lantern - Shoulder",
+"text": "A blend between the old and the new, this stylish holiday lantern will provide a nice, bright glow. It may also catch your shoulder on fire if you jostle it too much, but hey - These things happen.\n\nThis item may be combined with a screwdriver to allow you to wear it in your Utils slot.\n\nChristmas 29483"
+},
+{
+"id": 290969,
+"name": "Hovering Holiday Lantern - Shoulder (Replica)",
+"text": "A blend between the old and the new, this stylish holiday lantern will provide a nice, bright glow. It may also catch your shoulder on fire if you jostle it too much, but hey - These things happen.\n\nThis item may be combined with a screwdriver to allow you to wear it in your Utils slot.\n\nThis is a replica of a special limited-edition item from the winter holiday celebrations of 29483"
+},
+{
+"id": 290970,
+"name": "Floating Winter Bell - Shoulder",
+"text": "Ring-ring-ring!\n\nThis item may be combined with a screwdriver to allow it to be equipped in your Utils slot\n\nChristmas 29484"
+},
+{
+"id": 291043,
+"name": "Health and Nano Stim",
+"text": "A sophisticated piece of combined First-Aid and Spirit-Aid Machinery. Using this on a friend or yourself heals a small amount of damage and restores a small amount of nano.\n\nNOTE: You cannot First-Aid anyone for a brief period after previous use."
+},
+{
+"id": 291087,
+"name": "Mr. Squeaky Lantern - Shoulder",
+"text": "Mr. Squeaky returns once agaiin, with the boys at NipponTech creating a lovely hovering version that's a perfect companion for both bath time and your shoulder!\n\nThis item may be combined with a screwdriver to allow you to wear it in your Utils slot.\n\nBirthday 29485"
+},
+{
+"id": 291903,
+"name": "SSC \"Bastion\" Left Shoulder Armor - Inactive B&R",
+"text": "The Star Steel Corporation has long been known as a rather secretive organization, very self-reliant and often seen as a mystery to outsiders; The SSC has long eschwed the notion of utilizing other companies for its transportation and equipment, instead preferring to utilize their own technology where-ever possible. Their invention of 'living steel' many years ago has enabled the company to stay afloat despite a seemingly low yearly gross revenue.\n\nTruth be told it's been many years since the last SSC export to Rubi-Ka, and even now some are wondering if this is actually a product of the fabled corporation; the branding seems correct, logos in place, security DNA locks verified, and even a deep scan reveals trademark details in the system's components that are hallmarks of the SSC brand. But with their last product for Rubi-Ka marketed over twenty years ago, some can't help but wonder if this is the real deal...\n\nThis particular version seems to be lacking in any sort of protective features, honestly, which doesn't really help the case against this being from the famed Star Steel Corporation. Still, it looks quite nice, and even has a small port on the back which may be accessed with a screwdriver to alter between colour variations."
+},
+{
+"id": 292609,
+"name": "Old English Trading Company RetroPads - Base",
+"text": "Where most companies attempt to blend the old with the new, fitting retro styles with the latest in high-tech gadgetry, the Old English Trading Company said \"bugger that\" (quite literally, as a direct quote from their CEO) and decided to go completely old-school with their newest offering. These shoulderpads are made of heavy, thick steel, with a padded, plush interiour, cushioned for comfort - While they may not be the best in defense (and truthfully, in today's world of nanobots and laser guns, offer about as much protection as a wet paper towel), they certainly are stylish, and if nothing else different from everything else on the market. Set yourself apart with the Old English Trading Company!\n\nA small port on the side of these shoulder pads allows their colour to be changed with a screwdriver."
+},
+{
+"id": 293290,
+"name": "Pirate Cutlass - Right",
+"text": "A novelty blade is modeled after the sort of weapon that was made famous by the ancient barbarians known as \"Pirates.\" <br><br>This cutlass has a rounded blade that is safe to the touch, but due to the sharp point at the end, and rampant eye-pokings, this children's toy was recalled from most households.\n\nA small port near the pommel of this sword may be activated with a screwdriver, increasing the blade's size. This is too cumbersome for most breeds to wield, but would be perfect for an Atrox's larger hands.\n\nHalloween 29485"
+},
+{
+"id": 293576,
+"name": "The Three Leet Moon Shirt",
+"text": "Pros: Fits your breed/gender combination. Has leets on it. Attracts Opifexes.\n\nCons: Only three leets (could probably use a few more on the 'guns'). Cannot see leets when sitting with back to wall. Leets would have been better if they glowed in the dark.\n\nHalloween 29485"
+},
+{
+"id": 294038,
+"name": "Floating Silver Star Torch - Utils",
+"text": "A beautiful, silvery star, shining bright.\n\nThis item may be combined with a screwdriver to fit in your shoulder slot."
+},
+{
+"id": 294039,
+"name": "Floating Silver Star Torch - Shoulder",
+"text": "A beautiful, silvery star, shining bright.\n\nThis item may be combined with a screwdriver to fit in your utils slot."
+},
+{
+"id": 294040,
+"name": "Floating Golden Star Torch - Shoulder",
+"text": "A beautiful, golden star, shining bright.\n\nThis item may be combined with a screwdriver to fit in your utils slot.."
+},
+{
+"id": 294041,
+"name": "Floating Golden Star Torch - Utils",
+"text": "A beautiful, golden star, shining bright.\n\nThis item may be combined with a screwdriver to fit in your shoulder slot."
+},
+{
+"id": 294048,
+"name": "Icicle Sword - Left Hand",
+"text": "Stabby stabby.\n\nYou may combine this item with a screwdriver to change it to its right-hand variant."
+},
+{
+"id": 294413,
+"name": "Icicle Sword - Right Hand",
+"text": "Stabby stabby.\n\nYou may combine this item with a screwdriver to change it to its left-hand variant."
+},
+{
+"id": 295858,
+"name": "Tradeskilling",
+"text": "The only way to obtain certain items or devices is to assemble them. [Shift]+[T] (By default) opens up the trade-skill interface. Simply place the objects you wish to combine in the Source & Target windows. If the Resulting item is what you intended to build, use the Build button to complete the process.\n\nHot keys for tradeskilling items can be done within your inventory, pick up the Source item, and [Shift]+(Right-Click) onto the Target item."
+},
+{
+"id": 296463,
+"name": "Mr. Pointy's Funsaw!",
+"text": "The Mr. Pointy Corporation has long been seen as a definite oddity amongst the galactic landscape - Where most corporations tend to find a specific market, a certain niche to fill, the Mr. Pointy Corporation seems pretty much dedicated and devoted to putting out things that no one really 'gets'. It must work out for them fairly well, though, as they maintain a healthy margin of profit to this very day.\n\nThe Funsaw is a high-speed tool designed to make felling any large object fun. While this works on trees, we make no guarantees on the effectiveness against an Atrox running Mongo. You have been warned.\n\nThis version was made to fit in a normal-sized hand. For those of you with Atrox-sized digits, a simple application of a screwdriver will enhance the Funsaw's size, making it much easier to hold for those a bit large."
+},
+{
+"id": 301560,
+"name": "GRACE",
+"text": "Grid Access Credit Extension, or GR.A.C.E., is a popular currency among wealthy traders. This item is also sought after by poor citizens on Rubi-Ka as it can be used to extend their insurance policy directly from the market.\n\nWARNING: Due to the delicate nature of this valuable item, it can't be withdrawn from the market system.\n\nThis item, once used, adds 30 days of full access to Anarchy Online and all expansions. This time is added to any current game time. This operation cannot be reversed! \n\nAny player who is currently on a \"Free to play\" subscription plan will have to upgrade their account in the account pages in order to obtain or use this item."
+},
+{
+"id": 303136,
+"name": "Crate of Arrows",
+"text": "A seemingly endless ammunition supply crate.\n\nApply a Screwdriver to change the kind of ammo."
+},
+{
+"id": 303585,
+"name": "Phasetech Reaper",
+"text": "Prototype of a weapon made to combine current technology with ancient weapons of old. While such 'weapons' have never been the most effective in combat, scythes typically being used as ancient-world farming instruments, some eccentric, sinister, or twisted individuals have deemed it appropriate to carry such a utensil into battle."
+},
+{
+"id": 303699,
+"name": "Dust Brigade Technician Datapad",
+"text": "This is a wrist mounted data-pad granting the wearer enhanced nano capabilities.\n\nUse this item to change which Breed and Gender combination can wear this device."
+}
+]

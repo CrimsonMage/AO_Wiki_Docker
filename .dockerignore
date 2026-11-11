@@ -1,0 +1,3 @@
+.git
+*.sqlite
+__pycache__
