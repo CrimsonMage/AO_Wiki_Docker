@@ -173,9 +173,13 @@ ao-wiki:full .` makes an image that includes them. Please ask AO-Universe
 - **This project's own work** (`app/` except `app/tools/`, `build/`, the Dockerfiles, `docker-compose.yml`,
   the docs, the zone map drawings) is released into the **public domain** under [The Unlicense](LICENSE):
   do whatever you want with it.
-- **`app/tools/`** (the bot lookups) is ported from Nadybot's code and is therefore **GPL-3.0**.
+- **`app/tools/`** (the bot lookups) is ported from Nadybot's code and is therefore **GPL-3.0-only**.
+- **The whole program** (the server together with `app/tools/` and the database built from the GPL data,
+  as in the Docker image) is distributed under the **GPL-3.0**: the Unlicense is GPL-compatible, so the
+  parts combine. Running or using it carries no obligations; if you share a modified version of the whole
+  thing, share its source under the GPL-3.0 too. The Unlicensed files on their own stay free of conditions.
 - **`data/recipes/` and `data/nadybot/`** come from the Nadybot project and stay under the
-  **GPL-3.0** (`LICENSE` in each folder). You can use and share them freely; changed versions of
+  **GPL-3.0-only** (`LICENSE` in each folder). You can use and share them freely; changed versions of
   those files must stay GPL-3.0 and say where they came from.
 - **Item names, texts, icons and the planet maps** are Anarchy Online game data, © Funcom. The zone map
   images are drawn by this project from game data.

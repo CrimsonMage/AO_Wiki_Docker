@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-only
 #
 # Alien armour / bio-material / Ofab / Arul Saba tradeskill lookups, breakpoints, "what buffs", Grid Armor and
 # nano browsing tools for the offline archive.

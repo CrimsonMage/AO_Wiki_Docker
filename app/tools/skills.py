@@ -1,4 +1,4 @@
-# GPL-3.0-or-later. Ported from Nadybot (https://github.com/Nadybot/Nadybot, branch nadybot7):
+# GPL-3.0-only. Ported from Nadybot (https://github.com/Nadybot/Nadybot, branch nadybot7):
 # SKILLS_MODULE (SkillsController, SARechargeInfo, BuffPerksController), TRICKLE_MODULE, WHATLOCKS_MODULE.
 # Original authors: Tyrence (RK2), Nadyita (RK5), Imoutochan (RK1), Conci, Keex-1, Keltias, TinkeringIdiot, Tradias,
 # NoGoal / Healnjoo (aggdef).  Python port for the offline AO archive; formulas and constants are copied from the PHP.
